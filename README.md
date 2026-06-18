@@ -1,4 +1,4 @@
-# BAIR audience-posts pipeline
+# Vectorial X BAIR Cross Platform Audiences
 
 Reproducible, staged pipeline for filtering, cleaning, LLM topic tagging, audience×topic pairing, topic normalisation, and coverage reporting on the BAIR audience-posts export.
 
