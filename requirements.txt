@@ -1,0 +1,6 @@
+# BAIR audience-posts pipeline: Python dependencies
+# Python 3.10+ recommended
+
+openai>=1.30.0
+PyYAML>=6.0
+tqdm>=4.66.0
