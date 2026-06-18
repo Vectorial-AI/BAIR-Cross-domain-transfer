@@ -1,0 +1,40 @@
+cleanup_tags.py report
+Input  : tagged_posts_v2_fixed.csv
+Output : tagged_posts_v2_clean.csv
+
+Total rows     : 22,954
+Rows corrected : 366
+
+── sentiment corrections (stance bleed fixed) (305) ──
+    205  'questioning'  →  'neutral'
+     57  'critical'  →  'negative'
+     31  'assertive'  →  'neutral'
+      8  'supportive'  →  'positive'
+      4  'informational'  →  'neutral'
+
+── stance bleed detected but stance already populated — sentiment fixed only (305) ──
+    205  'questioning'  →  'questioning'
+     31  'assertive'  →  'assertive'
+     30  'critical'  →  'assertive'
+     27  'critical'  →  'critical'
+      6  'supportive'  →  'supportive'
+      4  'informational'  →  'informational'
+      2  'supportive'  →  'informational'
+
+── topic_broad corrections (59) ──
+     32  'Hardware'  →  'Other'
+     12  'Product & Strategy'  →  'Business & Strategy'
+      5  'Product'  →  'Business & Strategy'
+      1  'Cloud & Infrastructure'  →  'Software Engineering'
+      1  'Design & Management'  →  'Leadership & Management'
+      1  'Promotional'  →  'Other'
+      1  'Customer Support'  →  'Other'
+      1  'Product Manager'  →  'Business & Strategy'
+      1  'Product Leadership'  →  'Business & Strategy'
+      1  'Engineering'  →  'Software Engineering'
+      1  'Product Leadership Audience Room'  →  'Business & Strategy'
+      1  'DevOps'  →  'Software Engineering'
+      1  'Product Management'  →  'Business & Strategy'
+
+── post_type corrections (5) ──
+      5  'informational'  →  'show_and_tell'

@@ -1,0 +1,28 @@
+# config.yaml
+# Default config — test mode. Copy to config_fullrun.yaml and set test_mode: false.
+
+# ── Input / Output ────────────────────────────────────────────
+input_path:       "posts_clean_v2.csv"
+output_tags:      "tagged_posts_v2.csv"
+checkpoint_path:  "checkpoint_v2.jsonl"
+log_path:         "topic_extraction_v2.log"
+
+# ── Model ─────────────────────────────────────────────────────
+model:        "gpt-4.1-mini"
+max_tokens:   3000
+temperature:  0
+
+# ── Run behaviour ─────────────────────────────────────────────
+batch_size:    20
+shuffle_seed:  42
+test_mode:     true
+test_batches:  5
+test_results:  "test_results.txt"
+
+# ── Validity thresholds ───────────────────────────────────────
+# Pair validity is now handled by build_pairs.py / config_pairs.yaml
+
+# ── Transfer types ────────────────────────────────────────────
+transfer_types:
+  - opinion
+  - news_reaction
