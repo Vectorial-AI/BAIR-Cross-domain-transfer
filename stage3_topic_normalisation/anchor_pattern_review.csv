@@ -1,0 +1,22 @@
+domain,raw_label_or_group,proposed_canonical,score_or_na,risk_words,llm_reason,human_decision
+Business & Strategy,digital marketing hiring,digital marketing challenges,0.5,hiring,"hiring is a challenge within digital marketing, same subject",HOLD
+Business & Strategy,digital transformation leadership,digital transformation,0.5,leadership,"leadership is an aspect of digital transformation, same subject",APPLY
+Business & Strategy,growth marketing hiring,growth marketing roles,0.5,hiring,"growth marketing hiring is about roles in growth marketing, which aligns with growth marketing roles.",APPLY
+Business & Strategy,hr saas adoption challenges,saas business challenges,0.5,adoption,"hr saas adoption challenges are a specific angle on saas business challenges.",HOLD
+Business & Strategy,marketing team growth,growth marketing roles,0.5,team,"marketing team growth aligns with growth marketing roles as both concern growth in marketing personnel.",HOLD
+Business & Strategy,software market adoption,enterprise software adoption,0.5,market,"software market adoption is a broader subject including enterprise software adoption",HOLD
+Career,developer relations leadership,developer relations career,0.5,leadership,leadership is a facet of developer relations career,APPLY
+Data & Analytics,data ingestion solutions,data ingestion tools,0.5,solutions,"data ingestion solutions are a type of data ingestion tools, same subject",APPLY
+Data & Analytics,digital analytics leadership,digital analytics platforms,0.5,leadership,"digital analytics leadership relates to digital analytics platforms, same subject",HOLD
+Data & Analytics,digital analytics market,digital analytics platforms,0.5,market,"digital analytics market is an aspect of digital analytics platforms, same subject",HOLD
+Data & Analytics,digital analytics solutions,digital analytics platforms,0.5,solutions,"digital analytics solutions are part of digital analytics platforms, same subject",HOLD
+Data & Analytics,digital analytics usability,digital analytics platforms,0.5,usability,"digital analytics usability is an angle on digital analytics platforms, same subject",HOLD
+Open Source,open source community management,open source community,0.5,management,community management is an aspect of the open source community subject,APPLY
+Security,incident management solutions,incident management,0.5,solutions,incident management solutions are part of incident management,APPLY
+Security,incident response culture,incident response,0.5,culture,incident response culture is an aspect of incident response,HOLD
+Security,secure coding culture,secure coding practices,0.5,culture,secure coding culture is an aspect of secure coding practices,HOLD
+Software Engineering,ai product usability,ai product development,0.5,usability,"ai product usability is an angle on ai product development, same subject",HOLD
+Software Engineering,developer marketing tools,developer tools,0.5,market,"developer marketing tools are a subset of developer tools, same subject",HOLD
+Software Engineering,developer tools career update,developer tools,0.5,career,"Career update is an angle related to developer tools, same subject.",HOLD
+Software Engineering,feature management adoption,feature management,0.5,adoption,"adoption is an angle on feature management, same subject",APPLY
+Software Engineering,platform engineering hiring,platform engineering,0.5,hiring,hiring is an aspect of platform engineering,HOLD

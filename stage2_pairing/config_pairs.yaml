@@ -1,0 +1,68 @@
+# config_pairs.yaml
+# Analysis config for build_pairs.py — independent of LLM tagging.
+# Change thresholds, audience mappings, or transfer types freely.
+# Rerun build_pairs.py after any change or after adding new data.
+
+# ── Input / Output ────────────────────────────────────────────
+input_tagged:   "tagged_posts_v2_clean.csv"
+output_pairs:   "paired_dataset_v2.csv"
+
+# ── Transfer types ────────────────────────────────────────────
+transfer_types:
+  - opinion
+  - news_reaction
+
+# ── Validity thresholds ───────────────────────────────────────
+# valid_pair = True when BOTH sides have >= min_pair_threshold posts.
+# This is a snapshot — rerun after adding data for updated assessment.
+min_pair_threshold:         1
+
+# Grouping level: "topic_broad" (11 categories), "topic" (specific subject),
+# or "topic_narrow" (named event). Start with topic_broad to see aggregated counts.
+# Change to "topic" once you understand the volume distribution.
+groupby_field:  "topic_broad"
+
+# Advisory only — reported in li_unique_authors / rd_unique_authors columns.
+# NOT read by build_matrix — does NOT affect valid_pair or any computation.
+# Kept here as a reference threshold for manual inspection of the CSV output.
+# Serina applies her own diversity judgment when reviewing paired_dataset_v2.csv.
+min_author_diversity:       5
+
+# Concentration warning — top author holds this % of one side.
+# Advisory only — reported in concentration warnings section of summary.
+concentration_warning_pct: 40
+
+# ── Audience normalisation ────────────────────────────────────
+# Maps raw audience_room_name values to canonical audience labels.
+# This is what makes LinkedIn-only and Reddit-only rooms pair up.
+# Without this every pure-platform room produces zero valid pairs.
+audience_map:
+  # Engineering
+  "Backend Engineer (linkedin+reddit)":          "Backend Engineer"
+  "CTOs":                                        "CTO"
+  "CTO Reddit":                                  "CTO"
+  "Engineering Manager":                         "Engineering Manager"
+  "Engineering Manager reddit":                  "Engineering Manager"
+  "Staff Engineer":                              "Staff Engineer"
+  "VP Engineering":                              "VP Engineering"
+  "Devops/Infra Engineer":                       "DevOps Infra Engineer"
+  "Fullstack Engineers":                         "Fullstack Engineer"
+  "Full Stack Developer Reddit":                 "Fullstack Engineer"
+  "Frontend Engineer Reddit":                    "Frontend Engineer"
+  "Engineering Leadership Audience Room":        "Engineering Leadership"
+  "Engineering Org in Edtech Co":                "Engineering Org Edtech"
+  "Programming reddit":                          "Software Engineer General"
+  "QA Engineer Reddit":                          "QA Engineer"
+  # Product / Leadership
+  "Product Leadership Audience Room":            "Product Leadership"
+  "Director/ VP engineering/ CTO in Edtech Co":  "Director VP Engineering"
+  # AI / Community
+  "[LinkedIn] OpenAI Community":                 "OpenAI Community"
+  "[Reddit] OpenAI Community":                   "OpenAI Community"
+  "Knowledge Graph Devs":                        "Knowledge Graph"
+  # EdTech
+  "Edtech Developers":                           "EdTech Developer"
+  "Instructional Designer":                      "Instructional Designer"
+  # Other
+  "First Responders":                            "First Responders"
+  "Product Manager Reddit":                      "Product Manager"

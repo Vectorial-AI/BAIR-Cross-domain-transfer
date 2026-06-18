@@ -1,0 +1,169 @@
+PS C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation> $env:OPENAI_API_KEY="[REDACTED]"
+PS C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation> python build_topic_vocabulary.py --step 1 --reset-domains "Software Engineering" AI Security Career "Open Source"
+  No checkpoint found at C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\checkpoint_vocab_seed.json -- nothing to reset.
+Loading C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\tagged_posts_v2_clean.csv ...
+Loaded 22,954 posts.
+
+========================================================================
+STEP 1 -- SEED PASS
+========================================================================
+  Seed [Software Engineering]: 48 freq>=5 labels (of 5036 total) ...
+  Seed [Software Engineering]: 28 canonical topics identified (threshold: freq>=5).
+  Seed [AI]: 80 freq>=3 labels (of 1895 total) ...
+  Seed [AI]: 64 canonical topics identified (threshold: freq>=3).
+  Seed [Security]: 77 freq>=3 labels (of 1443 total) ...
+  Seed [Security]: 49 canonical topics identified (threshold: freq>=3).
+  Seed [EdTech]: 214 freq>=2 labels (of 2117 total) ...
+  Seed [EdTech]: 105 canonical topics identified (threshold: freq>=2).
+  Seed [Career]: 43 freq>=5 labels (of 1982 total) ...
+  Seed [Career]: 22 canonical topics identified (threshold: freq>=5).
+  Seed [Business & Strategy]: 113 freq>=2 labels (of 1744 total) ...
+  Seed [Business & Strategy]: 101 canonical topics identified (threshold: freq>=2).
+  Seed [Data & Analytics]: 93 freq>=2 labels (of 1009 total) ...
+  Seed [Data & Analytics]: 53 canonical topics identified (threshold: freq>=2).
+  Seed [Leadership & Management]: 69 freq>=2 labels (of 1008 total) ...
+  Seed [Leadership & Management]: 38 canonical topics identified (threshold: freq>=2).
+  Seed [Open Source]: 24 freq>=3 labels (of 847 total) ...
+  Seed [Open Source]: 23 canonical topics identified (threshold: freq>=3).
+
+  Canonical vocabulary written to: C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\canonical_topics_v1.json
+    Software Engineering                  28 topics
+    AI                                    64 topics
+    Security                              49 topics
+    EdTech                               105 topics
+    Career                                22 topics
+    Business & Strategy                  101 topics
+    Data & Analytics                      53 topics
+    Leadership & Management               38 topics
+    Open Source                           23 topics
+
+
+Total elapsed: 52s                                                                                     python build_topic_vocabulary.py --step 2 --dry-run                          
+2026-06-10 19:20:56 [WARNING] INVENTION_ALERT domain='Software Engineering' count=55 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:21:19 [WARNING] INVENTION_ALERT domain='Security' count=12 examples=['access control vulnerabilities', 'account security', 'active directory integration']
+2026-06-10 19:21:29 [WARNING] INVENTION_ALERT domain='EdTech' count=6 examples=['academic industry collaboration', 'academic content partnerships', 'ai academic integrity']
+2026-06-10 19:21:47 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=30 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 19:21:56 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=5 examples=['ai-driven data pipelines', 'data platform innovation', 'ai trust and data governance']
+Loading C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\tagged_posts_v2_clean.csv ...
+Loaded 22,954 posts.
+
+Loaded canonical vocabulary from C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\canonical_topics_v1.json.
+========================================================================
+STEP 2 -- DRY-RUN
+========================================================================
+  DRY-RUN MODE -- one batch per domain, then stop.
+  Results will be printed and written to file.
+
+  Dry-run [Software Engineering]: testing 60 labels ...
+  [ALERT] Software Engineering: batch invented 55 new topics: ['3d animation issues', '3d mind mapping tools', '3d modeling challenges']...
+    Sample (60 labels): seed maps 0%  invented 8%  self-maps 92%
+    Projected over 5036 total labels: ~0 seed maps, ~419 invented, ~4616 self-maps
+  Dry-run [AI]: testing 60 labels ...
+    Sample (60 labels): seed maps 97%  invented 2%  self-maps 2%
+    Projected over 1895 total labels: ~1831 seed maps, ~31 invented, ~31 self-maps
+  Dry-run [Security]: testing 60 labels ...
+  [ALERT] Security: batch invented 12 new topics: ['access control vulnerabilities', 'account security', 'active directory integration']...
+    Sample (60 labels): seed maps 67%  invented 17%  self-maps 17%
+    Projected over 1443 total labels: ~962 seed maps, ~240 invented, ~240 self-maps
+  Dry-run [EdTech]: testing 60 labels ...
+  [ALERT] EdTech: batch invented 6 new topics: ['academic industry collaboration', 'academic content partnerships', 'ai academic integrity']...
+    Sample (60 labels): seed maps 62%  invented 30%  self-maps 8%
+    Projected over 2117 total labels: ~1305 seed maps, ~635 invented, ~176 self-maps
+  Dry-run [Career]: testing 60 labels ...
+    Sample (60 labels): seed maps 90%  invented 7%  self-maps 3%
+    Projected over 1982 total labels: ~1783 seed maps, ~132 invented, ~66 self-maps
+  Dry-run [Business & Strategy]: testing 60 labels ...
+  [ALERT] Business & Strategy: batch invented 30 new topics: ['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']...
+    Sample (60 labels): seed maps 33%  invented 17%  self-maps 50%
+    Projected over 1744 total labels: ~581 seed maps, ~290 invented, ~872 self-maps
+  Dry-run [Data & Analytics]: testing 60 labels ...
+  [ALERT] Data & Analytics: batch invented 5 new topics: ['ai-driven data pipelines', 'data platform innovation', 'ai trust and data governance']...
+    Sample (60 labels): seed maps 85%  invented 8%  self-maps 7%
+    Projected over 1009 total labels: ~857 seed maps, ~84 invented, ~67 self-maps
+  Dry-run [Leadership & Management]: testing 60 labels ...
+Traceback (most recent call last):
+  File "C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\build_topic_vocabulary.py", line 977, in <module>
+    run(args.config, args.step, dry_run=args.dry_run)
+    ~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\build_topic_vocabulary.py", line 905, in run
+    cluster_map, all_domain_stats = run_mapping_pass(
+                                    ~~~~~~~~~~~~~~~~^
+        posts, vocab, cfg, client, logger, CHECKPOINT_MAP,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dry_run=dry_run,
+        ^^^^^^^^^^^^^^^^
+        dryrun_output_path=DRYRUN_OUTPUT if dry_run else None,
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\build_topic_vocabulary.py", line 594, in run_mapping_pass
+    process_batch(test_batch, domain, seed_vocab, canonical_vocab,
+    ~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  cluster_map, client, cfg, logger, stats,
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+                  dry_run=True, dryrun_lines=dryrun_lines)
+                  ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\build_topic_vocabulary.py", line 481, in process_batch
+    result = safe_call_with_retry(
+        MAP_SYSTEM, user_msg, client, cfg,
+        cfg["max_tokens_map"], logger, tag=tag,
+    )
+  File "C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\build_topic_vocabulary.py", line 193, in safe_call_with_retry
+    raw = call_llm(system_prompt, user_message, client, cfg,
+                   max_tokens, logger, tag)
+  File "C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation\build_topic_vocabulary.py", line 171, in call_llm
+    for chunk in stream:
+                 ^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\openai\_streaming.py", line 46, in __iter__
+    for item in self._iterator:
+                ^^^^^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\openai\_streaming.py", line 59, in __stream__
+    for sse in iterator:
+               ^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\openai\_streaming.py", line 50, in _iter_events
+    yield from self._decoder.iter_bytes(self.response.iter_bytes())
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\openai\_streaming.py", line 282, in iter_bytes
+    for chunk in self._iter_chunks(iterator):
+                 ~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\openai\_streaming.py", line 293, in _iter_chunks
+    for chunk in iterator:
+                 ^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpx\_models.py", line 897, in iter_bytes
+    for raw_bytes in self.iter_raw():
+                     ~~~~~~~~~~~~~^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpx\_models.py", line 951, in iter_raw
+    for raw_stream_bytes in self.stream:
+                            ^^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpx\_client.py", line 153, in __iter__
+    for chunk in self._stream:
+                 ^^^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpx\_transports\default.py", line 127, in __iter__
+    for part in self._httpcore_stream:
+                ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_sync\connection_pool.py", line 407, in __iter__
+    raise exc from None
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_sync\connection_pool.py", line 403, in __iter__
+    for part in self._stream:
+                ^^^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_sync\http11.py", line 342, in __iter__
+    raise exc
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_sync\http11.py", line 334, in __iter__
+    for chunk in self._connection._receive_response_body(**kwargs):
+                 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_sync\http11.py", line 203, in _receive_response_body
+    event = self._receive_event(timeout=timeout)
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_sync\http11.py", line 217, in _receive_event
+    data = self._network_stream.read(
+        self.READ_NUM_BYTES, timeout=timeout
+    )
+  File "C:\Users\homelab\AppData\Roaming\Python\Python314\site-packages\httpcore\_backends\sync.py", line 128, in read
+    return self._sock.recv(max_bytes)
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^
+  File "C:\Python314\Lib\ssl.py", line 1285, in recv
+    return self.read(buflen)
+           ~~~~~~~~~^^^^^^^^
+  File "C:\Python314\Lib\ssl.py", line 1140, in read
+    return self._sslobj.read(len)
+           ~~~~~~~~~~~~~~~~~^^^^^
+KeyboardInterrupt
+PS C:\Users\homelab\Desktop\BAIR\audience_posts_export_beta_20260530T095057Z\prod\topic_normalisation> 

@@ -1,0 +1,78 @@
+# config_vocab.yaml
+# Configuration for build_topic_vocabulary.py
+# All paths are relative to the script's directory.
+
+# ── Input / Output ────────────────────────────────────────────────────────────
+
+input_path:          "tagged_posts_v2_clean.csv"
+vocab_output:        "canonical_topics_v1.json"       # Step 1 output: canonical vocabulary per domain
+map_output:          "topic_cluster_map.json"         # Step 2 output: {domain: {raw_label: canonical}}
+normalised_output:   "tagged_posts_v2_normalised.csv" # apply_topic_map.py output
+
+dryrun_output:       "mapping_dryrun_results.txt"
+review_output:       "mapping_review.txt"
+
+# ── Checkpoints ───────────────────────────────────────────────────────────────
+
+checkpoint_seed: "checkpoint_vocab_seed.json"   # Step 1: one JSON file, domain-keyed
+checkpoint_map:  "checkpoint_vocab_map.jsonl"   # Step 2: append-only JSONL, one entry per batch
+
+# ── Logging ───────────────────────────────────────────────────────────────────
+
+log_path: "build_topic_vocabulary.log"
+
+# ── Model ─────────────────────────────────────────────────────────────────────
+
+model:              "gpt-4.1-mini"
+temperature:        0.0
+max_tokens_seed:    4000    # per domain seed call -- SW Eng has 500+ freq>=2 labels;
+                            # response may contain 100+ canonical topics; needs headroom
+max_tokens_map:     6000    # per mapping batch -- 60 labels x ~60 chars output each
+                            # = ~3600 chars response + JSON structure overhead
+
+# ── Behaviour ─────────────────────────────────────────────────────────────────
+
+seed_freq_threshold: 2      # default threshold -- applies to any domain not in the
+                            # override map below
+
+# Per-domain overrides. Problem domains get a higher threshold so the seed pass
+# receives a shorter, more compressible input list. The mapping pass still runs
+# on ALL labels for every domain regardless of this threshold.
+#
+# Tier 1 -- freq>=5 (large domains where freq>=2 produced near-zero compression):
+#   Software Engineering: 504 freq>=2 labels -> ~90 freq>=5 labels
+#   Career:               261 freq>=2 labels -> ~60 freq>=5 labels
+#
+# Tier 2 -- freq>=3 (mid-size domains where partial compression was insufficient):
+#   AI:          201 freq>=2 labels -> ~120 freq>=3 labels
+#   Security:    178 freq>=2 labels -> ~100 freq>=3 labels
+#   Open Source:  68 freq>=2 labels -> ~35 freq>=3 labels
+#
+# Tier 3 -- keep freq>=2 (already produced acceptable vocabularies):
+#   EdTech, Business & Strategy, Data & Analytics, Leadership & Management
+domain_seed_thresholds:
+  "Software Engineering": 5
+  "Career": 5
+  "AI": 3
+  "Security": 3
+  "Open Source": 3
+
+mapping_batch_size:  60     # labels per Step 2 LLM call
+                            # 60 avoids token budget pressure on large domains while
+                            # still giving the model enough context to see thematic
+                            # patterns within each batch
+
+invention_alert_threshold: 8
+
+# ── Domains to process ────────────────────────────────────────────────────────
+
+domains:
+  - "Software Engineering"
+  - "AI"
+  - "Security"
+  - "EdTech"
+  - "Career"
+  - "Business & Strategy"
+  - "Data & Analytics"
+  - "Leadership & Management"
+  - "Open Source"

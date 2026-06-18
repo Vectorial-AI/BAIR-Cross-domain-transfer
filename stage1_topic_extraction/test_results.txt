@@ -1,0 +1,1020 @@
+TEST RUN — 5 batch(es) of 20 posts
+Config: config.yaml  |  Model: gpt-4.1-mini  |  Seed: 42
+=================================================================
+
+
+─────────────────────────────────────────────────────────────────
+BATCH 1 RESULTS
+─────────────────────────────────────────────────────────────────
+
+  [5236] linkedin   | CTOs
+  TEXT      : Once you know about this company, you’ll see them everywhere. That phenomenon happened while filming a customer story fo
+  BROAD     : Business & Strategy
+  TOPIC     : customer case study
+  NARROW    : customer case study
+  SUBTOPICS : ["brand visibility", "marketing impact", "enterprise adoption"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : show_and_tell
+
+  [3527] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : "With Google Cloud, Temporal is creating a new way to build complex applications quickly and operate them more reliably"
+  BROAD     : Business & Strategy
+  TOPIC     : cloud platform partnerships
+  NARROW    : google cloud support for temporal
+  SUBTOPICS : ["platform reliability", "development speed"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : news_reaction
+
+  [15136] reddit     | Full Stack Developer Reddit
+  TEXT      : A weightlifter has a personal record of lifting a 50 kg barbell by 1 m in 1 second. If he gets stronger by 5% and attend
+  BROAD     : Other
+  TOPIC     : physics problem solving
+  NARROW    : physics problem solving
+  SUBTOPICS : ["calculation method", "gravity effect", "force analysis"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [6281] linkedin   | Devops/Infra Engineer
+  TEXT      : Hey Flux users, today Red Hat shipped a major breaking change in their Quay Registry API that affects #FluxCD image auto
+  BROAD     : Software Engineering
+  TOPIC     : api breaking changes
+  NARROW    : red hat quay registry api change
+  SUBTOPICS : ["impact on automation", "compatibility issues"]
+  SENTIMENT : negative  STANCE: informational
+  TYPE      : news_reaction
+
+  [2327] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Snaplet is now Open Source: https://lnkd.in/eiNMUQJu 
+
+Last month, Snaplet shut down. But that's not the end of the stor
+  BROAD     : Open Source
+  TOPIC     : database snapshot tools
+  NARROW    : snaplet open source release
+  SUBTOPICS : ["data backup", "synthetic data generation", "deterministic fake data"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [967] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : AI tools are now responsible for generating 60% of new code, highlighting a significant shift in software development pr
+  BROAD     : Software Engineering
+  TOPIC     : ai code generation
+  NARROW    : ai code generation governance gap
+  SUBTOPICS : ["adoption rate", "governance policies", "industry challenges"]
+  SENTIMENT : negative  STANCE: informational
+  TYPE      : news_reaction
+
+  [18562] linkedin   | Product Leadership Audience Room
+  TEXT      : 📢 HIRING 📢 
+
+Wil jij positieve impact maken op miljoenen bordjes in Nederland en ligt jouw passie bij (technische) analy
+  BROAD     : Career
+  TOPIC     : data analyst hiring
+  NARROW    : data analyst hiring
+  SUBTOPICS : ["job requirements", "impact goals", "application process"]
+  SENTIMENT : positive  STANCE: promotional
+  TYPE      : promotional
+
+  [2492] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : If you're running agents in production, consider taking this brief survey. 
+
+In a collaboration spanning researchers fro
+  BROAD     : AI
+  TOPIC     : agent deployment challenges
+  NARROW    : agent deployment challenges survey
+  SUBTOPICS : ["research collaboration", "industry participation", "survey invitation"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [7343] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : The pace of today’s markets leaves no room for endless reviews.
+
+That’s why I’m excited about the Smarsh AI Assistant. I
+  BROAD     : AI
+  TOPIC     : ai assistant tools
+  NARROW    : smarsh ai assistant launch
+  SUBTOPICS : ["manual review reduction", "risk detection", "language translation"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : news_reaction
+
+  [19146] reddit     | Product Manager Reddit
+  TEXT      : I was actually tempted to skip user research, seems I've hit a point where I sort of realize I need to know more about m
+  BROAD     : Career
+  TOPIC     : user research challenges
+  NARROW    : user research challenges
+  SUBTOPICS : ["audience understanding", "ux research skepticism", "industry trends"]
+  SENTIMENT : mixed  STANCE: questioning
+  TYPE      : question
+
+  [2218] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Discussing PostgreSQL: What changes in version 16, how we got here, and what to expect in future releases
+  BROAD     : Software Engineering
+  TOPIC     : postgresql version updates
+  NARROW    : postgresql version 16 changes
+  SUBTOPICS : ["new features", "version history", "future expectations"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [14154] reddit     | Frontend Engineer Reddit
+  TEXT      : Hello, I got an amazon canada interview after doing the OA and was wondering what it would be like? The interview is an 
+  BROAD     : Career
+  TOPIC     : interview experience
+  NARROW    : amazon canada interview
+  SUBTOPICS : ["interview length", "preparation", "expectations"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [2987] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : I've been working with AI coding assistance daily for over half a year now and as much as it helps me a lot I can tell y
+  BROAD     : AI
+  TOPIC     : ai coding assistance
+  NARROW    : ai coding assistance impact
+  SUBTOPICS : ["job security", "software complexity", "human intervention"]
+  SENTIMENT : mixed  STANCE: assertive
+  TYPE      : opinion
+
+  [2026] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Load StackOverflow's StackExchange data in Postgresql®
+  BROAD     : Data & Analytics
+  TOPIC     : data loading techniques
+  NARROW    : stackexchange data loading
+  SUBTOPICS : []
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [12656] reddit     | First Responders
+  TEXT      : 1975, Los Angeles. A firefighter/paramedic and a civilian are still on scene after a medical call. His partner has alrea
+  BROAD     : Healthcare
+  TOPIC     : emergency response safety
+  NARROW    : rattlesnake incident 1975
+  SUBTOPICS : ["scene safety", "equipment use", "risk mitigation"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [16360] linkedin   | Fullstack Engineers
+  TEXT      : the promise of genai is that it will automate all the boring stuff like art, music, poetry, writing - so that you can sp
+  BROAD     : AI
+  TOPIC     : generative ai impact
+  NARROW    : generative ai impact on creatives
+  SUBTOPICS : ["automation risks", "creative future", "copyright concerns"]
+  SENTIMENT : negative  STANCE: critical
+  TYPE      : opinion
+
+  [3289] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : I've written an article called "Playing Chicken with AI." It's about you. Enjoy.
+  BROAD     : AI
+  TOPIC     : ai ethical concerns
+  NARROW    : playing chicken with ai
+  SUBTOPICS : ["ethical implications", "ai risks"]
+  SENTIMENT : mixed  STANCE: assertive
+  TYPE      : opinion
+
+  [12589] reddit     | First Responders
+  TEXT      : In light of Iran’s Domestic Threat
+  BROAD     : Other
+  TOPIC     : domestic threats
+  NARROW    : iran domestic threat
+  SUBTOPICS : []
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [5443] linkedin   | CTOs
+  TEXT      : Our first user conference exceeded all expectations! Massive announcements (including our Series E and Multigres), incre
+  BROAD     : Business & Strategy
+  TOPIC     : user conference highlights
+  NARROW    : supabase user conference
+  SUBTOPICS : ["event success", "partnerships", "community engagement"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : show_and_tell
+
+  [15139] reddit     | Full Stack Developer Reddit
+  TEXT      : https://preview.redd.it/aevaybu59lcf1.png?width=2369&amp;format=png&amp;auto=webp&amp;s=5b2e0c17a39ea6d864d0c0e8e05ced5d
+  BROAD     : Other
+  TOPIC     : quadratic parabola properties
+  NARROW    : quadratic parabola properties
+  SUBTOPICS : ["shape direction", "vertex position"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+─────────────────────────────────────────────────────────────────
+BATCH 2 RESULTS
+─────────────────────────────────────────────────────────────────
+
+  [19448] reddit     | Product Manager Reddit
+  TEXT      : The Pixel 8 Pro is available for 53k after card offers.
+The phone was launched about 1.8 years ago.
+Is it a good deal?
+  BROAD     : Business & Strategy
+  TOPIC     : consumer electronics pricing
+  NARROW    : consumer electronics pricing
+  SUBTOPICS : ["price evaluation", "purchase decision"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [19105] reddit     | Product Manager Reddit
+  TEXT      : Which class should I take to complete my MS?
+  BROAD     : Career
+  TOPIC     : graduate course selection
+  NARROW    : graduate course selection
+  SUBTOPICS : ["course advice", "degree completion"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [3423] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : AI adoption is moving fast. Our newest AI survey found that 75% of companies have deployed more than one AI agent, and a
+  BROAD     : AI
+  TOPIC     : ai adoption trends
+  NARROW    : ai adoption trends
+  SUBTOPICS : ["enterprise adoption", "agentic ai usage"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [6659] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : I know first hand from when I used to run security teams and programs - one of the core problems in cybersecurity today 
+  BROAD     : Security
+  TOPIC     : cybersecurity training methods
+  NARROW    : cybersecurity training methods
+  SUBTOPICS : ["learning vs execution", "realistic practice environments"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [21531] linkedin   | Staff Engineer
+  TEXT      : IaC tools like Terraform are awesome for provisioning and replicating standardized cloud resources. Crossing the chasm b
+  BROAD     : Software Engineering
+  TOPIC     : infrastructure as code usability
+  NARROW    : infrastructure as code usability
+  SUBTOPICS : ["user experience", "self service provisioning"]
+  SENTIMENT : neutral  STANCE: assertive
+  TYPE      : opinion
+
+  [9893] linkedin   | Engineering Manager
+  TEXT      : 💰I made an easy way to test Debezium change data capture streams for Postgres.  
+  
+The problem: to get interesting data
+  BROAD     : Software Engineering
+  TOPIC     : change data capture testing
+  NARROW    : change data capture testing
+  SUBTOPICS : ["automation", "streaming data orchestration"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : opinion
+
+  [13325] reddit     | First Responders
+  TEXT      : https://jamanetwork.com/journals/jama/fullarticle/2815592 (free article)
+
+I thought this was interesting, but also felt 
+  BROAD     : Healthcare
+  TOPIC     : behavior contracts effectiveness
+  NARROW    : behavior contracts effectiveness
+  SUBTOPICS : ["alternative solutions", "resource limitations"]
+  SENTIMENT : mixed  STANCE: questioning
+  TYPE      : opinion
+
+  [22288] linkedin   | VP Engineering
+  TEXT      : The annual reward evaluation period is kicking off in many companies across the globe. 
+(And it's time to evaluate our t
+  BROAD     : Leadership & Management
+  TOPIC     : performance review challenges
+  NARROW    : performance review challenges
+  SUBTOPICS : ["budget constraints", "leadership pressure", "fairness issues"]
+  SENTIMENT : negative  STANCE: assertive
+  TYPE      : opinion
+
+  [10555] linkedin   | Engineering Manager
+  TEXT      : ⚠️ Beware of DoS attacks in Node.js! Learn how to protect your applications with rate limiting, timeouts, and asynchrono
+  BROAD     : Security
+  TOPIC     : nodejs dos attack protection
+  NARROW    : nodejs dos attack protection
+  SUBTOPICS : ["rate limiting", "timeouts", "async operations"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [13922] reddit     | Frontend Engineer Reddit
+  TEXT      : Several React and js frameworks stand out for their features, performance, and developer experience.
+  BROAD     : Software Engineering
+  TOPIC     : javascript frameworks comparison
+  NARROW    : javascript frameworks comparison
+  SUBTOPICS : ["features", "performance", "developer experience"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [12663] reddit     | First Responders
+  TEXT      : Hello all! I am currently enrolled in AMU for emergency management but I was wondering if I would be better off enrollin
+  BROAD     : EdTech
+  TOPIC     : emergency management education
+  NARROW    : emergency management education
+  SUBTOPICS : ["online programs", "school accreditation"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [13544] reddit     | First Responders
+  TEXT      : I have recently moved onto the second phase of interviewing (in person) for a Recovery Manager position for the next cou
+  BROAD     : Career
+  TOPIC     : emergency management job search
+  NARROW    : emergency management job search
+  SUBTOPICS : ["interview preparation", "career transition", "federal experience"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [8765] reddit     | Edtech Developers
+  TEXT      : The math isn't the problem, this is
+  BROAD     : EdTech
+  TOPIC     : math education challenges
+  NARROW    : math education challenges
+  SUBTOPICS : ["learning difficulties"]
+  SENTIMENT : negative  STANCE: assertive
+  TYPE      : opinion
+
+  [9738] linkedin   | Engineering Manager
+  TEXT      : 🚀 Is your current security strategy ready for the speed of AI-driven development?
+
+Join me and Sharmyn Kayani as we host
+  BROAD     : Security
+  TOPIC     : ai driven security strategies
+  NARROW    : ai driven security strategies
+  SUBTOPICS : ["webinar promotion", "ai security integration"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : promotional
+
+  [17077] reddit     | Instructional Designer
+  TEXT      : Hello everyone, I'm hoping to use your advice/experience/thoughts to help me figuring out what's next to me. There's a T
+  BROAD     : Career
+  TOPIC     : career fulfillment challenges
+  NARROW    : career fulfillment challenges
+  SUBTOPICS : ["job satisfaction", "career transitions", "personal growth"]
+  SENTIMENT : mixed  STANCE: questioning
+  TYPE      : opinion
+
+  [2439] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : This is going to be a good one. I'm always bugging Tzachi Zornstain to come speak to customers about all the great work 
+  BROAD     : Security
+  TOPIC     : customer security strategies
+  NARROW    : customer security strategies
+  SUBTOPICS : ["threat protection", "customer engagement"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : news_reaction
+
+  [19915] linkedin   | Staff Engineer
+  TEXT      : Saluda a Evo de Snyk, el primer sistema de orquestación de IA agéntica del mundo.🧠
+
+Evo se integra directamente con tus 
+  BROAD     : Security
+  TOPIC     : agentic ai security orchestration
+  NARROW    : snyk evo launch
+  SUBTOPICS : ["integration", "governance", "security automation"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : promotional
+
+  [19096] reddit     | Product Manager Reddit
+  TEXT      : Which class should I take to help me get a job?
+  BROAD     : Career
+  TOPIC     : graduate course selection
+  NARROW    : graduate course selection
+  SUBTOPICS : ["course advice", "job preparation"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [9803] linkedin   | Engineering Manager
+  TEXT      : Imagine paying for a cleaner who comes in, tells you specifically where all the dirt is, and then leaves you to clean up
+  BROAD     : Security
+  TOPIC     : sast tool automation
+  NARROW    : snyk code deepcode ai fix
+  SUBTOPICS : ["automation benefits", "accuracy", "latency"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [16949] reddit     | Instructional Designer
+  TEXT      : **From someone who sucked at it first!** 
+
+I spent my first few months using AI like a search engine. Type a question, h
+  BROAD     : EdTech
+  TOPIC     : ai use in instructional design
+  NARROW    : ai use in instructional design
+  SUBTOPICS : ["effective prompting", "context provision", "ai limitations"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : opinion
+
+─────────────────────────────────────────────────────────────────
+BATCH 3 RESULTS
+─────────────────────────────────────────────────────────────────
+
+  [2823] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Is "spray and pray" the right approach to AppSec? Our data shows that it is not!
+
+One of the pillars of effective applic
+  BROAD     : Security
+  TOPIC     : application security processes
+  NARROW    : application security processes
+  SUBTOPICS : ["triage and optimization", "developer experience", "risk management"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [3210] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Junior developer: Let's name this class Fish
+
+Medior developer: Let's name this class AbstractAnimalThatLivesInWaterProx
+  BROAD     : Software Engineering
+  TOPIC     : code naming conventions
+  NARROW    : code naming conventions
+  SUBTOPICS : ["developer experience levels", "naming clarity"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [398] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : I started 2025 as an AI optimist but the last 10 days made me believe we're in the era of agentic engineering.
+
+I just w
+  BROAD     : AI
+  TOPIC     : agentic engineering tools
+  NARROW    : agentic engineering tools
+  SUBTOPICS : ["tooling setup", "workflow understanding", "model steering"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [4868] reddit     | CTO Reddit
+  TEXT      : Bit of a wide question, recently there has been a lot of media attention (and potentially fear) from this growing threat
+  BROAD     : Security
+  TOPIC     : small business security challenges
+  NARROW    : small business security challenges
+  SUBTOPICS : ["security improvement", "expert support interest"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [20246] linkedin   | Staff Engineer
+  TEXT      : The Stripe AI assistant applies Stripe knowledge to your VS Code editor to help you build integrations. It combines larg
+  BROAD     : AI
+  TOPIC     : ai developer tools
+  NARROW    : stripe ai assistant launch
+  SUBTOPICS : ["integration assistance", "developer productivity"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [2861] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : Atlassian upgrading to TiDB to scale out their relational database in multi-tenant cloud service
+  BROAD     : Software Engineering
+  TOPIC     : database scaling solutions
+  NARROW    : atlassian tidb upgrade
+  SUBTOPICS : []
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [7358] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : I am looking for a world-class leader to drive prosperity to our millions of TurboTax customers.  This leader will inspi
+  BROAD     : Career
+  TOPIC     : engineering leadership hiring
+  NARROW    : intuit engineering leader job
+  SUBTOPICS : ["team management", "customer focus"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : promotional
+
+  [3258] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : 🖼️ Introducing Image Generation
+
+Get even more creative by asking AI Chat or Quick AI to make images. Powered by DALL·E 
+  BROAD     : AI
+  TOPIC     : ai image generation
+  NARROW    : dall-e 2 and 3 integration
+  SUBTOPICS : ["feature availability", "creative use"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [8041] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : I'm honored to be selected as a thought leader for Sales Assembly's Certification Program.  If you're part of the Sales 
+  BROAD     : Career
+  TOPIC     : professional certification
+  NARROW    : sales assembly certification
+  SUBTOPICS : ["thought leadership", "value communication"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : personal_milestone
+
+  [8569] reddit     | Edtech Developers
+  TEXT      : I thought grok 4 fast could give M the right demon tone but I'm back to Gemini. Grok legit sucks at talking
+
+I'm not rea
+  BROAD     : AI
+  TOPIC     : ai conversational models
+  NARROW    : claude vs google api
+  SUBTOPICS : ["model performance", "api limits", "interface preferences"]
+  SENTIMENT : negative  STANCE: critical
+  TYPE      : opinion
+
+  [8331] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : I'm thrilled to announce that I'll be speaking at the upcoming AI Engineer World Fair conference next week in San Franci
+  BROAD     : AI
+  TOPIC     : ai in education
+  NARROW    : khan academy ai transformation
+  SUBTOPICS : ["conference speaking", "ai tutor development"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : personal_milestone
+
+  [12887] reddit     | First Responders
+  TEXT      : DHS paused all work related travel including FEMA related disaster travel with only very limited pre-approved allowed.  
+  BROAD     : Other
+  TOPIC     : government disaster response
+  NARROW    : dhs travel pause concerns
+  SUBTOPICS : ["disaster aid delays", "political blame"]
+  SENTIMENT : negative  STANCE: critical
+  TYPE      : opinion
+
+  [16661] reddit     | Instructional Designer
+  TEXT      : Hi everybody. As the titles says, I was just recently tossed into the deep end of designing AI learning modules/tutorial
+  BROAD     : EdTech
+  TOPIC     : ai training content creation
+  NARROW    : ai training content creation
+  SUBTOPICS : ["tool selection", "learning curve", "content deployment"]
+  SENTIMENT : mixed  STANCE: questioning
+  TYPE      : question
+
+  [12752] reddit     | First Responders
+  TEXT      : Jealous or toxic coworkers since becoming a medic
+  BROAD     : Other
+  TOPIC     : workplace culture issues
+  NARROW    : workplace culture issues
+  SUBTOPICS : ["coworker jealousy", "toxicity"]
+  SENTIMENT : negative  STANCE: critical
+  TYPE      : opinion
+
+  [12825] reddit     | First Responders
+  TEXT      : Hi so I'm 26 years old male for the most part my criminal history everything has been clean other than driving on suspen
+  BROAD     : Other
+  TOPIC     : personal legal history
+  NARROW    : personal legal history
+  SUBTOPICS : ["criminal record", "youth mistakes"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [12547] reddit     | First Responders
+  TEXT      : Her micromanagement has slowed the agency’s disbursements to a trickle.
+  BROAD     : Other
+  TOPIC     : agency management issues
+  NARROW    : agency micromanagement impact
+  SUBTOPICS : ["disbursement delays", "management style"]
+  SENTIMENT : negative  STANCE: critical
+  TYPE      : opinion
+
+  [12101] linkedin   | Engineering Org in Edtech Co
+  TEXT      : Conquer Your Fear of Publishing: A 30-Day, 8-Step Social Content Strategy & Challenge for Digital Entrepreneurs
+
+Fear is
+  BROAD     : Business & Strategy
+  TOPIC     : content marketing strategy
+  NARROW    : content marketing strategy
+  SUBTOPICS : ["fear in marketing", "audience engagement"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [15744] linkedin   | Fullstack Engineers
+  TEXT      : dltHub and Dagster Labs have been significantly impactful in the advancement of data dev tooling! 
+
+Throw in the the new
+  BROAD     : Data & Analytics
+  TOPIC     : data dev tooling
+  NARROW    : dlt and dagster integration
+  SUBTOPICS : ["developer experience", "workflow optimization"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [14790] reddit     | Full Stack Developer Reddit
+  TEXT      : We’re not concerned enough about the death of the junior-level software engineer
+  BROAD     : Career
+  TOPIC     : software engineer job market
+  NARROW    : junior software engineer decline
+  SUBTOPICS : ["job availability", "career concerns"]
+  SENTIMENT : negative  STANCE: critical
+  TYPE      : opinion
+
+  [18000] reddit     | Knowledge Graph Devs
+  TEXT      : Skill Forge analyzes your code repositories, documentation, and developer discourse to build verified instruction files 
+  BROAD     : Open Source
+  TOPIC     : ai instruction generation
+  NARROW    : skill forge tool release
+  SUBTOPICS : ["open source licensing", "instruction accuracy"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+─────────────────────────────────────────────────────────────────
+BATCH 4 RESULTS
+─────────────────────────────────────────────────────────────────
+
+  [22818] linkedin   | [LinkedIn] OpenAI Community
+  TEXT      : A OpenAI lançou nesta quinta-feira (7) o GPT-5, nova geração do modelo de linguagem usado no ChatGPT. A promessa é de um
+  BROAD     : AI
+  TOPIC     : gpt model release
+  NARROW    : gpt-5 launch
+  SUBTOPICS : ["model improvements", "accessibility", "use cases"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [4757] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : Can a company revoke appraisal if I resign immediately after appraisal?
+ 
+I am about to get an offer from a different co
+  BROAD     : Career
+  TOPIC     : job resignation impact
+  NARROW    : salary appraisal revocation
+  SUBTOPICS : ["appraisal timing", "salary negotiation", "background verification"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [2717] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : How (and where?) should I declare `EditContext` in my Blazor component to properly display validation messages? The vali
+  BROAD     : Software Engineering
+  TOPIC     : blazor validation
+  NARROW    : blazor editcontext usage
+  SUBTOPICS : ["validation messages", "component declaration"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [14646] reddit     | Full Stack Developer Reddit
+  TEXT      : Hello everyone,
+
+So I’ve been working in SEO for a few years, and honestly… 2025 feels different. Like, really different
+  BROAD     : Business & Strategy
+  TOPIC     : seo evolution
+  NARROW    : future of traditional seo
+  SUBTOPICS : ["ai impact", "user engagement", "topical authority"]
+  SENTIMENT : mixed  STANCE: questioning
+  TYPE      : opinion
+
+  [5550] linkedin   | CTOs
+  TEXT      : Really cool talk from the last AI Dev Tools Night from the huge YouTube dev educator, CS Dojo, about building an intelli
+  BROAD     : AI
+  TOPIC     : ai engineering tools
+  NARROW    : ai dev tools night talk
+  SUBTOPICS : ["intelligent agents", "developer education"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [11569] linkedin   | Engineering Org in Edtech Co
+  TEXT      : Python is a versatile programming language that can be used for a variety of purposes, including data manipulation, data
+  BROAD     : Software Engineering
+  TOPIC     : python libraries overview
+  NARROW    : python libraries overview
+  SUBTOPICS : ["data manipulation", "machine learning", "nlp", "visualization"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [18608] linkedin   | Product Leadership Audience Room
+  TEXT      : When I was 16, I moved to San Francisco to pursue a dream of building a generational, public company.
+
+This week, we ann
+  BROAD     : Business & Strategy
+  TOPIC     : startup funding
+  NARROW    : hightouch series c announcement
+  SUBTOPICS : ["company valuation", "ai agents", "market opportunity"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : personal_milestone
+
+  [10500] linkedin   | Engineering Manager
+  TEXT      : Thinking Fast and Slow in AppSec: https://lnkd.in/djPXKzTv
+
+Ventured to write-up a semi-philosophical piece about appsec
+  BROAD     : Security
+  TOPIC     : application security mindset
+  NARROW    : appsec behavioral economics
+  SUBTOPICS : ["developer perspective", "security mindset"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [20268] linkedin   | Staff Engineer
+  TEXT      : I'm excited to announce the Event Destinations Initiative. A community effort and guidelines to promote better event int
+  BROAD     : Software Engineering
+  TOPIC     : event interoperability
+  NARROW    : event destinations initiative
+  SUBTOPICS : ["webhook issues", "security", "developer experience"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [9218] reddit     | Edtech Developers
+  TEXT      : Master Data Management Solutions Provider
+  BROAD     : Other
+  TOPIC     : master data management
+  NARROW    : master data management
+  SUBTOPICS : []
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [4692] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : I can only find a doc for subscription's discount. I cannot find one for a one-time product.
+  BROAD     : Business & Strategy
+  TOPIC     : subscription discount documentation
+  NARROW    : subscription discount docs inquiry
+  SUBTOPICS : ["documentation availability"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [14741] reddit     | Full Stack Developer Reddit
+  TEXT      : 4,400+ downloads in just 50 hours.  
+I launched Thready.js two days ago - a multithreading library that simplifies Web W
+  BROAD     : Open Source
+  TOPIC     : javascript multithreading library
+  NARROW    : thready.js launch
+  SUBTOPICS : ["performance improvements", "community feedback", "documentation plans"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : show_and_tell
+
+  [3336] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : 🚦 AI-generated PRs are taking 4.6× longer to get their first review.
+
+Early findings from the 2026 Benchmarks show a pat
+  BROAD     : Software Engineering
+  TOPIC     : ai generated pull requests
+  NARROW    : 2026 benchmarks ai pr review
+  SUBTOPICS : ["review delays", "human vs ai code", "merge rates"]
+  SENTIMENT : mixed  STANCE: informational
+  TYPE      : news_reaction
+
+  [10071] linkedin   | Engineering Manager
+  TEXT      : How do global teams navigate Japanese business documentation? 🇯🇵🌍
+
+I’m researching how cultural practices shape everyday
+  BROAD     : Business & Strategy
+  TOPIC     : cross cultural business documentation
+  NARROW    : japanese business documentation
+  SUBTOPICS : ["document expectations", "communication challenges", "tools effectiveness"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [4436] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : If you have ever needed a confirmation that struct pointers are just fine, and the world won't go extinct if you went wi
+  BROAD     : Software Engineering
+  TOPIC     : go struct pointers
+  NARROW    : struct pointer usage
+  SUBTOPICS : ["pointer safety", "application scope"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : opinion
+
+  [12614] reddit     | First Responders
+  TEXT      : West Hollywood security ambassador seen punching homeless man
+  BROAD     : Other
+  TOPIC     : public safety incident
+  NARROW    : west hollywood security incident
+  SUBTOPICS : ["violence", "public behavior"]
+  SENTIMENT : negative  STANCE: informational
+  TYPE      : news_reaction
+
+  [6469] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : I've been working on a new sales coaching framework (launching end of July!) and the biggest confidence killer I hear fr
+  BROAD     : Leadership & Management
+  TOPIC     : sales coaching challenges
+  NARROW    : sales confidence issues
+  SUBTOPICS : ["seller mindset", "client expectations", "strategic thinking"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : opinion
+
+  [15733] linkedin   | Fullstack Engineers
+  TEXT      : "I love popups!" - said no one ever.  
+
+Amplitude is putting an end to annoying, unhelpful popups. Using AI-based target
+  BROAD     : Business & Strategy
+  TOPIC     : ai based user targeting
+  NARROW    : amplitude guides and surveys
+  SUBTOPICS : ["user trust", "business outcomes", "ai targeting"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : news_reaction
+
+  [13201] reddit     | First Responders
+  TEXT      : my client with loss consciousness and seizure if either oxygen supply.
+
+sorry for the shaking camera, cause i am inside 
+  BROAD     : Healthcare
+  TOPIC     : emergency oxygen management
+  NARROW    : oxygen flow adjustments
+  SUBTOPICS : ["patient condition", "oxygen supply"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : news_reaction
+
+  [22912] linkedin   | [LinkedIn] OpenAI Community
+  TEXT      : 1/15 YC deal structure for founders: What YC Really Takes
+
+Many founders know the YC brand.
+
+Fewer founders can clearly 
+  BROAD     : Business & Strategy
+  TOPIC     : startup funding terms
+  NARROW    : yc deal structure explanation
+  SUBTOPICS : ["deal mechanics", "founder education", "investment terms"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+─────────────────────────────────────────────────────────────────
+BATCH 5 RESULTS
+─────────────────────────────────────────────────────────────────
+
+  [1559] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Do You Really Need #Redis? How to Get Away with Just #PostgreSQL
+  BROAD     : Software Engineering
+  TOPIC     : database choice
+  NARROW    : database choice
+  SUBTOPICS : ["redis benefits", "postgresql capabilities"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [12487] reddit     | First Responders
+  TEXT      : Phoenix Fire paramedic indicted on drug charges after allegedly stealing fentanyl from department
+  BROAD     : Other
+  TOPIC     : paramedic misconduct
+  NARROW    : paramedic fentanyl theft indictment
+  SUBTOPICS : ["legal consequences", "drug theft"]
+  SENTIMENT : negative  STANCE: informational
+  TYPE      : news_reaction
+
+  [2180] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : Overview of PostgreSQL Foreign Data Wrapper (FDW) - Highgo Software Inc.
+  BROAD     : Software Engineering
+  TOPIC     : postgresql foreign data wrapper
+  NARROW    : postgresql foreign data wrapper
+  SUBTOPICS : []
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [20875] linkedin   | Staff Engineer
+  TEXT      : Checkly is hosting a webinar for 🎭 Playwright at Scale🎭 .
+
+Filip Hric and I got a ton of interest in followups to the li
+  BROAD     : Software Engineering
+  TOPIC     : automation testing frameworks
+  NARROW    : playwright at scale webinar
+  SUBTOPICS : ["best practices", "framework capabilities", "team optimization"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : promotional
+
+  [8439] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : Here's my "Illustrate & Animate with Ease: Intro to Fresco" virtual session from Adobe. This has most of the tips and tr
+  BROAD     : EdTech
+  TOPIC     : digital illustration tools
+  NARROW    : adobe fresco session
+  SUBTOPICS : ["tool features", "user tips"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : show_and_tell
+
+  [4015] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : When I start a new project with windsurf, it works well until some point then i stops everything.
+
+I can access app fold
+  BROAD     : Software Engineering
+  TOPIC     : git workflow issues
+  NARROW    : windsurf git problems
+  SUBTOPICS : ["file access", "git operations failure", "reinstallation attempts"]
+  SENTIMENT : negative  STANCE: questioning
+  TYPE      : question
+
+  [17651] reddit     | Knowledge Graph Devs
+  TEXT      : [https://github.com/orneryd/uiGrid](https://github.com/orneryd/uiGrid)
+
+MIT Licensed
+
+grouping
+
+filtering
+
+sorting
+
+tree
+  BROAD     : Open Source
+  TOPIC     : ui grid components
+  NARROW    : ui grid github release
+  SUBTOPICS : ["features overview", "documentation status"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [14447] reddit     | Full Stack Developer Reddit
+  TEXT      : Looking for inspiration, share URLs of your favorite beautifully designed sites and what makes them great.
+  BROAD     : Software Engineering
+  TOPIC     : web design inspiration
+  NARROW    : web design inspiration
+  SUBTOPICS : ["design aesthetics", "user experience"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [2316] linkedin   | Backend Engineer (linkedin+reddit)
+  TEXT      : 🚀 Supabase is hiring!
+
+We’re looking for a Client Library Engineer (Python & JavaScript) to help maintain and improve ou
+  BROAD     : Open Source
+  TOPIC     : open source hiring
+  NARROW    : supabase client library engineer hiring
+  SUBTOPICS : ["job requirements", "community collaboration", "technology stack"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : promotional
+
+  [17447] reddit     | Instructional Designer
+  TEXT      : So my SME's send me some excel sheets etc and I need to create a course or quiz from those. Since I will be doing this c
+  BROAD     : EdTech
+  TOPIC     : course automation tools
+  NARROW    : adapt framework automation
+  SUBTOPICS : ["tool options", "automation benefits"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [18021] reddit     | Knowledge Graph Devs
+  TEXT      : I've been trying to learn golang for a couple of days and I've stumbled upon this beautifully curated website called "le
+  BROAD     : Software Engineering
+  TOPIC     : learning programming languages
+  NARROW    : golang learning challenges
+  SUBTOPICS : ["comprehension difficulties", "learning resources", "emotional experience"]
+  SENTIMENT : mixed  STANCE: questioning
+  TYPE      : question
+
+  [4070] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : Simplifying Serverless with AI-Powered CLI Tools • Todd  Shaffer
+  BROAD     : Software Engineering
+  TOPIC     : serverless development tools
+  NARROW    : ai powered cli tools
+  SUBTOPICS : ["tool simplification", "ai integration"]
+  SENTIMENT : positive  STANCE: informational
+  TYPE      : opinion
+
+  [3883] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : A week or two ago my wifi started losing the connection every 10-20 minutes. As far as I am aware I did not do any updat
+  BROAD     : Software Engineering
+  TOPIC     : network connectivity issues
+  NARROW    : wifi dns problems
+  SUBTOPICS : ["dns troubleshooting", "connection drops", "temporary fixes"]
+  SENTIMENT : negative  STANCE: questioning
+  TYPE      : question
+
+  [10078] linkedin   | Engineering Manager
+  TEXT      : Excited to share that PagerDuty incidents can now reach you on WhatsApp!
+
+When you’re on the go, critical alerts need to
+  BROAD     : Security
+  TOPIC     : incident alerting
+  NARROW    : pagerduty whatsapp alerts
+  SUBTOPICS : ["alert reliability", "security features", "setup ease"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : news_reaction
+
+  [18657] linkedin   | Product Leadership Audience Room
+  TEXT      : I’m thrilled to announce Galileo Financial Technologies new co-brand debit program—a first-of-its-kind solution in the U
+  BROAD     : Business & Strategy
+  TOPIC     : debit card programs
+  NARROW    : galileo co brand debit program
+  SUBTOPICS : ["market opportunity", "program benefits", "launch timeline"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : news_reaction
+
+  [21846] linkedin   | VP Engineering
+  TEXT      : We were overwhelmed with ❤️ and 100's of new orgs after Inari (YC S23)’s YC launch and have been heads down getting team
+  BROAD     : Data & Analytics
+  TOPIC     : data analytics onboarding
+  NARROW    : inari self serve trial launch
+  SUBTOPICS : ["user onboarding", "trial credits", "team collaboration"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : news_reaction
+
+  [20474] linkedin   | Staff Engineer
+  TEXT      : I know we aren’t supposed to share what happens at SKO….but here is everything we have planned.
+
+AI
+AI
+AI
+AI
+
+At least w
+  BROAD     : AI
+  TOPIC     : ai industry trends
+  NARROW    : company sales kickoff ai focus
+  SUBTOPICS : ["industry alignment", "ai emphasis"]
+  SENTIMENT : neutral  STANCE: informational
+  TYPE      : opinion
+
+  [7705] linkedin   | Director/ VP engineering/ CTO in Ed
+  TEXT      : No better way to start a year than being out in market with stakeholders! 
+
+From Boston, Victoria, Carlsbad, Ottawa, Tor
+  BROAD     : EdTech
+  TOPIC     : education partnerships
+  NARROW    : duolingo english test outreach
+  SUBTOPICS : ["stakeholder engagement", "education access"]
+  SENTIMENT : positive  STANCE: supportive
+  TYPE      : opinion
+
+  [19160] reddit     | Product Manager Reddit
+  TEXT      : What do you think of the hiring surge for this role? Is it an entirely new thing or do you already do something customer
+  BROAD     : Career
+  TOPIC     : hiring trends
+  NARROW    : hiring surge discussion
+  SUBTOPICS : ["role demand", "job functions"]
+  SENTIMENT : neutral  STANCE: questioning
+  TYPE      : question
+
+  [302] reddit     | Backend Engineer (linkedin+reddit)
+  TEXT      : Pushed First Code Commits of Frontend Work Done with Opal Ruby + Glimmer DSL for Web to My Job's Rails Web App Repo
+  BROAD     : Software Engineering
+  TOPIC     : frontend development
+  NARROW    : opal ruby glimmer commits
+  SUBTOPICS : ["code contribution", "frontend tools"]
+  SENTIMENT : positive  STANCE: assertive
+  TYPE      : show_and_tell
+
+=================================================================
+Test complete. Review labels above.
+
+Checklist before full run:
+  1. topic_broad always from the fixed list? No invented domains?
+  2. topic abstract enough to group across platforms?
+  3. topic_narrow naming specific events where they exist?
+  4. opinion_subtopics capturing the right angles?
+  5. sentiment + stance feel correct? No stance values in sentiment?
+  6. post_type filtering correctly?
+     (insider announcements -> promotional, not news_reaction)
+=================================================================

@@ -1,0 +1,1145 @@
+DRY-RUN MAPPING RESULTS
+=================================================================
+Review these mappings before running the full pass.
+
+Checklist:
+  1. Are seed maps correct? (no wrong-subject mappings)
+  2. Are self-maps genuinely distinct one-offs?
+  3. Are invented topics clean 2-5 word noun phrases?
+  4. Is invention rate reasonable (< 30% of batch)?
+  5. Are any validation issues logged above?
+=================================================================
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Software Engineering  |  BATCH: 3d animation issues ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  3d animation issues
+  3d mind mapping tools
+  3d modeling challenges
+  3d printing design
+  3d printing techniques
+  3d scanning technology
+  ab testing design patterns
+  abstract concept talks
+  accelerated computing
+  accessibility best practices
+  accounting management systems
+  active record queries
+  activerecord query methods
+  ad introduction impact
+  adaptive socio-technical systems
+  admin dashboard customization
+  ads in developer tools
+  ads integration challenges
+  advanced git commands
+  advanced git usage
+  advanced rust programming
+  advanced sql techniques
+  adventure of code challenge
+  agent based api systems
+  agent based data processing
+  agent client protocol integration
+  agent debugging challenges
+  agent debugging tools
+  agent deployment best practices
+  agent deployment strategies
+  agent developer tools
+  agent development stack
+  agent framework extensions
+  agent memory architecture
+  agent mode integration
+  agent query latency
+  agent sdk development
+  agent software development
+  agent system development
+  agent trace visualization
+  agent trace visualization tool
+  agent-based team scaling
+  agentic ai reliability
+  agentic code automation
+  agentic coding experience
+  agentic coding productivity
+  agentic coding techniques
+  agentic coding testing
+  agentic coding tools
+  agentic coding trends
+  agentic design patterns sdk
+  agentic development environments
+  agentic engineering workflow
+  agentic mode usage
+  agentic systems development
+  agentic workflows
+  agentic workflows sdls
+  agile development history
+  agile methodologies
+  agile operations
+MAPPINGS:
+  3d animation issues                                -> 3d animation issues [NEW]
+  3d mind mapping tools                              -> 3d mind mapping tools [NEW]
+  3d modeling challenges                             -> 3d modeling challenges [NEW]
+  3d printing design                                 -> 3d printing design [NEW]
+  3d printing techniques                             -> 3d printing techniques [NEW]
+  3d scanning technology                             -> 3d scanning technology [NEW]
+  ab testing design patterns                         -> ab testing design patterns [NEW]
+  abstract concept talks                             -> abstract concept talks [NEW]
+  accelerated computing                              -> accelerated computing [NEW]
+  accessibility best practices                       -> accessibility best practices [NEW]
+  accounting management systems                      -> accounting management systems [NEW]
+  active record queries                              -> activerecord query methods [NEW]
+  activerecord query methods                         -> activerecord query methods [NEW]
+  ad introduction impact                             -> ad introduction impact [NEW]
+  adaptive socio-technical systems                   -> adaptive socio-technical systems [NEW]
+  admin dashboard customization                      -> admin dashboard customization [NEW]
+  ads in developer tools                             -> ads in developer tools [NEW]
+  ads integration challenges                         -> ads integration challenges [NEW]
+  advanced git commands                              -> advanced git usage [NEW]
+  advanced git usage                                 -> advanced git usage [NEW]
+  advanced rust programming                          -> advanced rust programming [NEW]
+  advanced sql techniques                            -> advanced sql techniques [NEW]
+  adventure of code challenge                        -> adventure of code challenge [NEW]
+  agent based api systems                            -> agent based api systems [NEW]
+  agent based data processing                        -> agent based data processing [NEW]
+  agent client protocol integration                  -> agent client protocol integration [NEW]
+  agent debugging challenges                         -> agent debugging tools [NEW]
+  agent debugging tools                              -> agent debugging tools [NEW]
+  agent deployment best practices                    -> agent deployment strategies [NEW]
+  agent deployment strategies                        -> agent deployment strategies [NEW]
+  agent developer tools                              -> agent developer tools [NEW]
+  agent development stack                            -> agent development stack [NEW]
+  agent framework extensions                         -> agent framework extensions [NEW]
+  agent memory architecture                          -> agent memory architecture [NEW]
+  agent mode integration                             -> agent mode integration [NEW]
+  agent query latency                                -> agent query latency [NEW]
+  agent sdk development                              -> agent sdk development [NEW]
+  agent software development                         -> agent software development [NEW]
+  agent system development                           -> agent system development [NEW]
+  agent trace visualization                          -> agent trace visualization [NEW]
+  agent trace visualization tool                     -> agent trace visualization [NEW]
+  agent-based team scaling                           -> agent-based team scaling [NEW]
+  agentic ai reliability                             -> agentic ai reliability [NEW]
+  agentic code automation                            -> agentic code automation [NEW]
+  agentic coding experience                          -> agentic coding experience [NEW]
+  agentic coding productivity                        -> agentic coding productivity [NEW]
+  agentic coding techniques                          -> agentic coding techniques [NEW]
+  agentic coding testing                             -> agentic coding testing [NEW]
+  agentic coding tools                               -> agentic coding tools [NEW]
+  agentic coding trends                              -> agentic coding trends [NEW]
+  agentic design patterns sdk                        -> agentic design patterns sdk [NEW]
+  agentic development environments                   -> agentic development environments [NEW]
+  agentic engineering workflow                       -> agentic engineering workflow [NEW]
+  agentic mode usage                                 -> agentic mode usage [NEW]
+  agentic systems development                        -> agentic systems development [NEW]
+  agentic workflows                                  -> agentic workflows [NEW]
+  agentic workflows sdls                             -> agentic workflows sdls [NEW]
+  agile development history                          -> agile development history [NEW]
+  agile methodologies                                -> agile methodologies [NEW]
+  agile operations                                   -> agile operations [NEW]
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: AI  |  BATCH: 2d to 3d conversion ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  2d to 3d conversion
+  3d sensing reliability
+  3d vision language models
+  agent and rag startups
+  agent cognition debugging
+  agent configuration standardization
+  agent debugging tools
+  agent decision transparency
+  agent deployment challenges
+  agent design patterns
+  agent development
+  agent engineering competitions
+  agent engineering platforms
+  agent evaluation importance
+  agent evaluation workflows
+  agent failure modes
+  agent framework cloud hosting
+  agent interaction with applications
+  agent memory and context
+  agent memory design
+  agent memory optimization
+  agent mode support
+  agent orchestration platform
+  agent personality design
+  agent production learning
+  agent skill evaluation
+  agent software bugs
+  agent subagents
+  agent task distribution
+  agent technology development
+  agent trace visualization
+  agent training methods
+  agent usage workflow
+  agent2agent protocol
+  agentic ai
+  agentic ai adoption
+  agentic ai applications
+  agentic ai capabilities
+  agentic ai collaboration
+  agentic ai concepts
+  agentic ai conference
+  agentic ai deployment
+  agentic ai development
+  agentic ai education
+  agentic ai impact
+  agentic ai implementation
+  agentic ai in customer experience
+  agentic ai in sdlc
+  agentic ai memory
+  agentic ai orchestration
+  agentic ai platform
+  agentic ai platform launch
+  agentic ai platforms
+  agentic ai production
+  agentic ai software development
+  agentic ai systems
+  agentic ai workflows
+  agentic ai workforce solutions
+  agentic ai workplace impact
+  agentic architecture
+MAPPINGS:
+  2d to 3d conversion                                -> 3d vision language models [NEW]
+  3d sensing reliability                             -> ai system reliability
+  3d vision language models                          -> 3d vision language models [NEW]
+  agent and rag startups                             -> agentic ai platforms
+  agent cognition debugging                          -> ai agent reliability
+  agent configuration standardization                -> agentic ai platforms
+  agent debugging tools                              -> llm debugging tools
+  agent decision transparency                        -> ai model behavior
+  agent deployment challenges                        -> ai agent orchestration
+  agent design patterns                              -> agentic ai platforms
+  agent development                                  -> ai agent development
+  agent engineering competitions                     -> ai community events
+  agent engineering platforms                        -> agentic ai platforms
+  agent evaluation importance                        -> ai evaluation methods
+  agent evaluation workflows                         -> ai evaluation methods
+  agent failure modes                                -> ai agent reliability
+  agent framework cloud hosting                      -> ai agent frameworks
+  agent interaction with applications                -> ai human collaboration
+  agent memory and context                           -> ai memory management
+  agent memory design                                -> ai memory management
+  agent memory optimization                          -> ai memory management
+  agent mode support                                 -> agentic ai platforms
+  agent orchestration platform                       -> ai agent orchestration
+  agent personality design                           -> agentic ai platforms
+  agent production learning                          -> agentic ai platforms
+  agent skill evaluation                             -> ai evaluation methods
+  agent software bugs                                -> ai agent reliability
+  agent subagents                                    -> multi-agent ai systems
+  agent task distribution                            -> multi-agent ai systems
+  agent technology development                       -> agentic ai platforms
+  agent trace visualization                          -> ai system observability
+  agent training methods                             -> model training infrastructure
+  agent usage workflow                               -> agentic ai workflows [NEW]
+  agent2agent protocol                               -> multi-agent ai systems
+  agentic ai                                         -> agentic ai platforms
+  agentic ai adoption                                -> ai adoption challenges
+  agentic ai applications                            -> agentic ai platforms
+  agentic ai capabilities                            -> agentic ai platforms
+  agentic ai collaboration                           -> ai human collaboration
+  agentic ai concepts                                -> agentic ai platforms
+  agentic ai conference                              -> ai community events
+  agentic ai deployment                              -> agentic ai platforms
+  agentic ai development                             -> agentic ai development [NEW]
+  agentic ai education                               -> agentic ai platforms
+  agentic ai impact                                  -> ai impact on jobs
+  agentic ai implementation                          -> agentic ai platforms
+  agentic ai in customer experience                  -> agentic ai platforms
+  agentic ai in sdlc                                 -> ai in software development
+  agentic ai memory                                  -> ai memory management
+  agentic ai orchestration                           -> ai agent orchestration
+  agentic ai platform                                -> agentic ai platforms
+  agentic ai platform launch                         -> agentic ai platforms
+  agentic ai platforms                               -> agentic ai platforms [SELF]
+  agentic ai production                              -> agentic ai platforms
+  agentic ai software development                    -> ai in software development
+  agentic ai systems                                 -> agentic ai platforms
+  agentic ai workflows                               -> agentic ai workflows [NEW]
+  agentic ai workforce solutions                     -> ai workforce impact
+  agentic ai workplace impact                        -> ai workforce impact
+  agentic architecture                               -> agentic ai platforms
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Security  |  BATCH: access control risks ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  access control risks
+  access control vulnerabilities
+  account lockout issues
+  account login issues
+  account recovery security
+  account security
+  account suspension recovery
+  active directory integration
+  active scan policies
+  ad fraud detection
+  aes block size
+  age verification app security
+  agent security best practices
+  agentic browser security
+  agentic ide vulnerabilities
+  agentic security review
+  ai accelerated security remediation
+  ai agent consent
+  ai agent governance
+  ai agent security
+  ai agent security issues
+  ai agent security summit
+  ai agents in security
+  ai and cybersecurity conference
+  ai and data privacy
+  ai application security
+  ai application security webinar
+  ai assistant security
+  ai assisted engineering security
+  ai automated remediation
+  ai chatbot encryption flaw
+  ai code generation security
+  ai code governance
+  ai code review tools
+  ai code security
+  ai code security risks
+  ai code security survey
+  ai code security testing
+  ai code security tools
+  ai coding agent risks
+  ai coding agent security tradeoff
+  ai coding agents security
+  ai coding assistant vulnerabilities
+  ai coding governance risks
+  ai coding risk assessment
+  ai coding security
+  ai coding security risks
+  ai coding tool risks
+  ai compliance innovations
+  ai compliance regulations
+  ai cybersecurity convergence
+  ai cybersecurity defense
+  ai cybersecurity integration
+  ai cybersecurity partnerships
+  ai cybersecurity risks
+  ai cybersecurity threats
+  ai cybersecurity tools
+  ai data security
+  ai deepfake detection
+  ai development security
+MAPPINGS:
+  access control risks                               -> access control vulnerabilities [NEW]
+  access control vulnerabilities                     -> access control vulnerabilities [NEW]
+  account lockout issues                             -> account security [NEW]
+  account login issues                               -> account security [NEW]
+  account recovery security                          -> account security [NEW]
+  account security                                   -> account security [NEW]
+  account suspension recovery                        -> account security [NEW]
+  active directory integration                       -> active directory integration [NEW]
+  active scan policies                               -> active scan policies [NEW]
+  ad fraud detection                                 -> ad fraud detection [NEW]
+  aes block size                                     -> aes block size [NEW]
+  age verification app security                      -> age verification app security [NEW]
+  agent security best practices                      -> agent security best practices [NEW]
+  agentic browser security                           -> agentic browser security [NEW]
+  agentic ide vulnerabilities                        -> agentic ide vulnerabilities [NEW]
+  agentic security review                            -> agentic security review [NEW]
+  ai accelerated security remediation                -> ai accelerated security remediation [NEW]
+  ai agent consent                                   -> ai agent consent [NEW]
+  ai agent governance                                -> ai agent governance [NEW]
+  ai agent security                                  -> ai agent security [SELF]
+  ai agent security issues                           -> ai agent security
+  ai agent security summit                           -> ai agent security summit [NEW]
+  ai agents in security                              -> ai agent security
+  ai and cybersecurity conference                    -> ai in cybersecurity
+  ai and data privacy                                -> ai data security [NEW]
+  ai application security                            -> ai application security [NEW]
+  ai application security webinar                    -> ai application security [NEW]
+  ai assistant security                              -> ai agent security
+  ai assisted engineering security                   -> ai assisted engineering security [NEW]
+  ai automated remediation                           -> ai accelerated security remediation [NEW]
+  ai chatbot encryption flaw                         -> ai chatbot encryption flaw [NEW]
+  ai code generation security                        -> ai code security
+  ai code governance                                 -> ai code governance [NEW]
+  ai code review tools                               -> ai code security tools [NEW]
+  ai code security                                   -> ai code security [SELF]
+  ai code security risks                             -> ai code security
+  ai code security survey                            -> ai code security
+  ai code security testing                           -> ai code security
+  ai code security tools                             -> ai code security tools [NEW]
+  ai coding agent risks                              -> ai coding security risks [NEW]
+  ai coding agent security tradeoff                  -> ai coding security risks [NEW]
+  ai coding agents security                          -> ai coding security [NEW]
+  ai coding assistant vulnerabilities                -> ai coding security [NEW]
+  ai coding governance risks                         -> ai coding governance [NEW]
+  ai coding risk assessment                          -> ai coding security risks [NEW]
+  ai coding security                                 -> ai coding security [NEW]
+  ai coding security risks                           -> ai coding security risks [NEW]
+  ai coding tool risks                               -> ai coding security risks [NEW]
+  ai compliance innovations                          -> ai compliance innovations [NEW]
+  ai compliance regulations                          -> ai compliance regulations [NEW]
+  ai cybersecurity convergence                       -> ai in cybersecurity
+  ai cybersecurity defense                           -> ai in cybersecurity
+  ai cybersecurity integration                       -> ai in cybersecurity
+  ai cybersecurity partnerships                      -> ai in cybersecurity
+  ai cybersecurity risks                             -> ai cybersecurity risks [NEW]
+  ai cybersecurity threats                           -> ai cybersecurity risks [NEW]
+  ai cybersecurity tools                             -> ai in cybersecurity
+  ai data security                                   -> ai data security [NEW]
+  ai deepfake detection                              -> ai deepfake detection [NEW]
+  ai development security                            -> ai development security [NEW]
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: EdTech  |  BATCH: 360 feedback tools ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  360 feedback tools
+  3d avatars
+  3d graphics education
+  3d printed architecture models
+  academic conference submissions
+  academic content partnerships
+  academic industry collaboration
+  academic job standards
+  academic partnership programs
+  academic program growth
+  academic publishing challenges
+  academic skills gaps
+  academic workshop submissions
+  academic writing issues
+  academy launch challenges
+  accessibility compliance
+  accessibility standards relevance
+  accessibility tools
+  accessibility tools evaluation
+  accessible design
+  accessible drag and drop
+  accessible graphing tools
+  accessible learning
+  accessible video content
+  active learning impact
+  active learning model
+  adaptive learning apps
+  adaptive learning content
+  adaptive learning tools
+  adaptive skills learning
+  addie model training
+  adhd productivity tools
+  admission and yield rates
+  adobe captivate issues
+  adobe captivate pricing
+  adult learning principles
+  advanced tech education programs
+  advertising ethics
+  agent automation tutorial
+  agentic ai education
+  agentic ai for workforce development
+  agentic ai in education
+  agentic ai learning
+  agentic ai workflows
+  agentic ai workforce solutions
+  agentic coding
+  agentic spec coding
+  ai academic dishonesty
+  ai academic integrity
+  ai adoption challenges
+  ai adoption fears
+  ai adoption in edtech
+  ai adoption in education
+  ai adoption in higher education
+  ai adoption in learning
+  ai adoption measurement
+  ai adoption readiness
+  ai adoption strategies
+  ai adoption training
+  ai agent development
+MAPPINGS:
+  360 feedback tools                                 -> edtech productivity tools
+  3d avatars                                         -> educational apps
+  3d graphics education                              -> educational software development
+  3d printed architecture models                     -> educational apps
+  academic conference submissions                    -> education industry events
+  academic content partnerships                      -> academic industry collaboration [NEW]
+  academic industry collaboration                    -> academic industry collaboration [NEW]
+  academic job standards                             -> edtech hiring
+  academic partnership programs                      -> academic industry collaboration [NEW]
+  academic program growth                            -> higher education transformation
+  academic publishing challenges                     -> academic publishing challenges [NEW]
+  academic skills gaps                               -> academic skills gaps [NEW]
+  academic workshop submissions                      -> education industry events
+  academic writing issues                            -> academic writing issues [NEW]
+  academy launch challenges                          -> edtech product launches
+  accessibility compliance                           -> accessible design
+  accessibility standards relevance                  -> accessible design
+  accessibility tools                                -> accessible design
+  accessibility tools evaluation                     -> accessible design
+  accessible design                                  -> accessible design [SELF]
+  accessible drag and drop                           -> accessible design
+  accessible graphing tools                          -> accessible design
+  accessible learning                                -> accessible learning [SELF]
+  accessible video content                           -> accessible learning
+  active learning impact                             -> learning experience design
+  active learning model                              -> learning experience design
+  adaptive learning apps                             -> personalized learning apps
+  adaptive learning content                          -> personalized learning apps
+  adaptive learning tools                            -> personalized learning apps
+  adaptive skills learning                           -> personalized learning apps
+  addie model training                               -> instructional design
+  adhd productivity tools                            -> edtech productivity tools
+  admission and yield rates                          -> higher education transformation
+  adobe captivate issues                             -> elearning authoring tools
+  adobe captivate pricing                            -> elearning authoring tools
+  adult learning principles                          -> learning and development
+  advanced tech education programs                   -> higher education transformation
+  advertising ethics                                 -> education innovation
+  agent automation tutorial                          -> ai in education
+  agentic ai education                               -> ai in education
+  agentic ai for workforce development               -> workforce upskilling
+  agentic ai in education                            -> ai in education
+  agentic ai learning                                -> ai in education
+  agentic ai workflows                               -> ai in education
+  agentic ai workforce solutions                     -> workforce upskilling
+  agentic coding                                     -> programming courses
+  agentic spec coding                                -> programming courses
+  ai academic dishonesty                             -> ai academic integrity [NEW]
+  ai academic integrity                              -> ai academic integrity [NEW]
+  ai adoption challenges                             -> ai adoption in education [NEW]
+  ai adoption fears                                  -> ai adoption in education [NEW]
+  ai adoption in edtech                              -> ai adoption in education [NEW]
+  ai adoption in education                           -> ai adoption in education [NEW]
+  ai adoption in higher education                    -> ai adoption in education [NEW]
+  ai adoption in learning                            -> ai adoption in education [NEW]
+  ai adoption measurement                            -> ai adoption in education [NEW]
+  ai adoption readiness                              -> ai adoption in education [NEW]
+  ai adoption strategies                             -> ai adoption in education [NEW]
+  ai adoption training                               -> ai adoption in education [NEW]
+  ai agent development                               -> ai in education
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Career  |  BATCH: 24x7 on-call work ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  24x7 on-call work
+  academic hiring requirements
+  academic job market
+  academic job openings
+  academic performance struggles
+  academic progress update
+  academic workload management
+  accessibility testing jobs
+  account executive hiring
+  acquihire opportunities
+  adhd workplace experience
+  adjunct teaching in ai
+  advanced education for career advancement
+  advisory board formation
+  aemt certification
+  agile learning resources
+  agile recruiting strategies
+  ai adoption in software engineering
+  ai architecture roles
+  ai assisted job hunting
+  ai career networking
+  ai career skills
+  ai certification achievement
+  ai certification programs
+  ai certifications
+  ai conference speaking
+  ai engineering job openings
+  ai entry level jobs
+  ai era upskilling
+  ai evaluation hiring
+  ai export controls legislation
+  ai hiring
+  ai hiring bias
+  ai hiring impact
+  ai impact job market
+  ai impact on careers
+  ai impact on developer roles
+  ai impact on developers
+  ai impact on engineering roles
+  ai impact on hiring
+  ai impact on it professionals
+  ai impact on job market
+  ai impact on jobs
+  ai impact on roles
+  ai impact workplace
+  ai in hiring
+  ai in job applications
+  ai in recruitment
+  ai in sales leadership
+  ai interview preparation
+  ai job displacement
+  ai job market
+  ai job market impact
+  ai job market segmentation
+  ai job search tools
+  ai onboarding experience
+  ai platform hiring
+  ai product engineering roles
+  ai product hiring
+  ai product management certification
+MAPPINGS:
+  24x7 on-call work                                  -> work life balance
+  academic hiring requirements                       -> academic job market [NEW]
+  academic job market                                -> academic job market [NEW]
+  academic job openings                              -> academic job market [NEW]
+  academic performance struggles                     -> academic progress update [NEW]
+  academic progress update                           -> academic progress update [NEW]
+  academic workload management                       -> academic progress update [NEW]
+  accessibility testing jobs                         -> engineering job market
+  account executive hiring                           -> job hiring announcements
+  acquihire opportunities                            -> job hiring announcements
+  adhd workplace experience                          -> work life balance
+  adjunct teaching in ai                             -> instructional design career
+  advanced education for career advancement          -> career transition
+  advisory board formation                           -> career decision making
+  aemt certification                                 -> career transition
+  agile learning resources                           -> backend development learning
+  agile recruiting strategies                        -> job recruitment
+  ai adoption in software engineering                -> software engineering hiring
+  ai architecture roles                              -> engineering job market
+  ai assisted job hunting                            -> job search
+  ai career networking                               -> job search
+  ai career skills                                   -> career transition
+  ai certification achievement                       -> career transition
+  ai certification programs                          -> career transition
+  ai certifications                                  -> career transition
+  ai conference speaking                             -> career decision making
+  ai engineering job openings                        -> engineering job market
+  ai entry level jobs                                -> job market challenges
+  ai era upskilling                                  -> career transition
+  ai evaluation hiring                               -> engineering hiring
+  ai export controls legislation                     -> job market challenges
+  ai hiring                                          -> engineering hiring
+  ai hiring bias                                     -> engineering hiring
+  ai hiring impact                                   -> engineering hiring
+  ai impact job market                               -> job market challenges
+  ai impact on careers                               -> career transition
+  ai impact on developer roles                       -> software engineering hiring
+  ai impact on developers                            -> software engineering hiring
+  ai impact on engineering roles                     -> engineering job market
+  ai impact on hiring                                -> engineering hiring
+  ai impact on it professionals                      -> engineering job market
+  ai impact on job market                            -> job market challenges
+  ai impact on jobs                                  -> job market challenges
+  ai impact on roles                                 -> job market challenges
+  ai impact workplace                                -> work life balance
+  ai in hiring                                       -> engineering hiring
+  ai in job applications                             -> job application process
+  ai in recruitment                                  -> job recruitment
+  ai in sales leadership                             -> product management hiring
+  ai interview preparation                           -> interview preparation
+  ai job displacement                                -> job market challenges
+  ai job market                                      -> job market challenges
+  ai job market impact                               -> job market challenges
+  ai job market segmentation                         -> job market challenges
+  ai job search tools                                -> job search
+  ai onboarding experience                           -> work life balance
+  ai platform hiring                                 -> engineering hiring
+  ai product engineering roles                       -> engineering job market
+  ai product hiring                                  -> product management hiring
+  ai product management certification                -> product management hiring
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Business & Strategy  |  BATCH: 3d reconstruction technology ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  3d reconstruction technology
+  5s methodology application
+  a/b testing ui design
+  account management efficiency
+  account management features
+  account research techniques
+  active listening skills
+  ad campaign optimization
+  ad-supported software tiers
+  ada web lawsuits
+  adaptability in business
+  adtech data transparency
+  advertising production
+  advertising sales success
+  advertising to genz
+  aec file management
+  aerospace startup market map
+  agency business growth
+  agent workforce implementation
+  agent workforce platform
+  agentic ai adoption
+  agentic ai impact
+  agentic ai in retail
+  agentic ai in saas
+  agentic saas companies
+  agile community reactions
+  agile framework adaptation
+  ai adoption challenges
+  ai adoption in banking
+  ai adoption in software
+  ai adoption in telco
+  ai adoption stages
+  ai adoption trends
+  ai advertising narratives
+  ai advertising systems
+  ai advertising tools
+  ai agency transformation
+  ai and automation in operations
+  ai and gpu industry competition
+  ai and real-time data events
+  ai and sustainability
+  ai app development funding
+  ai app user growth
+  ai applications in retail
+  ai arms race in commerce
+  ai art marketing
+  ai automation agencies
+  ai automation in critical work
+  ai automation in enterprise
+  ai automation in operations
+  ai automation value
+  ai brand emotion
+  ai brand visibility
+  ai branding strategies
+  ai business applications
+  ai business future
+  ai business models
+  ai business predictions 2026
+  ai business strategy
+  ai business value
+MAPPINGS:
+  3d reconstruction technology                       -> 3d reconstruction technology [NEW]
+  5s methodology application                         -> 5s methodology application [NEW]
+  a/b testing ui design                              -> a/b testing ui design [NEW]
+  account management efficiency                      -> customer relationship management
+  account management features                        -> customer relationship management
+  account research techniques                        -> customer feedback analysis
+  active listening skills                            -> active listening skills [NEW]
+  ad campaign optimization                           -> digital marketing challenges
+  ad-supported software tiers                        -> subscription business models
+  ada web lawsuits                                   -> ada web lawsuits [NEW]
+  adaptability in business                           -> adaptability in business [NEW]
+  adtech data transparency                           -> adtech data transparency [NEW]
+  advertising production                             -> advertising production [NEW]
+  advertising sales success                          -> advertising sales success [NEW]
+  advertising to genz                                -> advertising to genz [NEW]
+  aec file management                                -> aec file management [NEW]
+  aerospace startup market map                       -> aerospace startup market map [NEW]
+  agency business growth                             -> agency business growth [NEW]
+  agent workforce implementation                     -> agent workforce implementation [NEW]
+  agent workforce platform                           -> agent workforce platform [NEW]
+  agentic ai adoption                                -> ai adoption challenges
+  agentic ai impact                                  -> agentic ai impact [SELF]
+  agentic ai in retail                               -> agentic ai impact
+  agentic ai in saas                                 -> agentic ai impact
+  agentic saas companies                             -> agentic saas companies [NEW]
+  agile community reactions                          -> agile community reactions [NEW]
+  agile framework adaptation                         -> agile framework adaptation [NEW]
+  ai adoption challenges                             -> ai adoption challenges [SELF]
+  ai adoption in banking                             -> ai in banking
+  ai adoption in software                            -> ai in enterprise software
+  ai adoption in telco                               -> ai adoption challenges
+  ai adoption stages                                 -> ai adoption challenges
+  ai adoption trends                                 -> ai startup trends
+  ai advertising narratives                          -> ai impact on marketing
+  ai advertising systems                             -> ai impact on marketing
+  ai advertising tools                               -> ai impact on marketing
+  ai agency transformation                           -> ai workforce transformation
+  ai and automation in operations                    -> ai automation in operations [NEW]
+  ai and gpu industry competition                    -> ai and gpu industry competition [NEW]
+  ai and real-time data events                       -> ai and real-time data events [NEW]
+  ai and sustainability                              -> ai and sustainability [NEW]
+  ai app development funding                         -> startup funding
+  ai app user growth                                 -> startup user growth
+  ai applications in retail                          -> ai impact on marketing
+  ai arms race in commerce                           -> ai economic impact
+  ai art marketing                                   -> ai impact on marketing
+  ai automation agencies                             -> ai automation in operations [NEW]
+  ai automation in critical work                     -> ai automation in operations [NEW]
+  ai automation in enterprise                        -> ai automation in enterprise [NEW]
+  ai automation in operations                        -> ai automation in operations [NEW]
+  ai automation value                                -> ai automation in operations [NEW]
+  ai brand emotion                                   -> ai brand visibility
+  ai brand visibility                                -> ai brand visibility [SELF]
+  ai branding strategies                             -> ai brand visibility
+  ai business applications                           -> ai business applications [NEW]
+  ai business future                                 -> ai business predictions 2026 [NEW]
+  ai business models                                 -> ai business models [NEW]
+  ai business predictions 2026                       -> ai business predictions 2026 [NEW]
+  ai business strategy                               -> ai business strategy [NEW]
+  ai business value                                  -> ai business value [NEW]
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Data & Analytics  |  BATCH: a/b testing and causal inference ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  a/b testing and causal inference
+  a/b testing statistics
+  a/b testing tools
+  ab testing design
+  ab testing methodology
+  adaptive query optimization
+  agentic ai in data engineering
+  agentic credit score analysis
+  ai adoption challenges
+  ai adoption metrics
+  ai agents analytics
+  ai agents for data insights
+  ai agents in data analytics
+  ai agents in data migration
+  ai agents orchestration
+  ai analytics assistants
+  ai analytics tools
+  ai data analysis
+  ai data analysis automation
+  ai data analytics tools
+  ai data assistant
+  ai data foundations
+  ai data hackathon
+  ai data pipeline automation
+  ai data pipelines
+  ai data platform innovation
+  ai data science tools
+  ai data strategies
+  ai data visualization
+  ai database services
+  ai demand forecasting
+  ai edge functions
+  ai engineering data engineering
+  ai feedback tools
+  ai governance platforms
+  ai in databases
+  ai in education platforms
+  ai incident management
+  ai integration in data science
+  ai metadata integration
+  ai product features
+  ai sql query tools
+  ai trust and data governance
+  ai-driven data pipelines
+  ai-driven semantic layer
+  ai-powered incident response
+  alphafold technology
+  amplitude implementation
+  amplitude platform updates
+  amplitude snowflake event
+  analytical sql queries
+  analytics industry evolution
+  analytics orchestration
+  analytics platform integration
+  analytics platform migration
+  analytics platform usability
+  analytics provider issues
+  analytics tool adoption
+  annotator agreement
+  apache iceberg performance
+MAPPINGS:
+  a/b testing and causal inference                   -> bayesian statistics
+  a/b testing statistics                             -> bayesian statistics
+  a/b testing tools                                  -> analytics platform usability
+  ab testing design                                  -> bayesian statistics
+  ab testing methodology                             -> bayesian statistics
+  adaptive query optimization                        -> query optimization
+  agentic ai in data engineering                     -> ai in databases
+  agentic credit score analysis                      -> ai in databases
+  ai adoption challenges                             -> ai in databases
+  ai adoption metrics                                -> ai in databases
+  ai agents analytics                                -> ai in databases
+  ai agents for data insights                        -> ai in databases
+  ai agents in data analytics                        -> ai in databases
+  ai agents in data migration                        -> data platform migration
+  ai agents orchestration                            -> workflow orchestration tools
+  ai analytics assistants                            -> ai in databases
+  ai analytics tools                                 -> ai in databases
+  ai data analysis                                   -> ai in databases
+  ai data analysis automation                        -> ai in databases
+  ai data analytics tools                            -> ai in databases
+  ai data assistant                                  -> ai in databases
+  ai data foundations                                -> ai in databases
+  ai data hackathon                                  -> ai in databases
+  ai data pipeline automation                        -> ai-driven data pipelines [NEW]
+  ai data pipelines                                  -> ai-driven data pipelines [NEW]
+  ai data platform innovation                        -> data platform innovation [NEW]
+  ai data science tools                              -> ai in databases
+  ai data strategies                                 -> ai in databases
+  ai data visualization                              -> ai data visualization [SELF]
+  ai database services                               -> ai in databases
+  ai demand forecasting                              -> time series forecasting
+  ai edge functions                                  -> ai in databases
+  ai engineering data engineering                    -> data engineering
+  ai feedback tools                                  -> ai in databases
+  ai governance platforms                            -> ai trust and data governance [NEW]
+  ai in databases                                    -> ai in databases [SELF]
+  ai in education platforms                          -> ai in education platforms [NEW]
+  ai incident management                             -> ai-powered incident response [NEW]
+  ai integration in data science                     -> ai in databases
+  ai metadata integration                            -> data asset management
+  ai product features                                -> ai in databases
+  ai sql query tools                                 -> ai in databases
+  ai trust and data governance                       -> ai trust and data governance [NEW]
+  ai-driven data pipelines                           -> ai-driven data pipelines [NEW]
+  ai-driven semantic layer                           -> knowledge graphs
+  ai-powered incident response                       -> ai-powered incident response [NEW]
+  alphafold technology                               -> biological data platforms
+  amplitude implementation                           -> analytics platform usability
+  amplitude platform updates                         -> analytics platform usability
+  amplitude snowflake event                          -> analytics platform usability
+  analytical sql queries                             -> sql querying techniques
+  analytics industry evolution                       -> analytics platform usability
+  analytics orchestration                            -> workflow orchestration tools
+  analytics platform integration                     -> analytics platform usability
+  analytics platform migration                       -> analytics platform usability
+  analytics platform usability                       -> analytics platform usability [SELF]
+  analytics provider issues                          -> analytics platform usability
+  analytics tool adoption                            -> analytics platform usability
+  annotator agreement                                -> data quality
+  apache iceberg performance                         -> database performance
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Leadership & Management  |  BATCH: acronym usage challenges ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  acronym usage challenges
+  adaptability in leadership
+  advocacy importance
+  agentic ai organizational readiness
+  agentic automation workshop
+  agile adoption challenges
+  agile challenges discussion
+  agile coaching challenges
+  agile community debate
+  agile development practices
+  agile engineering culture
+  agile implementation challenges
+  agile methodology challenges
+  agile methodology debate
+  agile mindset challenges
+  agile policy implementation
+  agile release train performance
+  agile sprint planning challenges
+  agile team dynamics
+  agile workflow optimization
+  ai adoption challenges
+  ai adoption impact
+  ai adoption in government
+  ai adoption in organizations
+  ai adoption in software development
+  ai adoption leadership
+  ai adoption strategies
+  ai adoption strategy
+  ai adoption tactics
+  ai adoption timing
+  ai agent management
+  ai agent teams
+  ai and automation events
+  ai and automation in public sector
+  ai and data leadership
+  ai and leadership
+  ai assisted development
+  ai conference speaking
+  ai decision making
+  ai default settings impact
+  ai engineering leadership events
+  ai ethics in hr
+  ai expectation management
+  ai expectations from boards
+  ai fintech scaling
+  ai governance
+  ai hackathon learning
+  ai impact on jobs
+  ai impact on leadership
+  ai impact on skills
+  ai impact on talent strategies
+  ai impact on work
+  ai in hiring
+  ai in hr
+  ai in hr management
+  ai in management
+  ai in people management
+  ai in performance reviews
+  ai in program management
+  ai in recruitment
+MAPPINGS:
+  acronym usage challenges                           -> leadership communication
+  adaptability in leadership                         -> leadership qualities
+  advocacy importance                                -> leadership qualities
+  agentic ai organizational readiness                -> ai adoption challenges
+  agentic automation workshop                        -> leadership events
+  agile adoption challenges                          -> agile methodology challenges
+  agile challenges discussion                        -> agile methodology challenges
+  agile coaching challenges                          -> agile methodology challenges
+  agile community debate                             -> agile methodology challenges
+  agile development practices                        -> agile methodology challenges
+  agile engineering culture                          -> engineering team culture
+  agile implementation challenges                    -> agile methodology challenges
+  agile methodology challenges                       -> agile methodology challenges [SELF]
+  agile methodology debate                           -> agile methodology challenges
+  agile mindset challenges                           -> agile methodology challenges
+  agile policy implementation                        -> agile methodology challenges
+  agile release train performance                    -> agile methodology challenges
+  agile sprint planning challenges                   -> agile methodology challenges
+  agile team dynamics                                -> engineering team culture
+  agile workflow optimization                        -> agile methodology challenges
+  ai adoption challenges                             -> ai adoption challenges [SELF]
+  ai adoption impact                                 -> ai adoption challenges
+  ai adoption in government                          -> ai adoption challenges
+  ai adoption in organizations                       -> ai adoption challenges
+  ai adoption in software development                -> ai adoption challenges
+  ai adoption leadership                             -> ai adoption challenges
+  ai adoption strategies                             -> ai adoption challenges
+  ai adoption strategy                               -> ai adoption challenges
+  ai adoption tactics                                -> ai adoption challenges
+  ai adoption timing                                 -> ai adoption challenges
+  ai agent management                                -> ai adoption challenges
+  ai agent teams                                     -> ai adoption challenges
+  ai and automation events                           -> leadership events
+  ai and automation in public sector                 -> ai adoption challenges
+  ai and data leadership                             -> engineering leadership
+  ai and leadership                                  -> engineering leadership
+  ai assisted development                            -> engineering leadership
+  ai conference speaking                             -> leadership events
+  ai decision making                                 -> engineering decision making
+  ai default settings impact                         -> ai adoption challenges
+  ai engineering leadership events                   -> leadership events
+  ai ethics in hr                                    -> diversity and inclusion
+  ai expectation management                          -> leadership communication
+  ai expectations from boards                        -> leadership accountability
+  ai fintech scaling                                 -> ai adoption challenges
+  ai governance                                      -> leadership accountability
+  ai hackathon learning                              -> organizational learning
+  ai impact on jobs                                  -> ai impact on workforce
+  ai impact on leadership                            -> leadership challenges
+  ai impact on skills                                -> ai impact on workforce
+  ai impact on talent strategies                     -> employee retention challenges
+  ai impact on work                                  -> ai impact on workforce
+  ai in hiring                                       -> employee retention challenges
+  ai in hr                                           -> employee retention challenges
+  ai in hr management                                -> employee retention challenges
+  ai in management                                   -> engineering management skills
+  ai in people management                            -> people-first leadership
+  ai in performance reviews                          -> employee retention challenges
+  ai in program management                           -> project management challenges
+  ai in recruitment                                  -> employee retention challenges
+
+─────────────────────────────────────────────────────────────────
+DOMAIN: Open Source  |  BATCH: a2a protocol donation ... (60 labels)
+─────────────────────────────────────────────────────────────────
+INPUT LABELS:
+  a2a protocol donation
+  adult content dataset
+  agent frameworks standardization
+  agent task management tools
+  agent tool libraries
+  agent trace visualization
+  agentic graph rag
+  ai agent concurrency
+  ai agent inventory tools
+  ai agent memory
+  ai agent open source
+  ai agent repositories
+  ai agent systems
+  ai agent testing tools
+  ai agent tools
+  ai agent tutorials
+  ai app development tools
+  ai application development
+  ai augmentation framework
+  ai coding agents
+  ai coding assistants
+  ai content moderation
+  ai curriculum tools
+  ai customer support scaling
+  ai database automation
+  ai detection game
+  ai devops tools
+  ai educational resources
+  ai fact checking tools
+  ai game development
+  ai generated code licensing
+  ai in open source
+  ai industrial automation integration
+  ai instruction files
+  ai integration examples
+  ai interview prep tools
+  ai library dependencies
+  ai maintenance automation
+  ai project visualization tool
+  ai research agents
+  ai safety platforms
+  ai sdk for databases
+  ai summarization tools
+  ai tool capabilities
+  ai tooling ecosystems
+  ai tooling in education
+  ai trust hackathon
+  ai-ml-dl repositories
+  ai-powered support tools
+  airbyte updates
+  android open source clients
+  android test builds
+  angular component migration
+  angularjs datagrid
+  api authentication tooling
+  api integration agents
+  api libraries
+  api observability
+  api security vulnerabilities
+  app use cases
+MAPPINGS:
+  a2a protocol donation                              -> open source funding
+  adult content dataset                              -> open source ai models
+  agent frameworks standardization                   -> ai agent tools [NEW]
+  agent task management tools                        -> ai agent tools [NEW]
+  agent tool libraries                               -> ai agent tools [NEW]
+  agent trace visualization                          -> ai agent tools [NEW]
+  agentic graph rag                                  -> ai agent tools [NEW]
+  ai agent concurrency                               -> ai agent tools [NEW]
+  ai agent inventory tools                           -> ai agent tools [NEW]
+  ai agent memory                                    -> ai agent tools [NEW]
+  ai agent open source                               -> ai agent tools [NEW]
+  ai agent repositories                              -> ai agent tools [NEW]
+  ai agent systems                                   -> ai agent tools [NEW]
+  ai agent testing tools                             -> ai agent tools [NEW]
+  ai agent tools                                     -> ai agent tools [NEW]
+  ai agent tutorials                                 -> ai agent tools [NEW]
+  ai app development tools                           -> ai application development [NEW]
+  ai application development                         -> ai application development [NEW]
+  ai augmentation framework                          -> ai agent tools [NEW]
+  ai coding agents                                   -> ai agent tools [NEW]
+  ai coding assistants                               -> ai agent tools [NEW]
+  ai content moderation                              -> open source ai models
+  ai curriculum tools                                -> ai educational resources [NEW]
+  ai customer support scaling                        -> ai-powered support tools [NEW]
+  ai database automation                             -> ai sdk for databases [NEW]
+  ai detection game                                  -> open source ai models
+  ai devops tools                                    -> ai tooling ecosystems [NEW]
+  ai educational resources                           -> ai educational resources [NEW]
+  ai fact checking tools                             -> ai tool capabilities [NEW]
+  ai game development                                -> open source ai models
+  ai generated code licensing                        -> open source contributions
+  ai in open source                                  -> open source ai models
+  ai industrial automation integration               -> ai agent tools [NEW]
+  ai instruction files                               -> ai educational resources [NEW]
+  ai integration examples                            -> ai tooling ecosystems [NEW]
+  ai interview prep tools                            -> ai educational resources [NEW]
+  ai library dependencies                            -> ai tooling ecosystems [NEW]
+  ai maintenance automation                          -> ai maintenance automation [NEW]
+  ai project visualization tool                      -> ai project visualization tool [NEW]
+  ai research agents                                 -> ai agent tools [NEW]
+  ai safety platforms                                -> ai safety platforms [NEW]
+  ai sdk for databases                               -> ai sdk for databases [NEW]
+  ai summarization tools                             -> ai tool capabilities [NEW]
+  ai tool capabilities                               -> ai tool capabilities [NEW]
+  ai tooling ecosystems                              -> ai tooling ecosystems [NEW]
+  ai tooling in education                            -> ai educational resources [NEW]
+  ai trust hackathon                                 -> community events
+  ai-ml-dl repositories                              -> open source contributions
+  ai-powered support tools                           -> ai-powered support tools [NEW]
+  airbyte updates                                    -> software release announcements
+  android open source clients                        -> open source contributions
+  android test builds                                -> software release announcements
+  angular component migration                        -> open source contributions
+  angularjs datagrid                                 -> open source contributions
+  api authentication tooling                         -> ai tooling ecosystems [NEW]
+  api integration agents                             -> ai agent tools [NEW]
+  api libraries                                      -> open source contributions
+  api observability                                  -> ai tooling ecosystems [NEW]
+  api security vulnerabilities                       -> open source project maintenance
+  app use cases                                      -> open source contributions

@@ -1,0 +1,10 @@
+CONSISTENCY CHECK -- NEAR-DUPLICATE INVENTED TOPICS
+=================================================================
+Jaccard threshold: 0.6
+These pairs were invented independently and may be duplicates.
+Review and consider merging in topic_cluster_map.json before
+running apply_topic_map.py.
+=================================================================
+
+
+Total flagged pairs: 0
