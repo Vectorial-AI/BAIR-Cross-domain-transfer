@@ -1,0 +1,165 @@
+==========================================================================================
+STIMULUS REPORT
+Characterising stimuli already captured via topic and topic_narrow
+tagged_posts_v2_normalised.csv
+==========================================================================================
+
+This report quantifies what exists. It does not impose a definition.
+Categories are for manual coding, not auto-classification.
+
+SCOPE: the nine normalised domains only (20,529 posts).
+Healthcare, Other, and posts with no topic_broad value are out of scope
+and excluded entirely from every count in this report.
+
+------------------------------------------------------------------------------------------
+1. NAMED-EVENT STIMULI (topic_narrow field)
+------------------------------------------------------------------------------------------
+
+  Transfer-eligible posts (opinion + news_reaction): 13,289
+  Posts with a named event (topic_narrow != topic):  11,537 (86.8%)
+  Unique named events:                                11,148
+  Named events appearing on exactly 1 post:           10,857 (97.4% of unique named events)
+  Named events appearing on 2+ posts (recurring):     291
+
+  Named events by domain (posts with a named event):
+    Software Engineering             3,109 posts  |  3,019 unique named events
+    AI                               1,649 posts  |  1,609 unique named events
+    Security                         1,166 posts  |  1,122 unique named events
+    EdTech                           1,355 posts  |  1,315 unique named events
+    Career                             972 posts  |   930 unique named events
+    Business & Strategy              1,195 posts  |  1,183 unique named events
+    Data & Analytics                   762 posts  |   743 unique named events
+    Leadership & Management            864 posts  |   855 unique named events
+    Open Source                        465 posts  |   454 unique named events
+
+  Top 20 most frequent named events (candidates for recurring/periodic events,
+  e.g. annual conferences, recurring product cycles -- vs one-off news):
+    npm supply chain attack may 2024                               13
+    engineering hiring market                                      11
+    postgresql person of the week interview                        10
+    coursera udemy merger                                           9
+    oracle to postgresql migration                                  6
+    amplitude ai agents launch                                      4
+    ai code review tools                                            4
+    ai job impact                                                   4
+    dagster data orchestration                                      4
+    postgresql 16 release                                           4
+    career growth strategies                                        4
+    ai adoption impact                                              4
+    postgres fm podcast                                             4
+    bifrost llm gateway launch                                      4
+    frontend performance checklist                                  4
+    bifrost vs litellm benchmarks                                   4
+    synthesia 3.0 launch                                            3
+    ai impact on leadership                                         3
+    memory systems design                                           3
+    rover embeddable web agent launch                               3
+
+------------------------------------------------------------------------------------------
+2. ABSTRACTED STIMULI (topic field, non-singleton canonical topics)
+------------------------------------------------------------------------------------------
+
+  Total canonical topics (topic field):        5,408
+  Non-singleton canonical topics (freq >= 2):  2,647
+  Singleton canonical topics (freq == 1):      2,761
+
+  Non-singleton canonical topics by domain:
+    Software Engineering              891 canonical topics  |   4,552 posts covered
+    AI                                189 canonical topics  |   2,249 posts covered
+    Security                          251 canonical topics  |   1,520 posts covered
+    EdTech                            328 canonical topics  |   2,471 posts covered
+    Career                            244 canonical topics  |   2,552 posts covered
+    Business & Strategy               320 canonical topics  |   1,484 posts covered
+    Data & Analytics                  170 canonical topics  |   1,077 posts covered
+    Leadership & Management           111 canonical topics  |   1,100 posts covered
+    Open Source                       143 canonical topics  |     763 posts covered
+
+  Top 30 highest-frequency abstracted stimuli (cross-domain totals shown for
+  context; a topic appearing in multiple domains is counted as a separate
+  canonical topic per domain in the totals above, but summed here for display):
+    engineering hiring                                            217
+    postgresql features                                           154
+    ai adoption challenges                                        133
+    job hiring announcements                                      133
+    ai in education                                               123
+    ai coding tools                                               103
+    career advancement                                             84
+    ai content generation                                          82
+    interview preparation                                          80
+    software supply chain security                                 78
+    ai developer tools                                             73
+    job search                                                     70
+    ai applications                                                69
+    career transition                                              68
+    ai impact on jobs                                              65
+    community events                                               63
+    leadership development                                         62
+    database management                                            61
+    job application process                                        60
+    ai community events                                            59
+    react state management                                         59
+    leadership challenges                                          59
+    open source tooling                                            56
+    postgresql performance                                         56
+    programming language choice                                    56
+    emergency medical technician jobs                              54
+    career decision making                                         53
+    sql query optimization                                         53
+    product management hiring                                      52
+    job market challenges                                          49
+
+------------------------------------------------------------------------------------------
+3. AMBIGUOUS ZONE
+------------------------------------------------------------------------------------------
+
+  Topics (from the topic field) that have 3+ distinct named events
+  (topic_narrow variants) underneath them. These are candidates for being
+  too broad / aspect-like rather than a single coherent stimulus --
+  e.g. 'ai in education' covering many distinct underlying events.
+  Manual review needed: is this one recurring stimulus, or several
+  distinct stimuli that happen to share a topic label?
+
+  1,082 topics flagged for review.
+
+    postgresql features                      [Software Engineering    ]  74 distinct named events underneath
+    ai coding tools                          [Software Engineering    ]  71 distinct named events underneath
+    ai in education                          [EdTech                  ]  66 distinct named events underneath
+    ai adoption challenges                   [AI                      ]  63 distinct named events underneath
+    software supply chain security           [Security                ]  54 distinct named events underneath
+    ai applications                          [AI                      ]  52 distinct named events underneath
+    leadership challenges                    [Leadership & Management ]  52 distinct named events underneath
+    ai impact on jobs                        [AI                      ]  47 distinct named events underneath
+    career advancement                       [Career                  ]  44 distinct named events underneath
+    leadership development                   [Leadership & Management ]  43 distinct named events underneath
+    postgresql features                      [Data & Analytics        ]  42 distinct named events underneath
+    interview preparation                    [Career                  ]  40 distinct named events underneath
+    sales challenges                         [Business & Strategy     ]  37 distinct named events underneath
+    programming language choice              [Software Engineering    ]  36 distinct named events underneath
+    database management                      [Software Engineering    ]  34 distinct named events underneath
+    job market challenges                    [Career                  ]  34 distinct named events underneath
+    ai business integration                  [AI                      ]  34 distinct named events underneath
+    ai security                              [Security                ]  34 distinct named events underneath
+    ai developer tools                       [AI                      ]  31 distinct named events underneath
+    ai adoption challenges                   [Leadership & Management ]  31 distinct named events underneath
+    ai agents                                [AI                      ]  31 distinct named events underneath
+    java ecosystem updates                   [Software Engineering    ]  31 distinct named events underneath
+    ai content generation                    [AI                      ]  30 distinct named events underneath
+    ai community events                      [AI                      ]  30 distinct named events underneath
+    react state management                   [Software Engineering    ]  29 distinct named events underneath
+
+------------------------------------------------------------------------------------------
+4. SUMMARY FOR TYPOLOGY CODING
+------------------------------------------------------------------------------------------
+
+  named_event_stimuli.csv contains 11,537 posts (one row per post)
+  with their topic_narrow value, for manual categorisation into types
+  (product release, security incident, policy change, conference/event,
+  M&A, other -- categories to be derived from reading the actual list,
+  not imposed in advance).
+
+  abstracted_stimuli.csv contains 2,647 canonical topic-domain pairs
+  (one row per topic per domain) with frequency, for manual categorisation
+  into types (recurring technical concern, market/career condition,
+  recurring debate, other).
+
+==========================================================================================

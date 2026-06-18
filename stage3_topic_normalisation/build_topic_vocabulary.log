@@ -1,0 +1,858 @@
+2026-06-10 18:31:16 [DEBUG] API_CALL tag=seed:Software Engineering chars=774 elapsed=3.36s
+2026-06-10 18:31:16 [INFO] SEED_DONE domain='Software Engineering' canonical_count=28 threshold=5
+2026-06-10 18:31:25 [DEBUG] API_CALL tag=seed:AI chars=1707 elapsed=9.68s
+2026-06-10 18:31:25 [INFO] SEED_DONE domain='AI' canonical_count=64 threshold=3
+2026-06-10 18:31:31 [DEBUG] API_CALL tag=seed:Security chars=1523 elapsed=5.28s
+2026-06-10 18:31:31 [INFO] SEED_DONE domain='Security' canonical_count=49 threshold=3
+2026-06-10 18:31:39 [DEBUG] API_CALL tag=seed:EdTech chars=3097 elapsed=8.38s
+2026-06-10 18:31:39 [INFO] SEED_DONE domain='EdTech' canonical_count=105 threshold=2
+2026-06-10 18:31:42 [DEBUG] API_CALL tag=seed:Career chars=600 elapsed=2.58s
+2026-06-10 18:31:42 [INFO] SEED_DONE domain='Career' canonical_count=22 threshold=5
+2026-06-10 18:31:52 [DEBUG] API_CALL tag=seed:Business & Strategy chars=2909 elapsed=10.87s
+2026-06-10 18:31:52 [INFO] SEED_DONE domain='Business & Strategy' canonical_count=101 threshold=2
+2026-06-10 18:31:58 [DEBUG] API_CALL tag=seed:Data & Analytics chars=1465 elapsed=5.27s
+2026-06-10 18:31:58 [INFO] SEED_DONE domain='Data & Analytics' canonical_count=53 threshold=2
+2026-06-10 18:32:01 [DEBUG] API_CALL tag=seed:Leadership & Management chars=1117 elapsed=3.67s
+2026-06-10 18:32:01 [INFO] SEED_DONE domain='Leadership & Management' canonical_count=38 threshold=2
+2026-06-10 18:32:04 [DEBUG] API_CALL tag=seed:Open Source chars=661 elapsed=2.46s
+2026-06-10 18:32:04 [INFO] SEED_DONE domain='Open Source' canonical_count=23 threshold=3
+2026-06-10 18:32:04 [INFO] RUN_END elapsed=52s step=1
+2026-06-10 19:20:56 [DEBUG] API_CALL tag=map:Software Engineering:3d animation issues chars=3454 elapsed=13.54s
+2026-06-10 19:20:56 [WARNING] INVENTION_ALERT domain='Software Engineering' count=55 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:20:56 [INFO] INVENTED domain='Software Engineering' count=55 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:21:08 [DEBUG] API_CALL tag=map:AI:2d to 3d conversion chars=3227 elapsed=11.29s
+2026-06-10 19:21:08 [INFO] INVENTED domain='AI' count=1 examples=['3d vision language models']
+2026-06-10 19:21:19 [DEBUG] API_CALL tag=map:Security:access control risks chars=3146 elapsed=11.08s
+2026-06-10 19:21:19 [WARNING] INVENTION_ALERT domain='Security' count=12 examples=['access control vulnerabilities', 'account security', 'active directory integration']
+2026-06-10 19:21:19 [INFO] INVENTED domain='Security' count=12 examples=['access control vulnerabilities', 'account security', 'active directory integration']
+2026-06-10 19:21:29 [DEBUG] API_CALL tag=map:EdTech:360 feedback tools chars=3418 elapsed=10.40s
+2026-06-10 19:21:29 [WARNING] INVENTION_ALERT domain='EdTech' count=6 examples=['academic industry collaboration', 'academic content partnerships', 'ai academic integrity']
+2026-06-10 19:21:29 [INFO] INVENTED domain='EdTech' count=6 examples=['academic industry collaboration', 'academic content partnerships', 'ai academic integrity']
+2026-06-10 19:21:37 [DEBUG] API_CALL tag=map:Career:24x7 on-call work chars=3144 elapsed=8.21s
+2026-06-10 19:21:37 [INFO] INVENTED domain='Career' count=2 examples=['academic job market', 'academic progress update']
+2026-06-10 19:21:47 [DEBUG] API_CALL tag=map:Business & Strategy:3d reconstruction technology chars=3307 elapsed=9.28s
+2026-06-10 19:21:47 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=30 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 19:21:47 [INFO] INVENTED domain='Business & Strategy' count=30 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 19:21:56 [DEBUG] API_CALL tag=map:Data & Analytics:a/b testing and causal inferen chars=3211 elapsed=9.04s
+2026-06-10 19:21:56 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=5 examples=['ai-driven data pipelines', 'data platform innovation', 'ai trust and data governance']
+2026-06-10 19:21:56 [INFO] INVENTED domain='Data & Analytics' count=5 examples=['ai-driven data pipelines', 'data platform innovation', 'ai trust and data governance']
+2026-06-10 19:29:40 [DEBUG] API_CALL tag=map:Software Engineering:3d animation issues chars=3454 elapsed=10.91s
+2026-06-10 19:29:40 [WARNING] INVENTION_ALERT domain='Software Engineering' count=55 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:29:40 [INFO] INVENTED domain='Software Engineering' count=55 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:29:50 [DEBUG] API_CALL tag=map:AI:2d to 3d conversion chars=3227 elapsed=9.83s
+2026-06-10 19:29:50 [INFO] INVENTED domain='AI' count=3 examples=['3d vision language models', 'agentic ai workflows', 'agentic ai development']
+2026-06-10 19:29:59 [DEBUG] API_CALL tag=map:Security:access control risks chars=3296 elapsed=9.03s
+2026-06-10 19:29:59 [WARNING] INVENTION_ALERT domain='Security' count=29 examples=['access control vulnerabilities', 'account security', 'active directory integration']
+2026-06-10 19:29:59 [INFO] INVENTED domain='Security' count=29 examples=['access control vulnerabilities', 'account security', 'active directory integration']
+2026-06-10 19:30:08 [DEBUG] API_CALL tag=map:EdTech:360 feedback tools chars=3342 elapsed=9.29s
+2026-06-10 19:30:08 [WARNING] INVENTION_ALERT domain='EdTech' count=6 examples=['academic industry collaboration', 'academic publishing challenges', 'academic skills gaps']
+2026-06-10 19:30:08 [INFO] INVENTED domain='EdTech' count=6 examples=['academic industry collaboration', 'academic publishing challenges', 'academic skills gaps']
+2026-06-10 19:30:17 [DEBUG] API_CALL tag=map:Career:24x7 on-call work chars=3152 elapsed=8.14s
+2026-06-10 19:30:17 [INFO] INVENTED domain='Career' count=2 examples=['academic job market', 'academic progress update']
+2026-06-10 19:30:28 [DEBUG] API_CALL tag=map:Business & Strategy:3d reconstruction technology chars=3362 elapsed=11.27s
+2026-06-10 19:30:28 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=28 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 19:30:28 [INFO] INVENTED domain='Business & Strategy' count=28 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 19:30:38 [DEBUG] API_CALL tag=map:Data & Analytics:a/b testing and causal inferen chars=3208 elapsed=10.29s
+2026-06-10 19:30:38 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=5 examples=['ai-driven data pipelines', 'data platform innovation', 'ai trust and data governance']
+2026-06-10 19:30:38 [INFO] INVENTED domain='Data & Analytics' count=5 examples=['ai-driven data pipelines', 'data platform innovation', 'ai trust and data governance']
+2026-06-10 19:30:48 [DEBUG] API_CALL tag=map:Leadership & Management:acronym usage challenges chars=3427 elapsed=9.93s
+2026-06-10 19:30:57 [DEBUG] API_CALL tag=map:Open Source:a2a protocol donation chars=3091 elapsed=9.04s
+2026-06-10 19:30:57 [WARNING] INVENTION_ALERT domain='Open Source' count=10 examples=['ai agent tools', 'ai application development', 'ai educational resources']
+2026-06-10 19:30:57 [INFO] INVENTED domain='Open Source' count=10 examples=['ai agent tools', 'ai application development', 'ai educational resources']
+2026-06-10 19:30:57 [INFO] RUN_END elapsed=88s step=2 dry_run=True
+2026-06-10 19:50:12 [DEBUG] API_CALL tag=map:Software Engineering:3d animation issues chars=3391 elapsed=11.62s
+2026-06-10 19:50:12 [WARNING] INVENTION_ALERT domain='Software Engineering' count=49 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:50:12 [INFO] INVENTED domain='Software Engineering' count=49 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 19:50:28 [DEBUG] API_CALL tag=map:Software Engineering:agile planning tools chars=2976 elapsed=15.69s
+2026-06-10 19:50:38 [DEBUG] API_CALL tag=map:Software Engineering:ai coding assistant context chars=3306 elapsed=10.20s
+2026-06-10 19:50:38 [INFO] INVENTED domain='Software Engineering' count=3 examples=['ai database tools', 'ai developer tools', 'agentic software development']
+2026-06-10 19:50:46 [DEBUG] API_CALL tag=map:Software Engineering:ai incident management chars=3044 elapsed=8.29s
+2026-06-10 19:50:46 [WARNING] INVENTION_ALERT domain='Software Engineering' count=9 examples=['ai internal tools development', 'ai native software development', 'ai product development']
+2026-06-10 19:50:46 [INFO] INVENTED domain='Software Engineering' count=9 examples=['ai internal tools development', 'ai native software development', 'ai product development']
+2026-06-10 19:50:57 [DEBUG] API_CALL tag=map:Software Engineering:algorithm practice tools chars=3382 elapsed=11.09s
+2026-06-10 19:50:57 [WARNING] INVENTION_ALERT domain='Software Engineering' count=5 examples=['analytics tooling', 'android app development', 'android device management']
+2026-06-10 19:50:57 [INFO] INVENTED domain='Software Engineering' count=5 examples=['analytics tooling', 'android app development', 'android device management']
+2026-06-10 19:51:07 [DEBUG] API_CALL tag=map:Software Engineering:api call limitations chars=3176 elapsed=9.57s
+2026-06-10 19:51:07 [WARNING] INVENTION_ALERT domain='Software Engineering' count=30 examples=['api design issues', 'api performance optimization', 'api design best practices']
+2026-06-10 19:51:07 [INFO] INVENTED domain='Software Engineering' count=30 examples=['api design issues', 'api performance optimization', 'api design best practices']
+2026-06-10 19:51:17 [DEBUG] API_CALL tag=map:Software Engineering:api product design chars=3178 elapsed=10.23s
+2026-06-10 19:51:17 [WARNING] INVENTION_ALERT domain='Software Engineering' count=46 examples=['api rate limiting strategies', 'api reliability challenges', 'api reverse engineering']
+2026-06-10 19:51:17 [INFO] INVENTED domain='Software Engineering' count=46 examples=['api rate limiting strategies', 'api reliability challenges', 'api reverse engineering']
+2026-06-10 19:51:30 [DEBUG] API_CALL tag=map:Software Engineering:apple intelligence impact chars=3411 elapsed=12.56s
+2026-06-10 19:51:30 [WARNING] INVENTION_ALERT domain='Software Engineering' count=50 examples=['application monitoring tools', 'application development stack', 'application resilience']
+2026-06-10 19:51:30 [INFO] INVENTED domain='Software Engineering' count=50 examples=['application monitoring tools', 'application development stack', 'application resilience']
+2026-06-10 19:51:42 [DEBUG] API_CALL tag=map:Software Engineering:authentication implementation chars=3286 elapsed=12.64s
+2026-06-10 19:51:42 [WARNING] INVENTION_ALERT domain='Software Engineering' count=40 examples=['auto repair hardware', 'autoscaling techniques', 'automated bug fixing']
+2026-06-10 19:51:42 [INFO] INVENTED domain='Software Engineering' count=40 examples=['auto repair hardware', 'autoscaling techniques', 'automated bug fixing']
+2026-06-10 19:51:55 [DEBUG] API_CALL tag=map:Software Engineering:aws onboarding tips chars=3283 elapsed=13.12s
+2026-06-10 19:51:55 [WARNING] INVENTION_ALERT domain='Software Engineering' count=6 examples=['backend development', 'backend development tools', 'backend infrastructure tools']
+2026-06-10 19:51:55 [INFO] INVENTED domain='Software Engineering' count=6 examples=['backend development', 'backend development tools', 'backend infrastructure tools']
+2026-06-10 19:52:05 [DEBUG] API_CALL tag=map:Software Engineering:blender learning experience chars=3259 elapsed=9.36s
+2026-06-10 19:52:05 [WARNING] INVENTION_ALERT domain='Software Engineering' count=10 examples=['bot development', 'browser fundamentals', 'browser automation tools']
+2026-06-10 19:52:05 [INFO] INVENTED domain='Software Engineering' count=10 examples=['bot development', 'browser fundamentals', 'browser automation tools']
+2026-06-10 19:59:24 [DEBUG] API_CALL tag=map:AI:2d to 3d conversion chars=3225 elapsed=12.47s
+2026-06-10 19:59:24 [INFO] INVENTED domain='AI' count=2 examples=['3d vision language models', 'agentic ai workflows']
+2026-06-10 19:59:35 [DEBUG] API_CALL tag=map:AI:agentic coding chars=3190 elapsed=11.02s
+2026-06-10 19:59:35 [INFO] INVENTED domain='AI' count=5 examples=['agi decoding tests', 'agi development approaches', 'agi development prospects']
+2026-06-10 19:59:44 [DEBUG] API_CALL tag=map:AI:ai agent behavior chars=3139 elapsed=9.57s
+2026-06-10 19:59:44 [INFO] INVENTED domain='AI' count=2 examples=['ai agent development frameworks', 'ai agent memory management']
+2026-06-10 19:59:54 [DEBUG] API_CALL tag=map:AI:ai agent user behavior chars=3266 elapsed=9.94s
+2026-06-10 19:59:54 [WARNING] INVENTION_ALERT domain='AI' count=51 examples=['ai agent behavior', 'ai agent user experience', 'ai agent visualization']
+2026-06-10 19:59:54 [INFO] INVENTED domain='AI' count=51 examples=['ai agent behavior', 'ai agent user experience', 'ai agent visualization']
+2026-06-10 20:00:05 [DEBUG] API_CALL tag=map:AI:ai art generation chars=3289 elapsed=10.55s
+2026-06-10 20:00:05 [WARNING] INVENTION_ALERT domain='AI' count=14 examples=['ai assistants in productivity apps', 'ai assistant launch lessons', 'ai assistant integration']
+2026-06-10 20:00:05 [INFO] INVENTED domain='AI' count=14 examples=['ai assistants in productivity apps', 'ai assistant launch lessons', 'ai assistant integration']
+2026-06-10 20:00:15 [DEBUG] API_CALL tag=map:AI:ai certification learning chars=3045 elapsed=9.57s
+2026-06-10 20:00:15 [INFO] INVENTED domain='AI' count=8 examples=['ai chatbots', 'ai chatbot capabilities', 'ai chatbot development']
+2026-06-10 20:00:25 [DEBUG] API_CALL tag=map:AI:ai companion development chars=3190 elapsed=10.35s
+2026-06-10 20:00:25 [INFO] INVENTED domain='AI' count=3 examples=['ai data privacy challenges', 'ai product experience', 'ai data governance']
+2026-06-10 20:00:33 [DEBUG] API_CALL tag=map:AI:ai debugging techniques chars=3177 elapsed=8.27s
+2026-06-10 20:00:33 [INFO] INVENTED domain='AI' count=1 examples=['ai detection challenges']
+2026-06-10 20:00:42 [DEBUG] API_CALL tag=map:AI:ai enterprise conference chars=3146 elapsed=9.26s
+2026-06-10 20:00:42 [WARNING] INVENTION_ALERT domain='AI' count=13 examples=['ai ethics', 'ai ethics education', 'ai for personal accountability']
+2026-06-10 20:00:42 [INFO] INVENTED domain='AI' count=13 examples=['ai ethics', 'ai ethics education', 'ai for personal accountability']
+2026-06-10 20:00:51 [DEBUG] API_CALL tag=map:AI:ai generated content issues chars=3171 elapsed=8.33s
+2026-06-10 20:00:51 [WARNING] INVENTION_ALERT domain='AI' count=13 examples=['ai glossary resource', 'ai governance and observability', 'ai governance and security']
+2026-06-10 20:00:51 [INFO] INVENTED domain='AI' count=13 examples=['ai glossary resource', 'ai governance and observability', 'ai governance and security']
+2026-06-10 20:01:00 [DEBUG] API_CALL tag=map:AI:ai impact on knowledge communi chars=3162 elapsed=9.28s
+2026-06-10 20:01:00 [WARNING] INVENTION_ALERT domain='AI' count=14 examples=['ai in government software', 'ai in public transportation', 'ai in operations']
+2026-06-10 20:01:00 [INFO] INVENTED domain='AI' count=14 examples=['ai in government software', 'ai in public transportation', 'ai in operations']
+2026-06-10 20:01:09 [DEBUG] API_CALL tag=map:AI:ai inference economics chars=3252 elapsed=9.16s
+2026-06-10 20:01:27 [DEBUG] API_CALL tag=map:AI:ai memory models chars=3165 elapsed=17.49s
+2026-06-10 20:01:27 [WARNING] INVENTION_ALERT domain='AI' count=11 examples=['ai military applications', 'ai myths and truths', 'ai model evaluation']
+2026-06-10 20:01:27 [INFO] INVENTED domain='AI' count=11 examples=['ai military applications', 'ai myths and truths', 'ai model evaluation']
+2026-06-10 20:01:38 [DEBUG] API_CALL tag=map:AI:ai platform comparison chars=3206 elapsed=11.09s
+2026-06-10 20:01:38 [WARNING] INVENTION_ALERT domain='AI' count=11 examples=['ai platform engineering', 'ai applications in marketing', 'ai applications in operations']
+2026-06-10 20:01:38 [INFO] INVENTED domain='AI' count=11 examples=['ai platform engineering', 'ai applications in marketing', 'ai applications in operations']
+2026-06-10 20:01:46 [DEBUG] API_CALL tag=map:AI:ai project management challeng chars=2989 elapsed=8.56s
+2026-06-10 20:01:46 [WARNING] INVENTION_ALERT domain='AI' count=48 examples=['ai project management challenges', 'ai project prevalence', 'ai protocols']
+2026-06-10 20:01:46 [INFO] INVENTED domain='AI' count=48 examples=['ai project management challenges', 'ai project prevalence', 'ai protocols']
+2026-06-10 20:01:57 [DEBUG] API_CALL tag=map:AI:ai search integration chars=3208 elapsed=11.06s
+2026-06-10 20:01:57 [INFO] INVENTED domain='AI' count=4 examples=['ai search technology', 'ai sensory limitations', 'ai applications in ecommerce']
+2026-06-10 20:02:07 [DEBUG] API_CALL tag=map:AI:ai terminology confusion chars=3123 elapsed=9.61s
+2026-06-10 20:02:07 [INFO] INVENTED domain='AI' count=6 examples=['ai tooling adoption', 'ai tools evaluation', 'ai model limitations']
+2026-06-10 20:02:19 [DEBUG] API_CALL tag=map:AI:ai video localization chars=3240 elapsed=12.18s
+2026-06-10 20:02:19 [INFO] INVENTED domain='AI' count=3 examples=['alphafold technology', 'api usage metrics', 'artificial general intelligence']
+2026-06-10 20:31:47 [DEBUG] API_CALL tag=map:AI:2d to 3d conversion chars=3227 elapsed=14.65s
+2026-06-10 20:31:47 [INFO] INVENTED domain='AI' count=1 examples=['3d vision language models']
+2026-06-10 20:32:01 [DEBUG] API_CALL tag=map:AI:agentic coding chars=3187 elapsed=13.88s
+2026-06-10 20:32:16 [DEBUG] API_CALL tag=map:AI:ai agent behavior chars=3159 elapsed=14.74s
+2026-06-10 20:32:16 [INFO] INVENTED domain='AI' count=5 examples=['ai agent development frameworks', 'ai agent memory management', 'ai agent platforms']
+2026-06-10 20:32:29 [DEBUG] API_CALL tag=map:AI:ai agent user behavior chars=2987 elapsed=12.84s
+2026-06-10 20:32:29 [INFO] INVENTED domain='AI' count=5 examples=['ai agents', 'ai agents capabilities', 'ai agents in observability']
+2026-06-10 20:32:40 [DEBUG] API_CALL tag=map:AI:ai art generation chars=3157 elapsed=11.55s
+2026-06-10 20:32:40 [WARNING] INVENTION_ALERT domain='AI' count=13 examples=['ai assistants', 'ai assistant integration', 'ai assistant tools']
+2026-06-10 20:32:40 [INFO] INVENTED domain='AI' count=13 examples=['ai assistants', 'ai assistant integration', 'ai assistant tools']
+2026-06-10 20:32:50 [DEBUG] API_CALL tag=map:AI:ai certification learning chars=3064 elapsed=9.90s
+2026-06-10 20:32:50 [WARNING] INVENTION_ALERT domain='AI' count=19 examples=['ai chat interfaces', 'ai chat memory manipulation', 'ai chatbot capabilities']
+2026-06-10 20:32:50 [INFO] INVENTED domain='AI' count=19 examples=['ai chat interfaces', 'ai chat memory manipulation', 'ai chatbot capabilities']
+2026-06-10 20:33:01 [DEBUG] API_CALL tag=map:AI:ai companion development chars=3180 elapsed=10.81s
+2026-06-10 20:33:01 [INFO] INVENTED domain='AI' count=3 examples=['ai data privacy challenges', 'ai data governance', 'ai data models']
+2026-06-10 20:33:08 [DEBUG] API_CALL tag=map:AI:ai debugging techniques chars=1562 elapsed=6.96s
+2026-06-10 20:33:08 [WARNING] JSON_ERROR tag=map:AI:ai debugging techniques attempt=1 error=Unterminated string starting at: line 32 column 3 (char 1561) raw_head='{\n  "ai debugging techniques": "llm debugging tools",\n  "ai debugging tools": "llm debugging tools",\n  "ai decision maki'
+2026-06-10 20:33:23 [DEBUG] API_CALL tag=map:AI:ai debugging techniques chars=3190 elapsed=13.43s
+2026-06-10 20:33:23 [INFO] INVENTED domain='AI' count=3 examples=['ai agent deployment', 'ai detection challenges', 'ai in education']
+2026-06-10 20:33:35 [DEBUG] API_CALL tag=map:AI:ai enterprise conference chars=2980 elapsed=12.11s
+2026-06-10 20:33:35 [INFO] INVENTED domain='AI' count=2 examples=['ai ethics', 'ai game development']
+2026-06-10 20:33:49 [DEBUG] API_CALL tag=map:AI:ai generated content issues chars=3239 elapsed=13.62s
+2026-06-10 20:33:49 [INFO] INVENTED domain='AI' count=5 examples=['ai glossary resource', 'ai governance policy', 'ai image generation workflows']
+2026-06-10 20:34:00 [DEBUG] API_CALL tag=map:AI:ai impact on knowledge communi chars=3062 elapsed=10.95s
+2026-06-10 20:34:00 [INFO] INVENTED domain='AI' count=1 examples=['ai industry trends']
+2026-06-10 20:34:19 [DEBUG] API_CALL tag=map:AI:ai inference economics chars=3214 elapsed=18.97s
+2026-06-10 20:34:33 [DEBUG] API_CALL tag=map:AI:ai memory models chars=3064 elapsed=14.08s
+2026-06-10 20:34:33 [INFO] INVENTED domain='AI' count=6 examples=['ai myths and truths', 'ai model evaluation', 'ai model applications']
+2026-06-10 20:34:45 [DEBUG] API_CALL tag=map:AI:ai platform comparison chars=3133 elapsed=11.96s
+2026-06-10 20:36:03 [DEBUG] API_CALL tag=map:Software Engineering:3d animation issues chars=3391 elapsed=4.55s
+2026-06-10 20:36:03 [WARNING] INVENTION_ALERT domain='Software Engineering' count=49 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 20:36:03 [INFO] INVENTED domain='Software Engineering' count=49 examples=['3d animation issues', '3d mind mapping tools', '3d modeling challenges']
+2026-06-10 20:36:16 [DEBUG] API_CALL tag=map:Software Engineering:agile planning tools chars=2963 elapsed=12.60s
+2026-06-10 20:36:28 [DEBUG] API_CALL tag=map:Software Engineering:ai coding assistant context chars=3281 elapsed=12.08s
+2026-06-10 20:36:28 [INFO] INVENTED domain='Software Engineering' count=2 examples=['ai database tools', 'ai developer tools']
+2026-06-10 20:36:39 [DEBUG] API_CALL tag=map:Software Engineering:ai incident management chars=3004 elapsed=10.88s
+2026-06-10 20:36:39 [WARNING] INVENTION_ALERT domain='Software Engineering' count=10 examples=['ai internal tools development', 'ai software development', 'ai product development']
+2026-06-10 20:36:39 [INFO] INVENTED domain='Software Engineering' count=10 examples=['ai internal tools development', 'ai software development', 'ai product development']
+2026-06-10 20:36:53 [DEBUG] API_CALL tag=map:Software Engineering:algorithm practice tools chars=3393 elapsed=13.77s
+2026-06-10 20:36:53 [INFO] INVENTED domain='Software Engineering' count=3 examples=['analytics tooling', 'android app development', 'ansible ecosystem survey']
+2026-06-10 20:36:59 [DEBUG] API_CALL tag=map:Software Engineering:api call limitations chars=3158 elapsed=6.34s
+2026-06-10 20:36:59 [WARNING] INVENTION_ALERT domain='Software Engineering' count=25 examples=['api design issues', 'api performance optimization', 'api design principles']
+2026-06-10 20:36:59 [INFO] INVENTED domain='Software Engineering' count=25 examples=['api design issues', 'api performance optimization', 'api design principles']
+2026-06-10 20:37:09 [DEBUG] API_CALL tag=map:Software Engineering:api product design chars=3151 elapsed=10.55s
+2026-06-10 20:37:09 [WARNING] INVENTION_ALERT domain='Software Engineering' count=47 examples=['api rate limiting', 'api reliability challenges', 'api reverse engineering']
+2026-06-10 20:37:09 [INFO] INVENTED domain='Software Engineering' count=47 examples=['api rate limiting', 'api reliability challenges', 'api reverse engineering']
+2026-06-10 20:37:20 [DEBUG] API_CALL tag=map:Software Engineering:apple intelligence impact chars=3461 elapsed=10.95s
+2026-06-10 20:37:20 [WARNING] INVENTION_ALERT domain='Software Engineering' count=34 examples=['application development stack', 'application resilience', 'application observability tools']
+2026-06-10 20:37:20 [INFO] INVENTED domain='Software Engineering' count=34 examples=['application development stack', 'application resilience', 'application observability tools']
+2026-06-10 20:37:28 [DEBUG] API_CALL tag=map:Software Engineering:authentication implementation chars=3221 elapsed=7.50s
+2026-06-10 20:37:28 [WARNING] INVENTION_ALERT domain='Software Engineering' count=33 examples=['authentication migration', 'authentication tooling', 'auto repair hardware']
+2026-06-10 20:37:28 [INFO] INVENTED domain='Software Engineering' count=33 examples=['authentication migration', 'authentication tooling', 'auto repair hardware']
+2026-06-10 20:37:35 [DEBUG] API_CALL tag=map:Software Engineering:aws onboarding tips chars=3278 elapsed=6.97s
+2026-06-10 20:37:35 [INFO] INVENTED domain='Software Engineering' count=4 examples=['backend development', 'backup tools', 'benchmarking tools']
+2026-06-10 20:37:45 [DEBUG] API_CALL tag=map:Software Engineering:blender learning experience chars=3291 elapsed=10.39s
+2026-06-10 20:37:45 [WARNING] INVENTION_ALERT domain='Software Engineering' count=53 examples=['3d rendering issues', 'blockchain event listeners', 'bluetooth audio issues']
+2026-06-10 20:37:45 [INFO] INVENTED domain='Software Engineering' count=53 examples=['3d rendering issues', 'blockchain event listeners', 'bluetooth audio issues']
+2026-06-10 20:37:53 [DEBUG] API_CALL tag=map:Software Engineering:career break project chars=3203 elapsed=7.94s
+2026-06-10 20:37:53 [WARNING] INVENTION_ALERT domain='Software Engineering' count=56 examples=['career break project', 'career experiences in tech', 'career transitions']
+2026-06-10 20:37:53 [INFO] INVENTED domain='Software Engineering' count=56 examples=['career break project', 'career experiences in tech', 'career transitions']
+2026-06-10 20:38:03 [DEBUG] API_CALL tag=map:Software Engineering:cloud computing primitives chars=3520 elapsed=9.57s
+2026-06-10 20:38:03 [WARNING] INVENTION_ALERT domain='Software Engineering' count=55 examples=['cloud cost optimization', 'cloud cpu performance', 'cloud deployment tutorials']
+2026-06-10 20:38:03 [INFO] INVENTED domain='Software Engineering' count=55 examples=['cloud cost optimization', 'cloud cpu performance', 'cloud deployment tutorials']
+2026-06-10 20:38:13 [DEBUG] API_CALL tag=map:Software Engineering:code complexity reduction chars=3260 elapsed=10.67s
+2026-06-10 20:38:13 [WARNING] INVENTION_ALERT domain='Software Engineering' count=40 examples=['code quality practices', 'code evaluation tooling', 'code refactoring']
+2026-06-10 20:38:13 [INFO] INVENTED domain='Software Engineering' count=40 examples=['code quality practices', 'code evaluation tooling', 'code refactoring']
+2026-06-10 20:38:22 [DEBUG] API_CALL tag=map:Software Engineering:code style preferences chars=3175 elapsed=8.67s
+2026-06-10 20:38:22 [WARNING] INVENTION_ALERT domain='Software Engineering' count=17 examples=['codebase modernization', 'codebase onboarding', 'coding practices']
+2026-06-10 20:38:22 [INFO] INVENTED domain='Software Engineering' count=17 examples=['codebase modernization', 'codebase onboarding', 'coding practices']
+2026-06-10 20:38:31 [DEBUG] API_CALL tag=map:Software Engineering:component learning resources chars=3567 elapsed=8.58s
+2026-06-10 20:38:31 [WARNING] INVENTION_ALERT domain='Software Engineering' count=18 examples=['computer networks', 'computer vision applications', 'concurrency programming concepts']
+2026-06-10 20:38:31 [INFO] INVENTED domain='Software Engineering' count=18 examples=['computer networks', 'computer vision applications', 'concurrency programming concepts']
+2026-06-10 20:38:41 [DEBUG] API_CALL tag=map:Software Engineering:content rewriting tools chars=3410 elapsed=10.59s
+2026-06-10 20:38:41 [INFO] INVENTED domain='Software Engineering' count=7 examples=['context management techniques', 'continuous delivery', 'continuous integration practices']
+2026-06-10 20:38:51 [DEBUG] API_CALL tag=map:Software Engineering:css default styles chars=3125 elapsed=9.54s
+2026-06-10 20:38:51 [WARNING] INVENTION_ALERT domain='Software Engineering' count=34 examples=['css frameworks', 'csv querying tools', 'cuda learning resources']
+2026-06-10 20:38:51 [INFO] INVENTED domain='Software Engineering' count=34 examples=['css frameworks', 'csv querying tools', 'cuda learning resources']
+2026-06-10 20:39:00 [DEBUG] API_CALL tag=map:Software Engineering:dapr service mesh integration chars=3271 elapsed=8.96s
+2026-06-10 20:39:00 [INFO] INVENTED domain='Software Engineering' count=6 examples=['data integration', 'data processing performance', 'data engineering practices']
+2026-06-10 20:39:12 [DEBUG] API_CALL tag=map:Software Engineering:database bloat removal chars=3238 elapsed=12.68s
+2026-06-10 20:39:12 [INFO] INVENTED domain='Software Engineering' count=4 examples=['cloud database tools', 'database concurrency optimization', 'database extension management']
+2026-06-10 20:39:21 [DEBUG] API_CALL tag=map:Software Engineering:database index optimization chars=3328 elapsed=8.26s
+2026-06-10 20:39:21 [WARNING] INVENTION_ALERT domain='Software Engineering' count=9 examples=['database internals', 'database licensing', 'database logging']
+2026-06-10 20:39:21 [INFO] INVENTED domain='Software Engineering' count=9 examples=['database internals', 'database licensing', 'database logging']
+2026-06-10 20:39:30 [DEBUG] API_CALL tag=map:Software Engineering:database primary keys chars=3422 elapsed=9.55s
+2026-06-10 20:39:30 [WARNING] INVENTION_ALERT domain='Software Engineering' count=36 examples=['database programming techniques', 'database query optimization', 'database query tools']
+2026-06-10 20:39:30 [INFO] INVENTED domain='Software Engineering' count=36 examples=['database programming techniques', 'database query optimization', 'database query tools']
+2026-06-10 20:39:42 [DEBUG] API_CALL tag=map:Software Engineering:database troubleshooting chars=3264 elapsed=12.20s
+2026-06-10 20:39:42 [WARNING] INVENTION_ALERT domain='Software Engineering' count=9 examples=['database troubleshooting', 'database upgrades', 'debian package maintenance']
+2026-06-10 20:39:42 [INFO] INVENTED domain='Software Engineering' count=9 examples=['database troubleshooting', 'database upgrades', 'debian package maintenance']
+2026-06-10 20:39:50 [DEBUG] API_CALL tag=map:Software Engineering:design systems chars=3484 elapsed=7.57s
+2026-06-10 20:39:50 [WARNING] INVENTION_ALERT domain='Software Engineering' count=46 examples=['design systems', 'design to code workflow', 'design to dev gap']
+2026-06-10 20:39:50 [INFO] INVENTED domain='Software Engineering' count=46 examples=['design systems', 'design to code workflow', 'design to dev gap']
+2026-06-10 20:39:59 [DEBUG] API_CALL tag=map:Software Engineering:developer onboarding automatio chars=3716 elapsed=8.59s
+2026-06-10 20:39:59 [WARNING] INVENTION_ALERT domain='Software Engineering' count=56 examples=['developer onboarding automation', 'developer pain points', 'developer personalities']
+2026-06-10 20:39:59 [INFO] INVENTED domain='Software Engineering' count=56 examples=['developer onboarding automation', 'developer pain points', 'developer personalities']
+2026-06-10 20:40:08 [DEBUG] API_CALL tag=map:Software Engineering:developer tools integration chars=3360 elapsed=9.02s
+2026-06-10 20:40:08 [INFO] INVENTED domain='Software Engineering' count=2 examples=['device management tools', 'developer productivity measurement']
+2026-06-10 20:40:17 [DEBUG] API_CALL tag=map:Software Engineering:distributed architecture chars=3580 elapsed=9.45s
+2026-06-10 20:40:17 [WARNING] INVENTION_ALERT domain='Software Engineering' count=59 examples=['distributed systems architecture', 'distributed caching', 'distributed database deployment']
+2026-06-10 20:40:17 [INFO] INVENTED domain='Software Engineering' count=59 examples=['distributed systems architecture', 'distributed caching', 'distributed database deployment']
+2026-06-10 20:40:31 [DEBUG] API_CALL tag=map:Software Engineering:document chat assistants chars=3322 elapsed=13.70s
+2026-06-10 20:40:31 [WARNING] INVENTION_ALERT domain='Software Engineering' count=21 examples=['documentation challenges', 'documentation practices', 'documentation tooling']
+2026-06-10 20:40:31 [INFO] INVENTED domain='Software Engineering' count=21 examples=['documentation challenges', 'documentation practices', 'documentation tooling']
+2026-06-10 20:40:42 [DEBUG] API_CALL tag=map:Software Engineering:elixir data processing chars=3445 elapsed=10.69s
+2026-06-10 20:40:42 [WARNING] INVENTION_ALERT domain='Software Engineering' count=41 examples=['elixir debugging tools', 'elixir ecosystem', 'elixir language updates']
+2026-06-10 20:40:42 [INFO] INVENTED domain='Software Engineering' count=41 examples=['elixir debugging tools', 'elixir ecosystem', 'elixir language updates']
+2026-06-10 20:40:51 [DEBUG] API_CALL tag=map:Software Engineering:engineering misconceptions chars=3599 elapsed=9.73s
+2026-06-10 20:40:51 [WARNING] INVENTION_ALERT domain='Software Engineering' count=15 examples=['engineering productivity', 'engineering productivity habits', 'engineering productivity measurement']
+2026-06-10 20:40:51 [INFO] INVENTED domain='Software Engineering' count=15 examples=['engineering productivity', 'engineering productivity habits', 'engineering productivity measurement']
+2026-06-10 20:41:02 [DEBUG] API_CALL tag=map:Software Engineering:eval function usage chars=3436 elapsed=10.75s
+2026-06-10 20:41:02 [WARNING] INVENTION_ALERT domain='Software Engineering' count=51 examples=['event data export tools', 'event interoperability', 'event processing patterns']
+2026-06-10 20:41:02 [INFO] INVENTED domain='Software Engineering' count=51 examples=['event data export tools', 'event interoperability', 'event processing patterns']
+2026-06-10 20:41:13 [DEBUG] API_CALL tag=map:Software Engineering:file system recovery chars=3518 elapsed=11.46s
+2026-06-10 20:41:13 [WARNING] INVENTION_ALERT domain='Software Engineering' count=14 examples=['file upload techniques', 'filemaker json extraction', 'freelance software development']
+2026-06-10 20:41:13 [INFO] INVENTED domain='Software Engineering' count=14 examples=['file upload techniques', 'filemaker json extraction', 'freelance software development']
+2026-06-10 20:41:25 [DEBUG] API_CALL tag=map:Software Engineering:frontend framework bias chars=3646 elapsed=11.34s
+2026-06-10 20:41:25 [WARNING] INVENTION_ALERT domain='Software Engineering' count=37 examples=['frontend frameworks discussion', 'frontend frameworks', 'frontend migration challenges']
+2026-06-10 20:41:25 [INFO] INVENTED domain='Software Engineering' count=37 examples=['frontend frameworks discussion', 'frontend frameworks', 'frontend migration challenges']
+2026-06-10 20:41:35 [DEBUG] API_CALL tag=map:Software Engineering:game character generation chars=3128 elapsed=9.99s
+2026-06-10 20:41:35 [WARNING] INVENTION_ALERT domain='Software Engineering' count=12 examples=['game development', 'game development platforms', 'game development tools']
+2026-06-10 20:41:35 [INFO] INVENTED domain='Software Engineering' count=12 examples=['game development', 'game development platforms', 'game development tools']
+2026-06-10 20:41:47 [DEBUG] API_CALL tag=map:Software Engineering:github notifications automatio chars=3310 elapsed=11.89s
+2026-06-10 20:41:47 [WARNING] INVENTION_ALERT domain='Software Engineering' count=59 examples=['github notifications automation', 'github repo analytics', 'github repositories']
+2026-06-10 20:41:47 [INFO] INVENTED domain='Software Engineering' count=59 examples=['github notifications automation', 'github repo analytics', 'github repositories']
+2026-06-10 20:41:59 [DEBUG] API_CALL tag=map:Software Engineering:grpc adoption chars=3305 elapsed=12.61s
+2026-06-10 20:41:59 [WARNING] INVENTION_ALERT domain='Software Engineering' count=54 examples=['grpc adoption', 'guarded releases', 'gui development challenges']
+2026-06-10 20:41:59 [INFO] INVENTED domain='Software Engineering' count=54 examples=['grpc adoption', 'guarded releases', 'gui development challenges']
+2026-06-10 20:42:09 [DEBUG] API_CALL tag=map:Software Engineering:html accessibility chars=3188 elapsed=9.51s
+2026-06-10 20:42:09 [WARNING] INVENTION_ALERT domain='Software Engineering' count=29 examples=['html accessibility', 'http mocking tools', 'http protocol evolution']
+2026-06-10 20:42:09 [INFO] INVENTED domain='Software Engineering' count=29 examples=['html accessibility', 'http mocking tools', 'http protocol evolution']
+2026-06-10 20:42:20 [DEBUG] API_CALL tag=map:Software Engineering:incident management migration chars=3595 elapsed=11.40s
+2026-06-10 20:42:20 [WARNING] INVENTION_ALERT domain='Software Engineering' count=13 examples=['incremental backups', 'incremental software changes', 'industrial machine vision dashboards']
+2026-06-10 20:42:20 [INFO] INVENTED domain='Software Engineering' count=13 examples=['incremental backups', 'incremental software changes', 'industrial machine vision dashboards']
+2026-06-10 20:42:29 [DEBUG] API_CALL tag=map:Software Engineering:internal developer portals chars=3185 elapsed=8.77s
+2026-06-10 20:42:29 [WARNING] INVENTION_ALERT domain='Software Engineering' count=46 examples=['internet explorer deprecation', 'internet service directory', 'invoice printing tool']
+2026-06-10 20:42:29 [INFO] INVENTED domain='Software Engineering' count=46 examples=['internet explorer deprecation', 'internet service directory', 'invoice printing tool']
+2026-06-10 20:42:38 [DEBUG] API_CALL tag=map:Software Engineering:java lambda frameworks chars=3234 elapsed=9.30s
+2026-06-10 20:42:38 [INFO] INVENTED domain='Software Engineering' count=3 examples=['java memory management', 'javascript data types', 'developer roles']
+2026-06-10 20:42:57 [DEBUG] API_CALL tag=map:Software Engineering:javascript language features chars=3115 elapsed=18.51s
+2026-06-10 20:42:57 [INFO] INVENTED domain='Software Engineering' count=7 examples=['self-map', 'jira integration', 'job search applications']
+2026-06-10 20:43:10 [DEBUG] API_CALL tag=map:Software Engineering:kerberos authentication issues chars=3670 elapsed=13.37s
+2026-06-10 20:43:10 [WARNING] INVENTION_ALERT domain='Software Engineering' count=56 examples=['kernel optimization', 'kernel panic troubleshooting', 'keyboard shortcuts productivity']
+2026-06-10 20:43:10 [INFO] INVENTED domain='Software Engineering' count=56 examples=['kernel optimization', 'kernel panic troubleshooting', 'keyboard shortcuts productivity']
+2026-06-10 20:43:26 [DEBUG] API_CALL tag=map:Software Engineering:kubernetes support lifecycle chars=3410 elapsed=15.92s
+2026-06-10 20:43:26 [WARNING] INVENTION_ALERT domain='Software Engineering' count=10 examples=['app development tools', 'language server support', 'language server performance']
+2026-06-10 20:43:26 [INFO] INVENTED domain='Software Engineering' count=10 examples=['app development tools', 'language server support', 'language server performance']
+2026-06-10 20:53:36 [DEBUG] API_CALL tag=map:Software Engineering:linked list algorithms chars=3379 elapsed=610.33s
+2026-06-10 20:53:36 [WARNING] INVENTION_ALERT domain='Software Engineering' count=54 examples=['linked list algorithms', 'linkedin link behavior', 'linux adoption experience']
+2026-06-10 20:53:36 [INFO] INVENTED domain='Software Engineering' count=54 examples=['linked list algorithms', 'linkedin link behavior', 'linux adoption experience']
+2026-06-10 20:53:45 [DEBUG] API_CALL tag=map:Software Engineering:llm inference performance chars=3353 elapsed=8.87s
+2026-06-10 20:53:45 [WARNING] INVENTION_ALERT domain='Software Engineering' count=22 examples=['local-first architecture', 'location based search', 'log management']
+2026-06-10 20:53:45 [INFO] INVENTED domain='Software Engineering' count=22 examples=['local-first architecture', 'location based search', 'log management']
+2026-06-10 20:53:54 [DEBUG] API_CALL tag=map:Software Engineering:markdown editor development chars=3191 elapsed=8.60s
+2026-06-10 20:53:54 [INFO] INVENTED domain='Software Engineering' count=8 examples=['marketing asset tools', 'media player integration', 'media streaming technology']
+2026-06-10 20:54:03 [DEBUG] API_CALL tag=map:Software Engineering:messaging system design chars=3430 elapsed=8.62s
+2026-06-10 20:54:03 [WARNING] INVENTION_ALERT domain='Software Engineering' count=21 examples=['microfrontend architecture', 'microservices challenges', 'microservices deployment']
+2026-06-10 20:54:03 [INFO] INVENTED domain='Software Engineering' count=21 examples=['microfrontend architecture', 'microservices challenges', 'microservices deployment']
+2026-06-10 20:54:13 [DEBUG] API_CALL tag=map:Software Engineering:modeling exercises chars=3464 elapsed=10.01s
+2026-06-10 20:54:13 [WARNING] INVENTION_ALERT domain='Software Engineering' count=50 examples=['database development', 'infrastructure monitoring', 'modular backend architecture']
+2026-06-10 20:54:13 [INFO] INVENTED domain='Software Engineering' count=50 examples=['database development', 'infrastructure monitoring', 'modular backend architecture']
+2026-06-10 21:05:00 [DEBUG] API_CALL tag=map:Software Engineering:nativephp mobile support chars=3458 elapsed=647.15s
+2026-06-10 21:05:00 [WARNING] INVENTION_ALERT domain='Software Engineering' count=57 examples=['natural language routing', 'natural language sql queries', 'neo4j backup restore']
+2026-06-10 21:05:00 [INFO] INVENTED domain='Software Engineering' count=57 examples=['natural language routing', 'natural language sql queries', 'neo4j backup restore']
+2026-06-10 21:05:12 [DEBUG] API_CALL tag=map:Software Engineering:nextjs deployment issues chars=3179 elapsed=12.16s
+2026-06-10 21:05:12 [WARNING] INVENTION_ALERT domain='Software Engineering' count=27 examples=['next.js usage', 'nginx configuration', 'nixos adoption challenges']
+2026-06-10 21:05:12 [INFO] INVENTED domain='Software Engineering' count=27 examples=['next.js usage', 'nginx configuration', 'nixos adoption challenges']
+2026-06-10 21:05:23 [DEBUG] API_CALL tag=map:Software Engineering:nodejs environment variables chars=3425 elapsed=11.36s
+2026-06-10 21:05:23 [WARNING] INVENTION_ALERT domain='Software Engineering' count=39 examples=['node.js environment variables', 'node.js usage', 'nosql schema design']
+2026-06-10 21:05:23 [INFO] INVENTED domain='Software Engineering' count=39 examples=['node.js environment variables', 'node.js usage', 'nosql schema design']
+2026-06-10 21:06:23 [DEBUG] API_CALL tag=map:Software Engineering:offline data storage chars=3477 elapsed=59.95s
+2026-06-10 21:06:23 [WARNING] INVENTION_ALERT domain='Software Engineering' count=41 examples=['data synchronization', 'open graph image generation', 'open source desktop tools']
+2026-06-10 21:06:23 [INFO] INVENTED domain='Software Engineering' count=41 examples=['data synchronization', 'open graph image generation', 'open source desktop tools']
+2026-06-10 21:06:31 [DEBUG] API_CALL tag=map:Software Engineering:page transition techniques chars=3498 elapsed=8.22s
+2026-06-10 21:06:31 [WARNING] INVENTION_ALERT domain='Software Engineering' count=14 examples=['pattern matching techniques', 'payment api tutorials', 'payment integration options']
+2026-06-10 21:06:31 [INFO] INVENTED domain='Software Engineering' count=14 examples=['pattern matching techniques', 'payment api tutorials', 'payment integration options']
+2026-06-10 21:07:15 [DEBUG] API_CALL tag=map:Software Engineering:personal software projects chars=3346 elapsed=43.62s
+2026-06-10 21:07:15 [WARNING] INVENTION_ALERT domain='Software Engineering' count=48 examples=['software projects', 'personal software projects', 'pg_cron and pg_timetable']
+2026-06-10 21:07:15 [INFO] INVENTED domain='Software Engineering' count=48 examples=['software projects', 'personal software projects', 'pg_cron and pg_timetable']
+2026-06-10 21:07:24 [DEBUG] API_CALL tag=map:Software Engineering:play framework template chars=3341 elapsed=8.91s
+2026-06-10 21:07:24 [WARNING] INVENTION_ALERT domain='Software Engineering' count=56 examples=['play framework template', 'playwright deployment', 'playwright global configuration']
+2026-06-10 21:07:24 [INFO] INVENTED domain='Software Engineering' count=56 examples=['play framework template', 'playwright deployment', 'playwright global configuration']
+2026-06-10 21:07:33 [DEBUG] API_CALL tag=map:Software Engineering:postgres features chars=3343 elapsed=9.28s
+2026-06-10 21:07:33 [INFO] INVENTED domain='Software Engineering' count=3 examples=['developer podcasts', 'database monitoring', 'database usage']
+2026-06-10 21:07:46 [DEBUG] API_CALL tag=map:Software Engineering:postgres vector indexes chars=3319 elapsed=12.34s
+2026-06-10 21:07:46 [WARNING] INVENTION_ALERT domain='Software Engineering' count=11 examples=['postgresql best practices', 'postgresql community events', 'postgresql configuration']
+2026-06-10 21:07:46 [INFO] INVENTED domain='Software Engineering' count=11 examples=['postgresql best practices', 'postgresql community events', 'postgresql configuration']
+2026-06-10 21:07:57 [DEBUG] API_CALL tag=map:Software Engineering:postgresql for rails chars=3514 elapsed=11.53s
+2026-06-10 21:07:57 [INFO] INVENTED domain='Software Engineering' count=4 examples=['postgresql functions', 'postgresql deployment kubernetes', 'postgresql query optimization']
+2026-06-10 21:08:11 [DEBUG] API_CALL tag=map:Software Engineering:postgresql request handling chars=3248 elapsed=14.25s
+2026-06-10 21:08:11 [INFO] INVENTED domain='Software Engineering' count=8 examples=['postgresql security', 'postgresql deployment', 'postgresql testing']
+2026-06-10 21:08:21 [DEBUG] API_CALL tag=map:Software Engineering:product development process chars=3655 elapsed=9.17s
+2026-06-10 21:08:21 [WARNING] INVENTION_ALERT domain='Software Engineering' count=14 examples=['product launch', 'product launch events', 'production debugging challenges']
+2026-06-10 21:08:21 [INFO] INVENTED domain='Software Engineering' count=14 examples=['product launch', 'product launch events', 'production debugging challenges']
+2026-06-10 21:08:34 [DEBUG] API_CALL tag=map:Software Engineering:programming language error han chars=3492 elapsed=13.18s
+2026-06-10 21:08:34 [WARNING] INVENTION_ALERT domain='Software Engineering' count=12 examples=['developer newsletters', 'offline development challenges', 'ui feedback design']
+2026-06-10 21:08:34 [INFO] INVENTED domain='Software Engineering' count=12 examples=['developer newsletters', 'offline development challenges', 'ui feedback design']
+2026-06-10 21:08:50 [DEBUG] API_CALL tag=map:Software Engineering:pull request management chars=3378 elapsed=15.80s
+2026-06-10 21:08:50 [INFO] INVENTED domain='Software Engineering' count=8 examples=['python development tools', 'python deployment', 'python concurrency']
+2026-06-10 21:09:03 [DEBUG] API_CALL tag=map:Software Engineering:quarkus framework chars=3158 elapsed=13.42s
+2026-06-10 21:09:03 [WARNING] INVENTION_ALERT domain='Software Engineering' count=25 examples=['quarkus framework', 'query languages', 'query optimization']
+2026-06-10 21:09:03 [INFO] INVENTED domain='Software Engineering' count=25 examples=['quarkus framework', 'query languages', 'query optimization']
+2026-06-10 21:09:14 [DEBUG] API_CALL tag=map:Software Engineering:rails view component refactori chars=3227 elapsed=10.92s
+2026-06-10 21:09:14 [INFO] INVENTED domain='Software Engineering' count=3 examples=['rails view layer', 'rdbms vs nosql', 'react native development']
+2026-06-10 21:09:30 [DEBUG] API_CALL tag=map:Software Engineering:readme generation tools chars=3196 elapsed=15.65s
+2026-06-10 21:09:30 [WARNING] INVENTION_ALERT domain='Software Engineering' count=17 examples=['real-time backend development', 'real-time blazor apps', 'real-time collaboration']
+2026-06-10 21:09:30 [INFO] INVENTED domain='Software Engineering' count=17 examples=['real-time backend development', 'real-time blazor apps', 'real-time collaboration']
+2026-06-10 21:09:42 [DEBUG] API_CALL tag=map:Software Engineering:remote desktop solutions chars=3310 elapsed=12.48s
+2026-06-10 21:09:42 [WARNING] INVENTION_ALERT domain='Software Engineering' count=47 examples=['remote desktop solutions', 'remote procedure call', 'ruby developer tools']
+2026-06-10 21:09:42 [INFO] INVENTED domain='Software Engineering' count=47 examples=['remote desktop solutions', 'remote procedure call', 'ruby developer tools']
+2026-06-10 21:09:52 [DEBUG] API_CALL tag=map:Software Engineering:ruby on rails tooling chars=3403 elapsed=10.11s
+2026-06-10 21:09:52 [WARNING] INVENTION_ALERT domain='Software Engineering' count=42 examples=['ruby on rails development tools', 'ruby programming language', 'ruby web frameworks']
+2026-06-10 21:09:52 [INFO] INVENTED domain='Software Engineering' count=42 examples=['ruby on rails development tools', 'ruby programming language', 'ruby web frameworks']
+2026-06-10 21:10:08 [DEBUG] API_CALL tag=map:Software Engineering:scalable system design chars=3421 elapsed=16.19s
+2026-06-10 21:10:08 [WARNING] INVENTION_ALERT domain='Software Engineering' count=30 examples=['screenshot presentation tools', 'scrollable task implementation', 'sdk development']
+2026-06-10 21:10:08 [INFO] INVENTED domain='Software Engineering' count=30 examples=['screenshot presentation tools', 'scrollable task implementation', 'sdk development']
+2026-06-10 21:10:56 [DEBUG] API_CALL tag=map:Software Engineering:server observability tools chars=3474 elapsed=48.02s
+2026-06-10 21:10:56 [WARNING] INVENTION_ALERT domain='Software Engineering' count=22 examples=['server-side javascript', 'serverless architecture', 'serverless scaling']
+2026-06-10 21:10:56 [INFO] INVENTED domain='Software Engineering' count=22 examples=['server-side javascript', 'serverless architecture', 'serverless scaling']
+2026-06-10 21:11:35 [DEBUG] API_CALL tag=map:Software Engineering:soft deletion chars=3974 elapsed=38.41s
+2026-06-10 21:11:35 [WARNING] INVENTION_ALERT domain='Software Engineering' count=51 examples=['soft deletion', 'software abstraction principles', 'software architect role']
+2026-06-10 21:11:35 [INFO] INVENTED domain='Software Engineering' count=51 examples=['soft deletion', 'software abstraction principles', 'software architect role']
+2026-06-10 21:11:49 [DEBUG] API_CALL tag=map:Software Engineering:software engineering bottlenec chars=3849 elapsed=14.11s
+2026-06-10 21:11:49 [WARNING] INVENTION_ALERT domain='Software Engineering' count=28 examples=['software engineering challenges', 'software engineering conferences', 'software development estimates']
+2026-06-10 21:11:49 [INFO] INVENTED domain='Software Engineering' count=28 examples=['software engineering challenges', 'software engineering conferences', 'software development estimates']
+2026-06-10 21:12:06 [DEBUG] API_CALL tag=map:Software Engineering:software release notes chars=3457 elapsed=17.47s
+2026-06-10 21:12:06 [WARNING] INVENTION_ALERT domain='Software Engineering' count=48 examples=['software release process', 'software release readiness', 'software release sunsetting']
+2026-06-10 21:12:06 [INFO] INVENTED domain='Software Engineering' count=48 examples=['software release process', 'software release readiness', 'software release sunsetting']
+2026-06-10 21:12:44 [DEBUG] API_CALL tag=map:Software Engineering:spring boot deployment chars=3112 elapsed=38.10s
+2026-06-10 21:12:44 [INFO] INVENTED domain='Software Engineering' count=4 examples=['sql/json support', 'sql merge statement', 'sqlite database']
+2026-06-10 21:13:00 [DEBUG] API_CALL tag=map:Software Engineering:sso system reliability chars=3439 elapsed=15.16s
+2026-06-10 21:13:00 [INFO] INVENTED domain='Software Engineering' count=7 examples=['startup growth challenges', 'stimulus controller translations', 'streaming technology']
+2026-06-10 21:13:18 [DEBUG] API_CALL tag=map:Software Engineering:synthetic monitoring challenge chars=3396 elapsed=18.81s
+2026-06-10 21:13:18 [INFO] INVENTED domain='Software Engineering' count=7 examples=['synthetic monitoring challenges', 'synthetic monitoring tools', 'system design challenges']
+2026-06-10 21:13:33 [DEBUG] API_CALL tag=map:Software Engineering:technical conference presentat chars=3423 elapsed=15.04s
+2026-06-10 21:13:33 [INFO] INVENTED domain='Software Engineering' count=4 examples=['developer platform popularity', 'temporal workflow platform', 'terminal ui tools']
+2026-06-10 21:13:45 [DEBUG] API_CALL tag=map:Software Engineering:test automation techniques chars=3152 elapsed=11.12s
+2026-06-10 21:13:45 [WARNING] INVENTION_ALERT domain='Software Engineering' count=12 examples=['testing practices', 'testing tools', 'test driven development']
+2026-06-10 21:13:45 [INFO] INVENTED domain='Software Engineering' count=12 examples=['testing practices', 'testing tools', 'test driven development']
+2026-06-10 21:13:58 [DEBUG] API_CALL tag=map:Software Engineering:timescaledb usage chars=3196 elapsed=13.44s
+2026-06-10 21:13:58 [WARNING] INVENTION_ALERT domain='Software Engineering' count=31 examples=['timescaledb usage', 'tls certificate management', 'toast notification systems']
+2026-06-10 21:13:58 [INFO] INVENTED domain='Software Engineering' count=31 examples=['timescaledb usage', 'tls certificate management', 'toast notification systems']
+2026-06-10 21:14:10 [DEBUG] API_CALL tag=map:Software Engineering:ui component sharing chars=3001 elapsed=11.76s
+2026-06-10 21:14:10 [WARNING] INVENTION_ALERT domain='Software Engineering' count=17 examples=['ui design patterns', 'ui design tools', 'ui design trends']
+2026-06-10 21:14:10 [INFO] INVENTED domain='Software Engineering' count=17 examples=['ui design patterns', 'ui design tools', 'ui design trends']
+2026-06-10 21:14:56 [DEBUG] API_CALL tag=map:Software Engineering:user assistance platform devel chars=3192 elapsed=46.40s
+2026-06-10 21:14:56 [WARNING] INVENTION_ALERT domain='Software Engineering' count=36 examples=['user assistance platform development', 'user data modeling', 'user engagement strategies']
+2026-06-10 21:14:56 [INFO] INVENTED domain='Software Engineering' count=36 examples=['user assistance platform development', 'user data modeling', 'user engagement strategies']
+2026-06-10 21:15:14 [DEBUG] API_CALL tag=map:Software Engineering:vibe coding anti-patterns chars=3265 elapsed=18.08s
+2026-06-10 21:15:14 [WARNING] INVENTION_ALERT domain='Software Engineering' count=45 examples=['video collaboration tools', 'video conferencing migration', 'video content creation']
+2026-06-10 21:15:14 [INFO] INVENTED domain='Software Engineering' count=45 examples=['video collaboration tools', 'video conferencing migration', 'video content creation']
+2026-06-10 21:15:24 [DEBUG] API_CALL tag=map:Software Engineering:web api integration chars=3309 elapsed=9.89s
+2026-06-10 21:15:24 [WARNING] INVENTION_ALERT domain='Software Engineering' count=14 examples=['web development', 'web development challenges', 'web development testing']
+2026-06-10 21:15:24 [INFO] INVENTED domain='Software Engineering' count=14 examples=['web development', 'web development challenges', 'web development testing']
+2026-06-10 21:15:36 [DEBUG] API_CALL tag=map:Software Engineering:web framework updates chars=3288 elapsed=11.93s
+2026-06-10 21:15:36 [WARNING] INVENTION_ALERT domain='Software Engineering' count=48 examples=['web development infrastructure', 'web performance optimization', 'web personalization']
+2026-06-10 21:15:36 [INFO] INVENTED domain='Software Engineering' count=48 examples=['web development infrastructure', 'web performance optimization', 'web personalization']
+2026-06-10 21:15:47 [DEBUG] API_CALL tag=map:Software Engineering:website localization tools chars=3125 elapsed=11.25s
+2026-06-10 21:15:47 [WARNING] INVENTION_ALERT domain='Software Engineering' count=12 examples=['website performance optimization', 'websocket architecture', 'windows os nostalgia']
+2026-06-10 21:15:47 [INFO] INVENTED domain='Software Engineering' count=12 examples=['website performance optimization', 'websocket architecture', 'windows os nostalgia']
+2026-06-10 21:15:47 [INFO] MAP_DOMAIN_DONE domain='Software Engineering' mapped=5036 vocab_size=2261
+2026-06-10 21:15:58 [DEBUG] API_CALL tag=map:AI:ai project management challeng chars=2970 elapsed=10.47s
+2026-06-10 21:15:58 [INFO] INVENTED domain='AI' count=4 examples=['ai prompt engineering', 'ai research assistants', 'ai risks and ethics']
+2026-06-10 21:16:10 [DEBUG] API_CALL tag=map:AI:ai search integration chars=2965 elapsed=12.60s
+2026-06-10 21:16:10 [INFO] INVENTED domain='AI' count=2 examples=['ai tools', 'ai task automation']
+2026-06-10 21:16:20 [DEBUG] API_CALL tag=map:AI:ai terminology confusion chars=3028 elapsed=9.62s
+2026-06-10 21:16:20 [INFO] INVENTED domain='AI' count=7 examples=['ai tools adoption', 'ai tools evaluation', 'ai tooling adoption']
+2026-06-10 21:16:32 [DEBUG] API_CALL tag=map:AI:ai video localization chars=3162 elapsed=11.64s
+2026-06-10 21:16:32 [WARNING] INVENTION_ALERT domain='AI' count=14 examples=['ai workflows', 'ai-assisted databases', 'ai native applications']
+2026-06-10 21:16:32 [INFO] INVENTED domain='AI' count=14 examples=['ai workflows', 'ai-assisted databases', 'ai native applications']
+2026-06-10 21:17:05 [DEBUG] API_CALL tag=map:AI:audience insight tools chars=3087 elapsed=32.96s
+2026-06-10 21:17:05 [INFO] INVENTED domain='AI' count=6 examples=['autonomous vehicle applications', 'autonomous knowledge operations', 'autonomous navigation systems']
+2026-06-10 21:17:16 [DEBUG] API_CALL tag=map:AI:code generation assistants chars=3281 elapsed=11.82s
+2026-06-10 21:17:16 [WARNING] INVENTION_ALERT domain='AI' count=11 examples=['compound ai systems', 'context engineering', 'context graphs in ai']
+2026-06-10 21:17:16 [INFO] INVENTED domain='AI' count=11 examples=['compound ai systems', 'context engineering', 'context graphs in ai']
+2026-06-10 21:17:27 [DEBUG] API_CALL tag=map:AI:embedding model performance chars=3227 elapsed=10.52s
+2026-06-10 21:17:27 [INFO] INVENTED domain='AI' count=4 examples=['enterprise ai trends', 'enterprise ai adoption challenges', 'enterprise ai context']
+2026-06-10 21:17:39 [DEBUG] API_CALL tag=map:AI:genai development journey chars=3507 elapsed=12.22s
+2026-06-10 21:17:39 [INFO] INVENTED domain='AI' count=2 examples=['hardware demand trends', 'machine learning infrastructure']
+2026-06-10 21:17:52 [DEBUG] API_CALL tag=map:AI:human ai collaboration chars=3529 elapsed=12.88s
+2026-06-10 21:17:52 [WARNING] INVENTION_ALERT domain='AI' count=9 examples=['human-centered ai', 'human-level ai feasibility', 'knowledge graph evaluation']
+2026-06-10 21:17:52 [INFO] INVENTED domain='AI' count=9 examples=['human-centered ai', 'human-level ai feasibility', 'knowledge graph evaluation']
+2026-06-10 21:18:06 [DEBUG] API_CALL tag=map:AI:knowledge graph tools chars=3171 elapsed=13.88s
+2026-06-10 21:18:06 [INFO] INVENTED domain='AI' count=2 examples=['llm control techniques', 'llm application tooling']
+2026-06-10 21:18:16 [DEBUG] API_CALL tag=map:AI:llm cost effectiveness chars=3294 elapsed=10.29s
+2026-06-10 21:18:16 [INFO] INVENTED domain='AI' count=5 examples=['llm knowledge graph integration', 'llm integration in databases', 'ai impact on software development']
+2026-06-10 21:18:28 [DEBUG] API_CALL tag=map:AI:llm output evaluation chars=3101 elapsed=11.34s
+2026-06-10 21:18:28 [INFO] INVENTED domain='AI' count=2 examples=['llm model capabilities', 'llm system observability']
+2026-06-10 21:18:41 [DEBUG] API_CALL tag=map:AI:local ai agents chars=3357 elapsed=12.89s
+2026-06-10 21:18:41 [INFO] INVENTED domain='AI' count=3 examples=['machine learning applications', 'ml workflow orchestration', 'ml infrastructure deployment']
+2026-06-10 21:18:49 [DEBUG] API_CALL tag=map:AI:mlops retail innovation chars=3526 elapsed=8.20s
+2026-06-10 21:18:49 [INFO] INVENTED domain='AI' count=6 examples=['model integration strategies', 'multi-modal ai systems', 'multimodal search recommendations']
+2026-06-10 21:18:57 [DEBUG] API_CALL tag=map:AI:neural networks and agi chars=3271 elapsed=8.37s
+2026-06-10 21:18:57 [WARNING] INVENTION_ALERT domain='AI' count=16 examples=['neurosymbolic ai', 'offline ai devices', 'offline autonomous ai']
+2026-06-10 21:18:57 [INFO] INVENTED domain='AI' count=16 examples=['neurosymbolic ai', 'offline ai devices', 'offline autonomous ai']
+2026-06-10 21:19:06 [DEBUG] API_CALL tag=map:AI:production quality ai applicat chars=3472 elapsed=8.75s
+2026-06-10 21:19:06 [INFO] INVENTED domain='AI' count=8 examples=['quantum machine learning', 'quantum computing algorithms', 'quantum computing architectures']
+2026-06-10 21:19:16 [DEBUG] API_CALL tag=map:AI:retrieval augmented generation chars=3438 elapsed=9.99s
+2026-06-10 21:19:16 [INFO] INVENTED domain='AI' count=3 examples=['search foundation models', 'technological singularity', 'synthetic test data generation']
+2026-06-10 21:19:24 [DEBUG] API_CALL tag=map:AI:user experience with ai chars=1833 elapsed=8.25s
+2026-06-10 21:19:24 [INFO] MAP_DOMAIN_DONE domain='AI' mapped=1895 vocab_size=226
+2026-06-10 21:19:34 [DEBUG] API_CALL tag=map:Security:access control risks chars=3185 elapsed=9.86s
+2026-06-10 21:19:34 [INFO] INVENTED domain='Security' count=5 examples=['access control vulnerabilities', 'account security', 'active directory integration']
+2026-06-10 21:19:47 [DEBUG] API_CALL tag=map:Security:ai fraud detection chars=2925 elapsed=12.87s
+2026-06-10 21:19:47 [INFO] INVENTED domain='Security' count=4 examples=['ai security challenges', 'ai security governance', 'ai security conference']
+2026-06-10 21:19:56 [DEBUG] API_CALL tag=map:Security:ai security risks chars=3265 elapsed=9.14s
+2026-06-10 21:19:56 [WARNING] INVENTION_ALERT domain='Security' count=17 examples=['ai supply chain security', 'alert management', 'android remote wipe']
+2026-06-10 21:19:56 [INFO] INVENTED domain='Security' count=17 examples=['ai supply chain security', 'alert management', 'android remote wipe']
+2026-06-10 21:20:07 [DEBUG] API_CALL tag=map:Security:application security conferenc chars=3856 elapsed=11.13s
+2026-06-10 21:20:07 [WARNING] INVENTION_ALERT domain='Security' count=35 examples=['application security events', 'application security in ai era', 'application security hiring']
+2026-06-10 21:20:07 [INFO] INVENTED domain='Security' count=35 examples=['application security events', 'application security in ai era', 'application security hiring']
+2026-06-10 21:20:15 [DEBUG] API_CALL tag=map:Security:authentication challenges chars=3556 elapsed=8.08s
+2026-06-10 21:20:15 [INFO] INVENTED domain='Security' count=8 examples=['automated security remediation', 'automated security scanning', 'api security updates']
+2026-06-10 21:20:24 [DEBUG] API_CALL tag=map:Security:cli security vulnerabilities chars=3550 elapsed=8.74s
+2026-06-10 21:20:24 [WARNING] INVENTION_ALERT domain='Security' count=22 examples=['cloud security integration', 'cloud security infrastructure', 'cloud security features']
+2026-06-10 21:20:24 [INFO] INVENTED domain='Security' count=22 examples=['cloud security integration', 'cloud security infrastructure', 'cloud security features']
+2026-06-10 21:20:33 [DEBUG] API_CALL tag=map:Security:command injection vulnerabilit chars=3294 elapsed=9.18s
+2026-06-10 21:20:33 [WARNING] INVENTION_ALERT domain='Security' count=20 examples=['community security tools', 'compliance automation', 'compliance automation tools']
+2026-06-10 21:20:33 [INFO] INVENTED domain='Security' count=20 examples=['community security tools', 'compliance automation', 'compliance automation tools']
+2026-06-10 21:20:42 [DEBUG] API_CALL tag=map:Security:cybersecurity community engage chars=3577 elapsed=9.05s
+2026-06-10 21:20:42 [INFO] INVENTED domain='Security' count=2 examples=['data breach incidents', 'data privacy']
+2026-06-10 21:21:03 [DEBUG] API_CALL tag=map:Security:data privacy compliance chars=3607 elapsed=21.15s
+2026-06-10 21:21:03 [WARNING] INVENTION_ALERT domain='Security' count=11 examples=['data security challenges', 'database security', 'database security vulnerabilities']
+2026-06-10 21:21:03 [INFO] INVENTED domain='Security' count=11 examples=['data security challenges', 'database security', 'database security vulnerabilities']
+2026-06-10 21:21:16 [DEBUG] API_CALL tag=map:Security:devops vs devsecops value chars=3374 elapsed=13.13s
+2026-06-10 21:21:16 [WARNING] INVENTION_ALERT domain='Security' count=38 examples=['devsecops integration', 'devsecops partnerships', 'digital content credentials']
+2026-06-10 21:21:16 [INFO] INVENTED domain='Security' count=38 examples=['devsecops integration', 'devsecops partnerships', 'digital content credentials']
+2026-06-10 21:21:26 [DEBUG] API_CALL tag=map:Security:enterprise data security marke chars=3538 elapsed=10.02s
+2026-06-10 21:21:26 [INFO] INVENTED domain='Security' count=1 examples=['network security']
+2026-06-10 21:21:37 [DEBUG] API_CALL tag=map:Security:government funding shutdown chars=3582 elapsed=10.60s
+2026-06-10 21:21:37 [WARNING] INVENTION_ALERT domain='Security' count=50 examples=['government security compliance', 'government surveillance practices', 'government surveillance whistleblowers']
+2026-06-10 21:21:37 [INFO] INVENTED domain='Security' count=50 examples=['government security compliance', 'government surveillance practices', 'government surveillance whistleblowers']
+2026-06-10 21:21:48 [DEBUG] API_CALL tag=map:Security:information security certifica chars=3551 elapsed=10.68s
+2026-06-10 21:21:48 [WARNING] INVENTION_ALERT domain='Security' count=22 examples=['internet governance', 'internet infrastructure security', 'investor sentiment tracking']
+2026-06-10 21:21:48 [INFO] INVENTED domain='Security' count=22 examples=['internet governance', 'internet infrastructure security', 'investor sentiment tracking']
+2026-06-10 21:22:00 [DEBUG] API_CALL tag=map:Security:law enforcement misconduct chars=3457 elapsed=12.61s
+2026-06-10 21:22:00 [WARNING] INVENTION_ALERT domain='Security' count=36 examples=['linux security documentation', 'llm code security', 'llm security vulnerabilities']
+2026-06-10 21:22:00 [INFO] INVENTED domain='Security' count=36 examples=['linux security documentation', 'llm code security', 'llm security vulnerabilities']
+2026-06-10 21:22:15 [DEBUG] API_CALL tag=map:Security:mcp ecosystem security chars=3608 elapsed=14.21s
+2026-06-10 21:22:15 [WARNING] INVENTION_ALERT domain='Security' count=37 examples=['mcp server security tooling', 'mcp server security scanning', 'mcp server security vulnerabilities']
+2026-06-10 21:22:15 [INFO] INVENTED domain='Security' count=37 examples=['mcp server security tooling', 'mcp server security scanning', 'mcp server security vulnerabilities']
+2026-06-10 21:22:26 [DEBUG] API_CALL tag=map:Security:node.js command injection chars=3506 elapsed=11.06s
+2026-06-10 21:22:26 [INFO] INVENTED domain='Security' count=3 examples=['npm security vulnerabilities', 'open redirect vulnerabilities', 'open source security']
+2026-06-10 21:22:35 [DEBUG] API_CALL tag=map:Security:open source security risks chars=3486 elapsed=9.12s
+2026-06-10 21:22:35 [WARNING] INVENTION_ALERT domain='Security' count=26 examples=['open source security tools', 'open source supply chain security', 'openclaw security issues']
+2026-06-10 21:22:35 [INFO] INVENTED domain='Security' count=26 examples=['open source security tools', 'open source supply chain security', 'openclaw security issues']
+2026-06-10 21:22:45 [DEBUG] API_CALL tag=map:Security:phone scam attacks chars=3493 elapsed=10.16s
+2026-06-10 21:22:45 [WARNING] INVENTION_ALERT domain='Security' count=20 examples=['php security', 'policy enforcement tools', 'policy language integration']
+2026-06-10 21:22:45 [INFO] INVENTED domain='Security' count=20 examples=['php security', 'policy enforcement tools', 'policy language integration']
+2026-06-10 21:22:54 [DEBUG] API_CALL tag=map:Security:real-time threat detection chars=3486 elapsed=9.44s
+2026-06-10 21:22:54 [WARNING] INVENTION_ALERT domain='Security' count=13 examples=['runtime security', 'security awareness training', 'scorm 1.2 limitations']
+2026-06-10 21:22:54 [INFO] INVENTED domain='Security' count=13 examples=['runtime security', 'security awareness training', 'scorm 1.2 limitations']
+2026-06-10 21:23:06 [DEBUG] API_CALL tag=map:Security:security certification prepara chars=3716 elapsed=11.39s
+2026-06-10 21:23:06 [WARNING] INVENTION_ALERT domain='Security' count=30 examples=['security certification', 'security challenges', 'security clearance policies']
+2026-06-10 21:23:06 [INFO] INVENTED domain='Security' count=30 examples=['security certification', 'security challenges', 'security clearance policies']
+2026-06-10 21:23:15 [DEBUG] API_CALL tag=map:Security:security platform showcase chars=3782 elapsed=9.57s
+2026-06-10 21:23:15 [WARNING] INVENTION_ALERT domain='Security' count=46 examples=['security program data usage', 'security program sales', 'security report enhancements']
+2026-06-10 21:23:15 [INFO] INVENTED domain='Security' count=46 examples=['security program data usage', 'security program sales', 'security report enhancements']
+2026-06-10 21:23:24 [DEBUG] API_CALL tag=map:Security:server security vulnerabilitie chars=3662 elapsed=9.15s
+2026-06-10 21:23:24 [INFO] INVENTED domain='Security' count=5 examples=['server security vulnerabilities', 'social engineering attacks', 'software reliability risks']
+2026-06-10 21:23:34 [DEBUG] API_CALL tag=map:Security:ssl mode behavior chars=3404 elapsed=9.06s
+2026-06-10 21:23:34 [INFO] INVENTED domain='Security' count=4 examples=['threat modeling', 'threat modeling tools', 'typescript security']
+2026-06-10 21:23:46 [DEBUG] API_CALL tag=map:Security:ups power management chars=3617 elapsed=12.55s
+2026-06-10 21:23:46 [WARNING] INVENTION_ALERT domain='Security' count=30 examples=['ups power management', 'us china tech bans', 'user experience in security']
+2026-06-10 21:23:46 [INFO] INVENTED domain='Security' count=30 examples=['ups power management', 'us china tech bans', 'user experience in security']
+2026-06-10 21:23:47 [DEBUG] API_CALL tag=map:Security:zero trust security chars=164 elapsed=1.06s
+2026-06-10 21:23:47 [INFO] INVENTED domain='Security' count=3 examples=['zero trust security', 'zero-day vulnerabilities', 'zoom api authentication']
+2026-06-10 21:23:47 [INFO] MAP_DOMAIN_DONE domain='Security' mapped=1443 vocab_size=528
+2026-06-10 21:23:55 [DEBUG] API_CALL tag=map:EdTech:360 feedback tools chars=3343 elapsed=7.53s
+2026-06-10 21:23:55 [INFO] INVENTED domain='EdTech' count=6 examples=['academic industry collaboration', 'academic publishing challenges', 'academic skills gaps']
+2026-06-10 21:24:05 [DEBUG] API_CALL tag=map:EdTech:ai agents education chars=3147 elapsed=10.49s
+2026-06-10 21:24:05 [INFO] INVENTED domain='EdTech' count=4 examples=['ai content moderation', 'ai avatars', 'ai chatbots in education']
+2026-06-10 21:24:15 [DEBUG] API_CALL tag=map:EdTech:ai creative tools chars=3158 elapsed=9.33s
+2026-06-10 21:24:15 [INFO] INVENTED domain='EdTech' count=4 examples=['ai education integration', 'ai education programs', 'ai detection in education']
+2026-06-10 21:24:23 [DEBUG] API_CALL tag=map:EdTech:ai impact on instructional des chars=3303 elapsed=8.23s
+2026-06-10 21:24:23 [WARNING] INVENTION_ALERT domain='EdTech' count=10 examples=['ai in instructional design', 'ai in learning and development', 'ai in learning']
+2026-06-10 21:24:23 [INFO] INVENTED domain='EdTech' count=10 examples=['ai in instructional design', 'ai in learning and development', 'ai in learning']
+2026-06-10 21:24:30 [DEBUG] API_CALL tag=map:EdTech:ai initiatives in edtech chars=3159 elapsed=7.22s
+2026-06-10 21:24:30 [INFO] INVENTED domain='EdTech' count=4 examples=['ai personalized learning', 'ai learning platforms', 'ai literacy in education']
+2026-06-10 21:24:39 [DEBUG] API_CALL tag=map:EdTech:ai presentation tools chars=3329 elapsed=9.05s
+2026-06-10 21:24:39 [WARNING] INVENTION_ALERT domain='EdTech' count=18 examples=['ai tools for education', 'ai productivity tools', 'ai project management tools']
+2026-06-10 21:24:39 [INFO] INVENTED domain='EdTech' count=18 examples=['ai tools for education', 'ai productivity tools', 'ai project management tools']
+2026-06-10 21:24:51 [DEBUG] API_CALL tag=map:EdTech:ai training content creation chars=3145 elapsed=11.99s
+2026-06-10 21:24:51 [INFO] INVENTED domain='EdTech' count=4 examples=['ai training programs', 'ai tutoring tools', 'ai tutoring partnerships']
+2026-06-10 21:25:28 [DEBUG] API_CALL tag=map:EdTech:ai-powered reskilling chars=3374 elapsed=37.23s
+2026-06-10 21:25:28 [INFO] INVENTED domain='EdTech' count=3 examples=['android education tools', 'android fastboot', 'assessment methods']
+2026-06-10 21:25:41 [DEBUG] API_CALL tag=map:EdTech:b2b education programs chars=3456 elapsed=12.43s
+2026-06-10 21:25:41 [INFO] INVENTED domain='EdTech' count=2 examples=['chromebooks in education', 'cloud skill development']
+2026-06-10 21:25:50 [DEBUG] API_CALL tag=map:EdTech:coding culture campuses chars=3516 elapsed=8.86s
+2026-06-10 21:25:50 [WARNING] INVENTION_ALERT domain='EdTech' count=14 examples=['company culture', 'coding education tools', 'college campus visits']
+2026-06-10 21:25:50 [INFO] INVENTED domain='EdTech' count=14 examples=['company culture', 'coding education tools', 'college campus visits']
+2026-06-10 21:26:00 [DEBUG] API_CALL tag=map:EdTech:content production scaling chars=3630 elapsed=10.61s
+2026-06-10 21:26:00 [WARNING] INVENTION_ALERT domain='EdTech' count=35 examples=['continuing education options', 'continuing medical education', 'continuous learning culture']
+2026-06-10 21:26:00 [INFO] INVENTED domain='EdTech' count=35 examples=['continuing education options', 'continuing medical education', 'continuous learning culture']
+2026-06-10 21:26:09 [DEBUG] API_CALL tag=map:EdTech:coursera higher education chars=3625 elapsed=8.40s
+2026-06-10 21:26:09 [INFO] INVENTED domain='EdTech' count=4 examples=['customer success stories', 'data-driven decision making', 'data science hiring']
+2026-06-10 21:26:19 [DEBUG] API_CALL tag=map:EdTech:digital accessibility complian chars=3647 elapsed=9.99s
+2026-06-10 21:26:19 [INFO] INVENTED domain='EdTech' count=3 examples=['digital transformation challenges', 'digital transformation in education', 'docker training course']
+2026-06-10 21:26:28 [DEBUG] API_CALL tag=map:EdTech:early literacy tools chars=3385 elapsed=9.73s
+2026-06-10 21:26:28 [WARNING] INVENTION_ALERT domain='EdTech' count=45 examples=['ebom with mdm', 'ebook creation tools', 'ebook format compatibility']
+2026-06-10 21:26:28 [INFO] INVENTED domain='EdTech' count=45 examples=['ebom with mdm', 'ebook creation tools', 'ebook format compatibility']
+2026-06-10 21:26:37 [DEBUG] API_CALL tag=map:EdTech:edtech product features chars=3577 elapsed=8.76s
+2026-06-10 21:26:37 [WARNING] INVENTION_ALERT domain='EdTech' count=26 examples=['edtech product partnerships', 'edtech safety technology', 'edtech program adoption']
+2026-06-10 21:26:37 [INFO] INVENTED domain='EdTech' count=26 examples=['edtech product partnerships', 'edtech safety technology', 'edtech program adoption']
+2026-06-10 21:26:47 [DEBUG] API_CALL tag=map:EdTech:education technology challenge chars=3598 elapsed=10.32s
+2026-06-10 21:26:47 [WARNING] INVENTION_ALERT domain='EdTech' count=11 examples=['education technology challenges', 'education tools effectiveness', 'education workforce transformation']
+2026-06-10 21:26:47 [INFO] INVENTED domain='EdTech' count=11 examples=['education technology challenges', 'education tools effectiveness', 'education workforce transformation']
+2026-06-10 21:27:03 [DEBUG] API_CALL tag=map:EdTech:elearning interaction design chars=3669 elapsed=15.51s
+2026-06-10 21:27:03 [INFO] INVENTED domain='EdTech' count=3 examples=['elearning platform challenges', 'elearning software pricing', 'employee onboarding documentation']
+2026-06-10 21:27:12 [DEBUG] API_CALL tag=map:EdTech:explainer video trends chars=3428 elapsed=9.16s
+2026-06-10 21:27:12 [INFO] INVENTED domain='EdTech' count=4 examples=['faculty development programs', 'educational videos', 'fitness technology products']
+2026-06-10 21:27:21 [DEBUG] API_CALL tag=map:EdTech:genai in education chars=3422 elapsed=9.02s
+2026-06-10 21:27:30 [DEBUG] API_CALL tag=map:EdTech:higher education innovation chars=3763 elapsed=8.66s
+2026-06-10 21:27:30 [WARNING] INVENTION_ALERT domain='EdTech' count=15 examples=['inclusive design', 'industry credentials integration', 'industry micro-credentials']
+2026-06-10 21:27:30 [INFO] INVENTED domain='EdTech' count=15 examples=['inclusive design', 'industry credentials integration', 'industry micro-credentials']
+2026-06-10 21:27:40 [DEBUG] API_CALL tag=map:EdTech:instructional design practice chars=3817 elapsed=10.58s
+2026-06-10 21:27:40 [INFO] INVENTED domain='EdTech' count=8 examples=['instructional design skills', 'instructional design roles', 'interactive video learning']
+2026-06-10 21:27:49 [DEBUG] API_CALL tag=map:EdTech:internal document conversion chars=3446 elapsed=8.74s
+2026-06-10 21:27:49 [INFO] INVENTED domain='EdTech' count=2 examples=['knowledge creation challenges', 'knowledge sharing tools']
+2026-06-10 21:27:58 [DEBUG] API_CALL tag=map:EdTech:leadership training scaling chars=3770 elapsed=9.40s
+2026-06-10 21:27:58 [INFO] INVENTED domain='EdTech' count=4 examples=['learning evaluation challenges', 'learning and development events', 'learning and development challenges']
+2026-06-10 21:28:13 [DEBUG] API_CALL tag=map:EdTech:learning management system chars=3527 elapsed=14.06s
+2026-06-10 21:28:13 [WARNING] INVENTION_ALERT domain='EdTech' count=21 examples=['learning materials development', 'learning measurement metrics', 'learning strategies']
+2026-06-10 21:28:13 [INFO] INVENTED domain='EdTech' count=21 examples=['learning materials development', 'learning measurement metrics', 'learning strategies']
+2026-06-10 21:28:23 [DEBUG] API_CALL tag=map:EdTech:lms development chars=3413 elapsed=10.11s
+2026-06-10 21:28:23 [INFO] INVENTED domain='EdTech' count=1 examples=['education impact metrics']
+2026-06-10 21:28:31 [DEBUG] API_CALL tag=map:EdTech:multi-modal search research chars=3480 elapsed=8.19s
+2026-06-10 21:28:31 [INFO] INVENTED domain='EdTech' count=3 examples=['science education', 'online course availability', 'online education courses']
+2026-06-10 21:28:39 [DEBUG] API_CALL tag=map:EdTech:online graduate programs chars=3612 elapsed=8.05s
+2026-06-10 21:28:39 [INFO] INVENTED domain='EdTech' count=6 examples=['online learning programs', 'online learning certificates', 'online learning challenges']
+2026-06-10 21:28:49 [DEBUG] API_CALL tag=map:EdTech:physical intelligence agents chars=3516 elapsed=9.90s
+2026-06-10 21:28:49 [WARNING] INVENTION_ALERT domain='EdTech' count=9 examples=['post graduation support', 'postgresql learning resources', 'pre-med course planning']
+2026-06-10 21:28:49 [INFO] INVENTED domain='EdTech' count=9 examples=['post graduation support', 'postgresql learning resources', 'pre-med course planning']
+2026-06-10 21:28:59 [DEBUG] API_CALL tag=map:EdTech:psychometrics and nlp chars=3417 elapsed=10.43s
+2026-06-10 21:28:59 [WARNING] INVENTION_ALERT domain='EdTech' count=18 examples=['psychometrics and nlp', 'python learning resources', 'quarterly earnings report']
+2026-06-10 21:28:59 [INFO] INVENTED domain='EdTech' count=18 examples=['psychometrics and nlp', 'python learning resources', 'quarterly earnings report']
+2026-06-10 21:29:08 [DEBUG] API_CALL tag=map:EdTech:scorm compliant portfolios chars=3442 elapsed=9.22s
+2026-06-10 21:29:08 [INFO] INVENTED domain='EdTech' count=8 examples=['education content navigation', 'skills gap', 'skills-based learning']
+2026-06-10 21:29:19 [DEBUG] API_CALL tag=map:EdTech:software for lesson materials chars=3597 elapsed=10.11s
+2026-06-10 21:29:19 [INFO] INVENTED domain='EdTech' count=4 examples=['student data privacy laws', 'student engagement', 'student grading language']
+2026-06-10 21:29:29 [DEBUG] API_CALL tag=map:EdTech:student safety technology chars=3406 elapsed=10.21s
+2026-06-10 21:29:29 [INFO] INVENTED domain='EdTech' count=5 examples=['student safety technology', 'study habits', 'teaching challenges']
+2026-06-10 21:29:36 [DEBUG] API_CALL tag=map:EdTech:technology adoption challenges chars=3605 elapsed=7.33s
+2026-06-10 21:29:36 [INFO] INVENTED domain='EdTech' count=5 examples=['technology skills platforms', 'training content tools', 'training effectiveness']
+2026-06-10 21:29:51 [DEBUG] API_CALL tag=map:EdTech:training program evaluation chars=3381 elapsed=14.62s
+2026-06-10 21:29:51 [INFO] INVENTED domain='EdTech' count=5 examples=['ux design courses', 'university partnership events', 'user feedback mechanisms']
+2026-06-10 21:30:00 [DEBUG] API_CALL tag=map:EdTech:video editing tools chars=3413 elapsed=8.90s
+2026-06-10 21:30:00 [INFO] INVENTED domain='EdTech' count=4 examples=['education market development', 'workforce skills development', 'web development courses']
+2026-06-10 21:30:03 [DEBUG] API_CALL tag=map:EdTech:workplace learning trends chars=958 elapsed=3.61s
+2026-06-10 21:30:03 [INFO] MAP_DOMAIN_DONE domain='EdTech' mapped=2117 vocab_size=411
+2026-06-10 21:30:13 [DEBUG] API_CALL tag=map:Career:24x7 on-call work chars=3149 elapsed=9.89s
+2026-06-10 21:30:13 [INFO] INVENTED domain='Career' count=2 examples=['academic job market', 'academic progress update']
+2026-06-10 21:30:24 [DEBUG] API_CALL tag=map:Career:ai product management hiring chars=3289 elapsed=10.76s
+2026-06-10 21:30:24 [INFO] INVENTED domain='Career' count=5 examples=['ai skills development', 'ai workforce readiness', 'ai skills gap']
+2026-06-10 21:30:33 [DEBUG] API_CALL tag=map:Career:career advancement strategies chars=3130 elapsed=9.33s
+2026-06-10 21:30:45 [DEBUG] API_CALL tag=map:Career:career pivot advice chars=3385 elapsed=11.87s
+2026-06-10 21:30:45 [WARNING] INVENTION_ALERT domain='Career' count=36 examples=['career transition challenges', 'career transitions', 'career promotion']
+2026-06-10 21:30:45 [INFO] INVENTED domain='Career' count=36 examples=['career transition challenges', 'career transitions', 'career promotion']
+2026-06-10 21:30:53 [DEBUG] API_CALL tag=map:Career:cloud certifications value chars=3287 elapsed=8.35s
+2026-06-10 21:30:53 [WARNING] INVENTION_ALERT domain='Career' count=11 examples=['coding interview challenges', 'coding practice consistency', 'coding interview preparation']
+2026-06-10 21:30:53 [INFO] INVENTED domain='Career' count=11 examples=['coding interview challenges', 'coding practice consistency', 'coding interview preparation']
+2026-06-10 21:31:05 [DEBUG] API_CALL tag=map:Career:consultant positioning mistake chars=3311 elapsed=11.50s
+2026-06-10 21:31:05 [WARNING] INVENTION_ALERT domain='Career' count=31 examples=['content authenticity', 'content creation challenges', 'content creation growth']
+2026-06-10 21:31:05 [INFO] INVENTED domain='Career' count=31 examples=['content authenticity', 'content creation challenges', 'content creation growth']
+2026-06-10 21:31:16 [DEBUG] API_CALL tag=map:Career:daily productivity habits chars=3254 elapsed=11.30s
+2026-06-10 21:31:16 [INFO] INVENTED domain='Career' count=3 examples=['degree value', 'design leadership hiring', 'developer community building']
+2026-06-10 21:31:27 [DEBUG] API_CALL tag=map:Career:developer experience roles chars=3415 elapsed=10.33s
+2026-06-10 21:31:27 [WARNING] INVENTION_ALERT domain='Career' count=13 examples=['developer relations roles', 'developer relations role', 'developer relations career']
+2026-06-10 21:31:27 [INFO] INVENTED domain='Career' count=13 examples=['developer relations roles', 'developer relations role', 'developer relations career']
+2026-06-10 21:31:39 [DEBUG] API_CALL tag=map:Career:edtech engineering jobs chars=3549 elapsed=12.21s
+2026-06-10 21:31:39 [INFO] INVENTED domain='Career' count=8 examples=['education program evaluation', 'emergency management careers', 'emergency management training']
+2026-06-10 21:31:53 [DEBUG] API_CALL tag=map:Career:employment background verifica chars=3740 elapsed=14.26s
+2026-06-10 21:31:53 [WARNING] INVENTION_ALERT domain='Career' count=11 examples=['employment background verification', 'employment barriers', 'employment classification']
+2026-06-10 21:31:53 [INFO] INVENTED domain='Career' count=11 examples=['employment background verification', 'employment barriers', 'employment classification']
+2026-06-10 21:32:04 [DEBUG] API_CALL tag=map:Career:engineering hiring benefits chars=3498 elapsed=10.96s
+2026-06-10 21:32:14 [DEBUG] API_CALL tag=map:Career:exam stress in training chars=3562 elapsed=9.91s
+2026-06-10 21:32:14 [WARNING] INVENTION_ALERT domain='Career' count=35 examples=['executive leadership development', 'executive education', 'executive hiring']
+2026-06-10 21:32:14 [INFO] INVENTED domain='Career' count=35 examples=['executive leadership development', 'executive education', 'executive hiring']
+2026-06-10 21:32:26 [DEBUG] API_CALL tag=map:Career:freelance developer opportunit chars=3817 elapsed=11.59s
+2026-06-10 21:32:26 [WARNING] INVENTION_ALERT domain='Career' count=9 examples=['frontend developer hiring', 'frontend interview preparation', 'frontend skill development']
+2026-06-10 21:32:26 [INFO] INVENTED domain='Career' count=9 examples=['frontend developer hiring', 'frontend interview preparation', 'frontend skill development']
+2026-06-10 21:32:35 [DEBUG] API_CALL tag=map:Career:goal setting strategies chars=3417 elapsed=9.77s
+2026-06-10 21:32:35 [WARNING] INVENTION_ALERT domain='Career' count=21 examples=['graduate program admissions', 'graduate school career strategy', 'graduate school engagement']
+2026-06-10 21:32:35 [INFO] INVENTED domain='Career' count=21 examples=['graduate program admissions', 'graduate school career strategy', 'graduate school engagement']
+2026-06-10 21:32:45 [DEBUG] API_CALL tag=map:Career:instructional design career ou chars=3750 elapsed=9.78s
+2026-06-10 21:32:45 [INFO] INVENTED domain='Career' count=2 examples=['internal communications', 'internship preparation']
+2026-06-10 21:32:55 [DEBUG] API_CALL tag=map:Career:internship search chars=3317 elapsed=9.51s
+2026-06-10 21:33:05 [DEBUG] API_CALL tag=map:Career:job assessment tests chars=3052 elapsed=10.08s
+2026-06-10 21:33:05 [INFO] INVENTED domain='Career' count=1 examples=['job hiring']
+2026-06-10 21:33:14 [DEBUG] API_CALL tag=map:Career:job openings announcement chars=3058 elapsed=9.22s
+2026-06-10 21:33:14 [INFO] INVENTED domain='Career' count=7 examples=['job scams', 'job search support', 'job search experiences']
+2026-06-10 21:33:24 [DEBUG] API_CALL tag=map:Career:job security concerns chars=3252 elapsed=9.65s
+2026-06-10 21:33:24 [INFO] INVENTED domain='Career' count=1 examples=['law enforcement hiring']
+2026-06-10 21:33:33 [DEBUG] API_CALL tag=map:Career:ld job market challenges chars=3515 elapsed=9.11s
+2026-06-10 21:33:33 [INFO] INVENTED domain='Career' count=5 examples=['learning and development careers', 'marketing roles', 'machine learning hiring']
+2026-06-10 21:33:42 [DEBUG] API_CALL tag=map:Career:masters degree choice chars=3327 elapsed=9.05s
+2026-06-10 21:33:42 [INFO] INVENTED domain='Career' count=8 examples=['mentorship and leadership', 'mentorship recognition', 'mentorship impact']
+2026-06-10 21:33:52 [DEBUG] API_CALL tag=map:Career:notice period negotiation chars=3526 elapsed=10.58s
+2026-06-10 21:33:52 [WARNING] INVENTION_ALERT domain='Career' count=20 examples=['personal branding', 'people operations hiring', 'people systems analyst hiring']
+2026-06-10 21:33:52 [INFO] INVENTED domain='Career' count=20 examples=['personal branding', 'people operations hiring', 'people systems analyst hiring']
+2026-06-10 21:34:01 [DEBUG] API_CALL tag=map:Career:phd value in cs and ai chars=3492 elapsed=8.93s
+2026-06-10 21:34:01 [WARNING] INVENTION_ALERT domain='Career' count=47 examples=['php hiring thread', 'platform engineering hiring', 'platform engineer skills']
+2026-06-10 21:34:01 [INFO] INVENTED domain='Career' count=47 examples=['php hiring thread', 'platform engineering hiring', 'platform engineer skills']
+2026-06-10 21:34:12 [DEBUG] API_CALL tag=map:Career:product management transitions chars=3667 elapsed=10.53s
+2026-06-10 21:34:12 [INFO] INVENTED domain='Career' count=3 examples=['professional development', 'professional development training', 'professional recommendation']
+2026-06-10 21:34:21 [DEBUG] API_CALL tag=map:Career:programming career reflections chars=3512 elapsed=9.27s
+2026-06-10 21:34:21 [INFO] INVENTED domain='Career' count=3 examples=['public safety officer hiring', 'recruitment communication', 'recruitment process challenges']
+2026-06-10 21:34:31 [DEBUG] API_CALL tag=map:Career:remote developer jobs chars=3226 elapsed=9.53s
+2026-06-10 21:34:31 [WARNING] INVENTION_ALERT domain='Career' count=45 examples=['remote tech jobs', 'remote work opportunities', 'remote interview process']
+2026-06-10 21:34:31 [INFO] INVENTED domain='Career' count=45 examples=['remote tech jobs', 'remote work opportunities', 'remote interview process']
+2026-06-10 21:34:40 [DEBUG] API_CALL tag=map:Career:safety job stability chars=3406 elapsed=9.22s
+2026-06-10 21:34:40 [INFO] INVENTED domain='Career' count=5 examples=['sales engineer role value', 'sales hiring', 'sales coaching']
+2026-06-10 21:34:49 [DEBUG] API_CALL tag=map:Career:senior engineer career path chars=3683 elapsed=8.92s
+2026-06-10 21:34:49 [INFO] INVENTED domain='Career' count=6 examples=['senior engineering hiring challenges', 'software engineer interviews', 'senior engineering roles']
+2026-06-10 21:34:57 [DEBUG] API_CALL tag=map:Career:software engineering career ad chars=3552 elapsed=8.41s
+2026-06-10 21:34:57 [INFO] INVENTED domain='Career' count=3 examples=['software engineering career growth', 'software engineering interviews', 'startup hiring']
+2026-06-10 21:35:07 [DEBUG] API_CALL tag=map:Career:statistics specialization choi chars=3293 elapsed=9.70s
+2026-06-10 21:35:07 [INFO] INVENTED domain='Career' count=5 examples=['business development hiring', 'teaching career transition', 'team leadership hiring']
+2026-06-10 21:35:17 [DEBUG] API_CALL tag=map:Career:tech hiring strategies chars=3320 elapsed=10.34s
+2026-06-10 21:35:28 [DEBUG] API_CALL tag=map:Career:technical skill assessments chars=3542 elapsed=11.05s
+2026-06-10 21:35:28 [WARNING] INVENTION_ALERT domain='Career' count=20 examples=['technical training programs', 'technical support hiring', 'technical writing roles']
+2026-06-10 21:35:28 [INFO] INVENTED domain='Career' count=20 examples=['technical training programs', 'technical support hiring', 'technical writing roles']
+2026-06-10 21:35:38 [DEBUG] API_CALL tag=map:Career:wellbeing assessment tools chars=3235 elapsed=9.41s
+2026-06-10 21:35:38 [WARNING] INVENTION_ALERT domain='Career' count=45 examples=['wellbeing assessment tools', 'wildland saw kit', 'women retention tech']
+2026-06-10 21:35:38 [INFO] INVENTED domain='Career' count=45 examples=['wellbeing assessment tools', 'wildland saw kit', 'women retention tech']
+2026-06-10 21:35:39 [DEBUG] API_CALL tag=map:Career:writing skills in sales chars=103 elapsed=0.92s
+2026-06-10 21:35:39 [INFO] MAP_DOMAIN_DONE domain='Career' mapped=1982 vocab_size=433
+2026-06-10 21:35:50 [DEBUG] API_CALL tag=map:Business & Strategy:3d reconstruction technology chars=3355 elapsed=10.94s
+2026-06-10 21:35:50 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=38 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 21:35:50 [INFO] INVENTED domain='Business & Strategy' count=38 examples=['3d reconstruction technology', '5s methodology application', 'a/b testing ui design']
+2026-06-10 21:36:43 [DEBUG] API_CALL tag=map:Business & Strategy:ai climate solutions chars=3322 elapsed=53.42s
+2026-06-10 21:36:54 [DEBUG] API_CALL tag=map:Business & Strategy:ai in product management chars=3129 elapsed=10.89s
+2026-06-10 21:37:05 [DEBUG] API_CALL tag=map:Business & Strategy:ai solution adoption chars=3414 elapsed=11.40s
+2026-06-10 21:37:05 [INFO] INVENTED domain='Business & Strategy' count=4 examples=['ai startup funding', 'self-map', 'automation and ai integration']
+2026-06-10 21:37:17 [DEBUG] API_CALL tag=map:Business & Strategy:aws re:invent event chars=3237 elapsed=11.30s
+2026-06-10 21:37:17 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=23 examples=['b2b sales challenges', 'b2b saas adoption reasons', 'b2b saas market strategy']
+2026-06-10 21:37:17 [INFO] INVENTED domain='Business & Strategy' count=23 examples=['b2b sales challenges', 'b2b saas adoption reasons', 'b2b saas market strategy']
+2026-06-10 21:37:28 [DEBUG] API_CALL tag=map:Business & Strategy:burnout management strategies chars=3778 elapsed=11.93s
+2026-06-10 21:37:28 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=57 examples=['business analyst portfolio', 'business collaboration', 'business communication skills']
+2026-06-10 21:37:28 [INFO] INVENTED domain='Business & Strategy' count=57 examples=['business analyst portfolio', 'business collaboration', 'business communication skills']
+2026-06-10 21:37:38 [DEBUG] API_CALL tag=map:Business & Strategy:client relationship growth chars=3471 elapsed=9.85s
+2026-06-10 21:37:38 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=14 examples=['client relationship management', 'climate impact on insurance', 'cmdb value optimization']
+2026-06-10 21:37:38 [INFO] INVENTED domain='Business & Strategy' count=14 examples=['client relationship management', 'climate impact on insurance', 'cmdb value optimization']
+2026-06-10 21:37:48 [DEBUG] API_CALL tag=map:Business & Strategy:company events chars=3599 elapsed=9.22s
+2026-06-10 21:37:48 [INFO] INVENTED domain='Business & Strategy' count=7 examples=['company growth milestones', 'company vision and strategy', 'company recognition']
+2026-06-10 21:37:58 [DEBUG] API_CALL tag=map:Business & Strategy:conversion optimization chars=3697 elapsed=10.10s
+2026-06-10 21:37:58 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=36 examples=['conversion rate optimization', 'copywriting frameworks', 'corporate layoffs analysis']
+2026-06-10 21:37:58 [INFO] INVENTED domain='Business & Strategy' count=36 examples=['conversion rate optimization', 'copywriting frameworks', 'corporate layoffs analysis']
+2026-06-10 21:38:07 [DEBUG] API_CALL tag=map:Business & Strategy:customer experience issues chars=3789 elapsed=9.08s
+2026-06-10 21:38:07 [INFO] INVENTED domain='Business & Strategy' count=8 examples=['customer experience transformation', 'customer feedback management', 'customer growth milestones']
+2026-06-10 21:38:16 [DEBUG] API_CALL tag=map:Business & Strategy:developer experience impact chars=3692 elapsed=9.39s
+2026-06-10 21:38:16 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=59 examples=['developer experience impact', 'developer marketing', 'developer product marketing']
+2026-06-10 21:38:16 [INFO] INVENTED domain='Business & Strategy' count=59 examples=['developer experience impact', 'developer marketing', 'developer product marketing']
+2026-06-10 21:38:32 [DEBUG] API_CALL tag=map:Business & Strategy:ecommerce marketing tools chars=3608 elapsed=15.75s
+2026-06-10 21:38:32 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=9 examples=['ecommerce solutions', 'economic impact inflation policy', 'employment statistics uk']
+2026-06-10 21:38:32 [INFO] INVENTED domain='Business & Strategy' count=9 examples=['ecommerce solutions', 'economic impact inflation policy', 'employment statistics uk']
+2026-06-10 21:38:47 [DEBUG] API_CALL tag=map:Business & Strategy:enterprise architecture trends chars=3533 elapsed=14.92s
+2026-06-10 21:38:47 [INFO] INVENTED domain='Business & Strategy' count=4 examples=['enterprise software pricing', 'enterprise software adoption', 'enterprise software integration']
+2026-06-10 21:38:58 [DEBUG] API_CALL tag=map:Business & Strategy:female entrepreneurship challe chars=3552 elapsed=11.46s
+2026-06-10 21:38:58 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=40 examples=['financial services innovation', 'financial services insights', 'financial inclusion challenges']
+2026-06-10 21:38:58 [INFO] INVENTED domain='Business & Strategy' count=40 examples=['financial services innovation', 'financial services insights', 'financial inclusion challenges']
+2026-06-10 21:39:09 [DEBUG] API_CALL tag=map:Business & Strategy:generate to earn concept chars=3609 elapsed=10.85s
+2026-06-10 21:39:09 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=41 examples=['generate to earn concept', 'generative ai content creation', 'global market strategies']
+2026-06-10 21:39:09 [INFO] INVENTED domain='Business & Strategy' count=41 examples=['generate to earn concept', 'generative ai content creation', 'global market strategies']
+2026-06-10 21:39:19 [DEBUG] API_CALL tag=map:Business & Strategy:indie saas growth challenges chars=3485 elapsed=9.72s
+2026-06-10 21:39:19 [INFO] INVENTED domain='Business & Strategy' count=6 examples=['industry innovation', 'innovation recognition', 'investment and growth']
+2026-06-10 21:39:30 [DEBUG] API_CALL tag=map:Business & Strategy:kickstarter fundraising tips chars=3535 elapsed=10.67s
+2026-06-10 21:39:30 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=44 examples=['lead generation strategies', 'lead qualification', 'lead scoring implementation']
+2026-06-10 21:39:30 [INFO] INVENTED domain='Business & Strategy' count=44 examples=['lead generation strategies', 'lead qualification', 'lead scoring implementation']
+2026-06-10 21:39:41 [DEBUG] API_CALL tag=map:Business & Strategy:marketing tech stack chars=3626 elapsed=11.83s
+2026-06-10 21:39:41 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=26 examples=['marketing technology adoption', 'martech platform comparison', 'moonshot innovation needs']
+2026-06-10 21:39:41 [INFO] INVENTED domain='Business & Strategy' count=26 examples=['marketing technology adoption', 'martech platform comparison', 'moonshot innovation needs']
+2026-06-10 21:39:51 [DEBUG] API_CALL tag=map:Business & Strategy:opsgenie sunset transition chars=3607 elapsed=9.87s
+2026-06-10 21:39:51 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=43 examples=['organic growth strategies', 'organic social media growth', 'organic traffic growth']
+2026-06-10 21:39:51 [INFO] INVENTED domain='Business & Strategy' count=43 examples=['organic growth strategies', 'organic social media growth', 'organic traffic growth']
+2026-06-10 21:40:01 [DEBUG] API_CALL tag=map:Business & Strategy:pre-sales challenges chars=3465 elapsed=9.45s
+2026-06-10 21:40:01 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=18 examples=['presentation frameworks', 'privacy regulations and data', 'private market transparency']
+2026-06-10 21:40:01 [INFO] INVENTED domain='Business & Strategy' count=18 examples=['presentation frameworks', 'privacy regulations and data', 'private market transparency']
+2026-06-10 21:40:10 [DEBUG] API_CALL tag=map:Business & Strategy:product lifecycle waste chars=3605 elapsed=9.79s
+2026-06-10 21:40:10 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=19 examples=['product lifecycle waste', 'product marketing strategies', 'product marketing podcast']
+2026-06-10 21:40:10 [INFO] INVENTED domain='Business & Strategy' count=19 examples=['product lifecycle waste', 'product marketing strategies', 'product marketing podcast']
+2026-06-10 21:40:20 [DEBUG] API_CALL tag=map:Business & Strategy:real-time customer engagement chars=3406 elapsed=9.83s
+2026-06-10 21:40:20 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=9 examples=['regional market expansion', 'retail business performance', 'retail transformation strategy']
+2026-06-10 21:40:20 [INFO] INVENTED domain='Business & Strategy' count=9 examples=['regional market expansion', 'retail business performance', 'retail transformation strategy']
+2026-06-10 21:40:30 [DEBUG] API_CALL tag=map:Business & Strategy:saas market strategy chars=3214 elapsed=9.49s
+2026-06-10 21:40:30 [INFO] INVENTED domain='Business & Strategy' count=3 examples=['sales communication challenges', 'sales outreach strategies', 'sales performance growth']
+2026-06-10 21:40:37 [DEBUG] API_CALL tag=map:Business & Strategy:sales productivity optimizatio chars=2866 elapsed=7.21s
+2026-06-10 21:40:37 [INFO] INVENTED domain='Business & Strategy' count=4 examples=['sales strategy', 'service operations', 'small business growth']
+2026-06-10 21:40:47 [DEBUG] API_CALL tag=map:Business & Strategy:social impact startups chars=3594 elapsed=10.10s
+2026-06-10 21:40:47 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=32 examples=['social impact startups', 'social policy impacts', 'software product evaluation']
+2026-06-10 21:40:47 [INFO] INVENTED domain='Business & Strategy' count=32 examples=['social impact startups', 'social policy impacts', 'software product evaluation']
+2026-06-10 21:40:55 [DEBUG] API_CALL tag=map:Business & Strategy:startup deal evaluation chars=3314 elapsed=7.62s
+2026-06-10 21:40:55 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=10 examples=['startup founder hiring', 'startup funding announcements', 'startup funding challenges']
+2026-06-10 21:40:55 [INFO] INVENTED domain='Business & Strategy' count=10 examples=['startup founder hiring', 'startup funding announcements', 'startup funding challenges']
+2026-06-10 21:41:05 [DEBUG] API_CALL tag=map:Business & Strategy:startup recognition chars=3422 elapsed=9.80s
+2026-06-10 21:41:05 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=20 examples=['startup recognition', 'startup technical cofounder search', 'startup support']
+2026-06-10 21:41:05 [INFO] INVENTED domain='Business & Strategy' count=20 examples=['startup recognition', 'startup technical cofounder search', 'startup support']
+2026-06-10 21:41:16 [DEBUG] API_CALL tag=map:Business & Strategy:technical vs business pains chars=3640 elapsed=11.68s
+2026-06-10 21:41:16 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=11 examples=['business challenges', 'technology competitive advantage', 'technology innovation recognition']
+2026-06-10 21:41:16 [INFO] INVENTED domain='Business & Strategy' count=11 examples=['business challenges', 'technology competitive advantage', 'technology innovation recognition']
+2026-06-10 21:41:27 [DEBUG] API_CALL tag=map:Business & Strategy:value-based selling chars=3495 elapsed=10.27s
+2026-06-10 21:41:27 [WARNING] INVENTION_ALERT domain='Business & Strategy' count=41 examples=['vehicle write-off policies impact', 'vendor partner trust', 'vendor pricing strategies']
+2026-06-10 21:41:27 [INFO] INVENTED domain='Business & Strategy' count=41 examples=['vehicle write-off policies impact', 'vendor partner trust', 'vendor pricing strategies']
+2026-06-10 21:41:28 [DEBUG] API_CALL tag=map:Business & Strategy:workflow ownership impact chars=240 elapsed=1.35s
+2026-06-10 21:41:28 [INFO] MAP_DOMAIN_DONE domain='Business & Strategy' mapped=1744 vocab_size=727
+2026-06-10 21:41:38 [DEBUG] API_CALL tag=map:Data & Analytics:a/b testing and causal inferen chars=3226 elapsed=10.04s
+2026-06-10 21:41:38 [INFO] INVENTED domain='Data & Analytics' count=8 examples=['ab testing methodology', 'ai analytics tools', 'ai-driven data pipelines']
+2026-06-10 21:41:49 [DEBUG] API_CALL tag=map:Data & Analytics:api log management chars=3392 elapsed=10.85s
+2026-06-10 21:41:49 [INFO] INVENTED domain='Data & Analytics' count=6 examples=['business intelligence limitations', 'business intelligence integrations', 'big data processing']
+2026-06-10 21:41:58 [DEBUG] API_CALL tag=map:Data & Analytics:context graphs chars=3279 elapsed=8.81s
+2026-06-10 21:41:58 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=10 examples=['customer feedback analytics', 'data classification', 'customer data strategies']
+2026-06-10 21:41:58 [INFO] INVENTED domain='Data & Analytics' count=10 examples=['customer feedback analytics', 'data classification', 'customer data strategies']
+2026-06-10 21:42:07 [DEBUG] API_CALL tag=map:Data & Analytics:data community engagement chars=3431 elapsed=9.64s
+2026-06-10 21:42:07 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=27 examples=['data engineering community', 'data events', 'data exploration tools']
+2026-06-10 21:42:07 [INFO] INVENTED domain='Data & Analytics' count=27 examples=['data engineering community', 'data events', 'data exploration tools']
+2026-06-10 21:42:18 [DEBUG] API_CALL tag=map:Data & Analytics:data integration platform chars=3454 elapsed=11.03s
+2026-06-10 21:42:27 [DEBUG] API_CALL tag=map:Data & Analytics:data platform engineering chars=3285 elapsed=8.53s
+2026-06-10 21:42:27 [INFO] INVENTED domain='Data & Analytics' count=7 examples=['data platform environment isolation', 'data science podcasts', 'data science operations']
+2026-06-10 21:42:36 [DEBUG] API_CALL tag=map:Data & Analytics:data transformation postgresql chars=3506 elapsed=8.88s
+2026-06-10 21:42:36 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=11 examples=['data transformation tools', 'database data structures', 'database landscape survey']
+2026-06-10 21:42:36 [INFO] INVENTED domain='Data & Analytics' count=11 examples=['data transformation tools', 'database data structures', 'database landscape survey']
+2026-06-10 21:42:46 [DEBUG] API_CALL tag=map:Data & Analytics:database sorting techniques chars=3474 elapsed=9.99s
+2026-06-10 21:42:46 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=44 examples=['databricks clean rooms', 'databricks cost monitoring', 'databricks job components']
+2026-06-10 21:42:46 [INFO] INVENTED domain='Data & Analytics' count=44 examples=['databricks clean rooms', 'databricks cost monitoring', 'databricks job components']
+2026-06-10 21:42:57 [DEBUG] API_CALL tag=map:Data & Analytics:event driven pipelines chars=3369 elapsed=11.13s
+2026-06-10 21:42:57 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=19 examples=['feature management platforms', 'federal data strategy', 'financial ontology']
+2026-06-10 21:42:57 [INFO] INVENTED domain='Data & Analytics' count=19 examples=['feature management platforms', 'federal data strategy', 'financial ontology']
+2026-06-10 21:43:10 [DEBUG] API_CALL tag=map:Data & Analytics:historical data analysis chars=3616 elapsed=13.51s
+2026-06-10 21:43:10 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=18 examples=['knowledge graph challenges', 'knowledge graph building', 'knowledge graph governance']
+2026-06-10 21:43:10 [INFO] INVENTED domain='Data & Analytics' count=18 examples=['knowledge graph challenges', 'knowledge graph building', 'knowledge graph governance']
+2026-06-10 21:43:19 [DEBUG] API_CALL tag=map:Data & Analytics:knowledge graph reification chars=3537 elapsed=9.19s
+2026-06-10 21:43:19 [INFO] INVENTED domain='Data & Analytics' count=2 examples=['ml infrastructure', 'ml production deployment']
+2026-06-10 21:43:30 [DEBUG] API_CALL tag=map:Data & Analytics:modeled dataset tooling chars=3410 elapsed=10.28s
+2026-06-10 21:43:30 [WARNING] INVENTION_ALERT domain='Data & Analytics' count=28 examples=['modern data stack', 'motivation research methods', 'multi tenancy architecture']
+2026-06-10 21:43:30 [INFO] INVENTED domain='Data & Analytics' count=28 examples=['modern data stack', 'motivation research methods', 'multi tenancy architecture']
+2026-06-10 21:43:40 [DEBUG] API_CALL tag=map:Data & Analytics:postgis spatial data chars=3243 elapsed=10.15s
+2026-06-10 21:43:40 [INFO] INVENTED domain='Data & Analytics' count=4 examples=['postgresql analytics', 'postgresql collation changes', 'postgres data summit']
+2026-06-10 21:43:58 [DEBUG] API_CALL tag=map:Data & Analytics:postgresql columnar storage chars=3401 elapsed=18.55s
+2026-06-10 21:43:58 [INFO] INVENTED domain='Data & Analytics' count=8 examples=['postgresql data storage', 'postgresql data processing', 'postgresql data streaming']
+2026-06-10 21:44:12 [DEBUG] API_CALL tag=map:Data & Analytics:product analytics events chars=3469 elapsed=13.05s
+2026-06-10 21:44:12 [INFO] INVENTED domain='Data & Analytics' count=6 examples=['data engineering tools', 'quantum algorithms', 'real-time data platforms']
+2026-06-10 21:44:24 [DEBUG] API_CALL tag=map:Data & Analytics:scaling data teams chars=3310 elapsed=12.38s
+2026-06-10 21:44:24 [INFO] INVENTED domain='Data & Analytics' count=7 examples=['search optimization service', 'self-service analytics', 'semantic layer data platforms']
+2026-06-10 21:44:34 [DEBUG] API_CALL tag=map:Data & Analytics:telemetry pipeline operation chars=2570 elapsed=9.73s
+2026-06-10 21:44:34 [INFO] INVENTED domain='Data & Analytics' count=5 examples=['text data processing', 'trading strategy analysis', 'unstructured data ai']
+2026-06-10 21:44:34 [INFO] MAP_DOMAIN_DONE domain='Data & Analytics' mapped=1009 vocab_size=263
+2026-06-10 21:44:43 [DEBUG] API_CALL tag=map:Leadership & Management:acronym usage challenges chars=3371 elapsed=9.66s
+2026-06-10 21:44:55 [DEBUG] API_CALL tag=map:Leadership & Management:ai innovation recognition chars=3337 elapsed=11.65s
+2026-06-10 21:44:55 [INFO] INVENTED domain='Leadership & Management' count=3 examples=['ai workforce development', 'automation governance', 'building engineering teams']
+2026-06-10 21:45:02 [DEBUG] API_CALL tag=map:Leadership & Management:cio challenges and insights chars=3581 elapsed=6.74s
+2026-06-10 21:45:02 [WARNING] INVENTION_ALERT domain='Leadership & Management' count=11 examples=['civil rights education', 'civil rights movement history', 'cloud adoption challenges']
+2026-06-10 21:45:02 [INFO] INVENTED domain='Leadership & Management' count=11 examples=['civil rights education', 'civil rights movement history', 'cloud adoption challenges']
+2026-06-10 21:45:12 [DEBUG] API_CALL tag=map:Leadership & Management:corporate culture transformati chars=3389 elapsed=10.40s
+2026-06-10 21:45:12 [INFO] INVENTED domain='Leadership & Management' count=7 examples=['creativity in workplace', 'customer success management', 'developer experience metrics']
+2026-06-10 21:46:15 [DEBUG] API_CALL tag=map:Leadership & Management:developer productivity metrics chars=3667 elapsed=63.08s
+2026-06-10 21:46:15 [WARNING] INVENTION_ALERT domain='Leadership & Management' count=13 examples=['developer relations evolution', 'developer team governance', 'devops conferences']
+2026-06-10 21:46:15 [INFO] INVENTED domain='Leadership & Management' count=13 examples=['developer relations evolution', 'developer team governance', 'devops conferences']
+2026-06-10 21:46:24 [DEBUG] API_CALL tag=map:Leadership & Management:employee social media policies chars=3941 elapsed=8.94s
+2026-06-10 21:46:24 [WARNING] INVENTION_ALERT domain='Leadership & Management' count=17 examples=['employee termination challenges', 'employee well-being', 'energy management']
+2026-06-10 21:46:24 [INFO] INVENTED domain='Leadership & Management' count=17 examples=['employee termination challenges', 'employee well-being', 'energy management']
+2026-06-10 21:46:35 [DEBUG] API_CALL tag=map:Leadership & Management:engineering manager transition chars=3522 elapsed=10.85s
+2026-06-10 21:46:46 [DEBUG] API_CALL tag=map:Leadership & Management:future of work chars=3284 elapsed=11.40s
+2026-06-10 21:46:46 [INFO] INVENTED domain='Leadership & Management' count=8 examples=['future of work', 'government appointments', 'hr challenges mexico']
+2026-06-10 21:46:56 [DEBUG] API_CALL tag=map:Leadership & Management:innovation awards chars=3466 elapsed=9.30s
+2026-06-10 21:46:56 [INFO] INVENTED domain='Leadership & Management' count=2 examples=['innovation mindset', 'leadership recognition']
+2026-06-10 21:47:05 [DEBUG] API_CALL tag=map:Leadership & Management:leadership resilience chars=3371 elapsed=9.41s
+2026-06-10 21:47:05 [INFO] INVENTED domain='Leadership & Management' count=2 examples=['leadership skills development', 'management philosophy']
+2026-06-10 21:47:15 [DEBUG] API_CALL tag=map:Leadership & Management:member benefits chars=3621 elapsed=9.67s
+2026-06-10 21:47:15 [INFO] INVENTED domain='Leadership & Management' count=2 examples=['organizational change management', 'organizational restructuring']
+2026-06-10 21:47:23 [DEBUG] API_CALL tag=map:Leadership & Management:partner engagement chars=3691 elapsed=8.15s
+2026-06-10 21:47:23 [INFO] INVENTED domain='Leadership & Management' count=7 examples=['performance review processes', 'personal mindset framing', 'personal productivity systems']
+2026-06-10 21:47:31 [DEBUG] API_CALL tag=map:Leadership & Management:product vision communication chars=3450 elapsed=8.16s
+2026-06-10 21:47:31 [INFO] INVENTED domain='Leadership & Management' count=1 examples=['return to office policies']
+2026-06-10 21:47:40 [DEBUG] API_CALL tag=map:Leadership & Management:sales coaching framework chars=3535 elapsed=8.99s
+2026-06-10 21:47:40 [INFO] INVENTED domain='Leadership & Management' count=2 examples=['skills development panel', 'skills-based organizations']
+2026-06-10 21:47:49 [DEBUG] API_CALL tag=map:Leadership & Management:sprint planning accuracy chars=3554 elapsed=9.25s
+2026-06-10 21:47:49 [WARNING] INVENTION_ALERT domain='Leadership & Management' count=9 examples=['startup execution strategies', 'startup founding inspiration', 'talent acquisition strategies']
+2026-06-10 21:47:49 [INFO] INVENTED domain='Leadership & Management' count=9 examples=['startup execution strategies', 'startup founding inspiration', 'talent acquisition strategies']
+2026-06-10 21:47:57 [DEBUG] API_CALL tag=map:Leadership & Management:team motivation strategies chars=3426 elapsed=7.34s
+2026-06-10 21:47:57 [INFO] INVENTED domain='Leadership & Management' count=1 examples=['women leadership community']
+2026-06-10 21:48:04 [DEBUG] API_CALL tag=map:Leadership & Management:women leadership conferences chars=2837 elapsed=7.19s
+2026-06-10 21:48:04 [INFO] INVENTED domain='Leadership & Management' count=2 examples=['workforce upskilling', 'workplace misconduct regulation']
+2026-06-10 21:48:04 [INFO] MAP_DOMAIN_DONE domain='Leadership & Management' mapped=1008 vocab_size=125
+2026-06-10 21:48:15 [DEBUG] API_CALL tag=map:Open Source:a2a protocol donation chars=3186 elapsed=11.12s
+2026-06-10 21:48:15 [WARNING] INVENTION_ALERT domain='Open Source' count=29 examples=['ai agent systems', 'ai agent tools', 'ai project visualization tool']
+2026-06-10 21:48:15 [INFO] INVENTED domain='Open Source' count=29 examples=['ai agent systems', 'ai agent tools', 'ai project visualization tool']
+2026-06-10 21:48:23 [DEBUG] API_CALL tag=map:Open Source:archimate modeling tools chars=3285 elapsed=8.22s
+2026-06-10 21:48:32 [DEBUG] API_CALL tag=map:Open Source:community outreach chars=3621 elapsed=8.32s
+2026-06-10 21:48:32 [WARNING] INVENTION_ALERT domain='Open Source' count=40 examples=['invention: compiler development', 'invention: container technologies', 'invention: container virtualization']
+2026-06-10 21:48:32 [INFO] INVENTED domain='Open Source' count=40 examples=['invention: compiler development', 'invention: container technologies', 'invention: container virtualization']
+2026-06-10 21:48:40 [DEBUG] API_CALL tag=map:Open Source:database snapshot tools chars=3709 elapsed=8.47s
+2026-06-10 21:48:40 [INFO] INVENTED domain='Open Source' count=7 examples=['django web framework', 'invention: durable workflow engines', 'elixir open source tools']
+2026-06-10 21:48:48 [DEBUG] API_CALL tag=map:Open Source:embedded graph databases chars=3337 elapsed=7.92s
+2026-06-10 21:48:48 [WARNING] INVENTION_ALERT domain='Open Source' count=35 examples=['graph databases', 'embedding adapters library', 'entity resolution tools']
+2026-06-10 21:48:48 [INFO] INVENTED domain='Open Source' count=35 examples=['graph databases', 'embedding adapters library', 'entity resolution tools']
+2026-06-10 21:48:56 [DEBUG] API_CALL tag=map:Open Source:helm charts maintenance chars=3430 elapsed=8.37s
+2026-06-10 21:48:56 [INFO] INVENTED domain='Open Source' count=6 examples=['invention: ai game development', 'infrastructure as code', 'knowledge graph performance']
+2026-06-10 21:49:06 [DEBUG] API_CALL tag=map:Open Source:laravel authorization packages chars=3379 elapsed=9.87s
+2026-06-10 21:49:06 [WARNING] INVENTION_ALERT domain='Open Source' count=35 examples=['laravel package release', 'llm gateway development', 'llm integration tooling']
+2026-06-10 21:49:06 [INFO] INVENTED domain='Open Source' count=35 examples=['laravel package release', 'llm gateway development', 'llm integration tooling']
+2026-06-10 21:49:15 [DEBUG] API_CALL tag=map:Open Source:neovim plugins chars=3622 elapsed=9.11s
+2026-06-10 21:49:15 [WARNING] INVENTION_ALERT domain='Open Source' count=39 examples=['invention: data integration tools', 'invention: node.js tooling', 'npm package testing tools']
+2026-06-10 21:49:15 [INFO] INVENTED domain='Open Source' count=39 examples=['invention: data integration tools', 'invention: node.js tooling', 'npm package testing tools']
+2026-06-10 21:49:25 [DEBUG] API_CALL tag=map:Open Source:open source contribution proce chars=3820 elapsed=10.18s
+2026-06-10 21:49:25 [INFO] INVENTED domain='Open Source' count=3 examples=['open source database tools', 'open source project development', 'open source economic value']
+2026-06-10 21:49:35 [DEBUG] API_CALL tag=map:Open Source:open source security community chars=3428 elapsed=9.80s
+2026-06-10 21:49:35 [WARNING] INVENTION_ALERT domain='Open Source' count=33 examples=['open source security tools', 'open source social platform', 'open source trustworthiness']
+2026-06-10 21:49:35 [INFO] INVENTED domain='Open Source' count=33 examples=['open source security tools', 'open source social platform', 'open source trustworthiness']
+2026-06-10 21:49:44 [DEBUG] API_CALL tag=map:Open Source:postgres community events chars=3577 elapsed=8.60s
+2026-06-10 21:49:44 [WARNING] INVENTION_ALERT domain='Open Source' count=13 examples=['invention: database data copying tools', 'postgresql extensions', 'postgresql extension packaging']
+2026-06-10 21:49:44 [INFO] INVENTED domain='Open Source' count=13 examples=['invention: database data copying tools', 'postgresql extensions', 'postgresql extension packaging']
+2026-06-10 21:49:52 [DEBUG] API_CALL tag=map:Open Source:project onboarding experience chars=3361 elapsed=8.38s
+2026-06-10 21:49:52 [WARNING] INVENTION_ALERT domain='Open Source' count=27 examples=['python runtime optimization', 'python sql integration tools', 'python type checkers']
+2026-06-10 21:49:52 [INFO] INVENTED domain='Open Source' count=27 examples=['python runtime optimization', 'python sql integration tools', 'python type checkers']
+2026-06-10 21:50:03 [DEBUG] API_CALL tag=map:Open Source:rust crates chars=3391 elapsed=10.31s
+2026-06-10 21:50:03 [WARNING] INVENTION_ALERT domain='Open Source' count=50 examples=['rust crates', 'rust data orchestration', 'rust etl server']
+2026-06-10 21:50:03 [INFO] INVENTED domain='Open Source' count=50 examples=['rust crates', 'rust data orchestration', 'rust etl server']
+2026-06-10 21:50:14 [DEBUG] API_CALL tag=map:Open Source:supabase elixir client chars=3490 elapsed=11.03s
+2026-06-10 21:50:14 [INFO] INVENTED domain='Open Source' count=5 examples=['invention: infrastructure as code', 'database security tools', 'data grid libraries']
+2026-06-10 21:50:16 [DEBUG] API_CALL tag=map:Open Source:web traffic trends chars=425 elapsed=2.30s
+2026-06-10 21:50:16 [INFO] INVENTED domain='Open Source' count=1 examples=['invention: messaging protocol standardization']
+2026-06-10 21:50:16 [INFO] MAP_DOMAIN_DONE domain='Open Source' mapped=847 vocab_size=346
+2026-06-10 21:50:16 [INFO] RUN_END elapsed=4457s step=2 dry_run=False

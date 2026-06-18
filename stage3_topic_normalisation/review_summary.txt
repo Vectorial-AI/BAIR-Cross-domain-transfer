@@ -1,0 +1,960 @@
+PROPOSED MERGES MANUAL REVIEW SUMMARY
+========================================================================
+
+Total rows reviewed (APPROVED + REJECTED): 389
+Total disagreements with original verdict: 95
+  Original APPROVED -> manual REJECT: 59
+  Original REJECTED -> manual APPROVE: 36
+
+DISAGREEMENTS FOR HUMAN ADJUDICATION
+========================================================================
+
+--- Disagreement 1 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  async data fetching
+Proposed canon:   frontend data fetching
+Original verdict: APPROVED
+Original reason:  async data fetching is a specific type of frontend data fetching
+Manual verdict:   REJECT
+Manual reason:    'async data fetching' and 'frontend data fetching' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 2 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  build system comparison
+Proposed canon:   build system improvements
+Original verdict: APPROVED
+Original reason:  build system comparison is related to build system improvements
+Manual verdict:   REJECT
+Manual reason:    Comparing build systems is a different activity from improving build systems.
+
+--- Disagreement 3 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  buildkite feature release
+Proposed canon:   feature and release management
+Original verdict: APPROVED
+Original reason:  buildkite feature release is a specific case of feature and release management
+Manual verdict:   REJECT
+Manual reason:    'buildkite feature release' and 'feature and release management' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 4 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  clean code practices
+Proposed canon:   code review practices
+Original verdict: APPROVED
+Original reason:  clean code practices are part of code review practices, both about code quality
+Manual verdict:   REJECT
+Manual reason:    Clean code and code review are distinct engineering practices.
+
+--- Disagreement 5 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  cloud infrastructure complexity
+Proposed canon:   cloud infrastructure adoption
+Original verdict: APPROVED
+Original reason:  infrastructure complexity is an aspect of infrastructure adoption
+Manual verdict:   REJECT
+Manual reason:    Infrastructure complexity and adoption are different concerns.
+
+--- Disagreement 6 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  cloud infrastructure optimization
+Proposed canon:   cloud cost optimization
+Original verdict: APPROVED
+Original reason:  infrastructure optimization is a facet of cost optimization in cloud
+Manual verdict:   REJECT
+Manual reason:    Infrastructure optimization and cost optimization are different cloud subjects.
+
+--- Disagreement 7 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  code structure best practices
+Proposed canon:   code review practices
+Original verdict: APPROVED
+Original reason:  best practices for code structure relate to code review practices
+Manual verdict:   REJECT
+Manual reason:    Code structure and code review address different engineering subjects.
+
+--- Disagreement 8 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  community survey results
+Proposed canon:   developer survey results
+Original verdict: APPROVED
+Original reason:  community survey results are a type of developer survey results
+Manual verdict:   REJECT
+Manual reason:    'community survey results' and 'developer survey results' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 9 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  custom automation maintenance
+Proposed canon:   code maintenance automation
+Original verdict: APPROVED
+Original reason:  custom automation maintenance is a specific aspect of code maintenance automation
+Manual verdict:   REJECT
+Manual reason:    'custom automation maintenance' and 'code maintenance automation' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 10 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  custom programming tools
+Proposed canon:   programming discipline tools
+Original verdict: APPROVED
+Original reason:  custom programming tools are a subset of programming discipline tools, same subject
+Manual verdict:   REJECT
+Manual reason:    'custom programming tools' and 'programming discipline tools' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 11 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  desktop php frameworks
+Proposed canon:   php frameworks comparison
+Original verdict: APPROVED
+Original reason:  desktop PHP frameworks are a subset of PHP frameworks comparison, same subject
+Manual verdict:   REJECT
+Manual reason:    'desktop php frameworks' and 'php frameworks comparison' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 12 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  developer tool adoption
+Proposed canon:   developer platform adoption
+Original verdict: APPROVED
+Original reason:  tool adoption is a facet of platform adoption, same subject
+Manual verdict:   REJECT
+Manual reason:    Tool adoption and platform adoption are different subjects.
+
+--- Disagreement 13 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  email validation methods
+Proposed canon:   data validation methods
+Original verdict: APPROVED
+Original reason:  Email validation methods are a specific type of data validation methods
+Manual verdict:   REJECT
+Manual reason:    'email validation methods' and 'data validation methods' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 14 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  end-to-end testing challenges
+Proposed canon:   e2e testing challenges
+Original verdict: APPROVED
+Original reason:  end-to-end testing and e2e testing are synonymous, same subject
+Manual verdict:   REJECT
+Manual reason:    'end-to-end testing challenges' and 'e2e testing challenges' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 15 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  frontend pain points
+Proposed canon:   developer pain points
+Original verdict: APPROVED
+Original reason:  frontend pain points are a subset of developer pain points, same subject
+Manual verdict:   REJECT
+Manual reason:    'frontend pain points' and 'developer pain points' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 16 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  gitops deployment tools
+Proposed canon:   app deployment tools
+Original verdict: APPROVED
+Original reason:  gitops deployment tools are a subset of app deployment tools, same subject.
+Manual verdict:   REJECT
+Manual reason:    'gitops deployment tools' and 'app deployment tools' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 17 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  gps data processing
+Proposed canon:   data processing performance
+Original verdict: APPROVED
+Original reason:  gps data processing is a specific case of data processing performance, same subject.
+Manual verdict:   REJECT
+Manual reason:    GPS-specific 'gps data processing' is not the same subject as generic 'data processing performance'.
+
+--- Disagreement 18 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  gpt-4 app development
+Proposed canon:   app development strategies
+Original verdict: APPROVED
+Original reason:  gpt-4 app development is a specific approach within app development strategies, same subject.
+Manual verdict:   REJECT
+Manual reason:    'gpt-4 app development' and 'app development strategies' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 19 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  gpu rendering issues
+Proposed canon:   3d rendering issues
+Original verdict: APPROVED
+Original reason:  gpu rendering issues are a subset of 3d rendering issues, same subject.
+Manual verdict:   REJECT
+Manual reason:    'gpu rendering issues' and '3d rendering issues' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 20 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  gradient rendering techniques
+Proposed canon:   web rendering techniques
+Original verdict: APPROVED
+Original reason:  gradient rendering techniques are a specific type of web rendering techniques, same subject.
+Manual verdict:   REJECT
+Manual reason:    Gradient rendering is not necessarily web-specific rendering.
+
+--- Disagreement 21 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  gui development challenges
+Proposed canon:   software development challenges
+Original verdict: APPROVED
+Original reason:  GUI development challenges are a subset of software development challenges, same subject.
+Manual verdict:   REJECT
+Manual reason:    'gui development challenges' and 'software development challenges' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 22 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  headless tech stack
+Proposed canon:   developer tech stack
+Original verdict: APPROVED
+Original reason:  Headless tech stack is a specific type of developer tech stack, same subject.
+Manual verdict:   REJECT
+Manual reason:    'headless tech stack' and 'developer tech stack' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 23 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  ios17 linux compatibility
+Proposed canon:   linux compatibility questions
+Original verdict: APPROVED
+Original reason:  iOS17 Linux compatibility is a specific case of Linux compatibility questions, same subject.
+Manual verdict:   REJECT
+Manual reason:    'ios17 linux compatibility' and 'linux compatibility questions' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 24 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  java cryptographic api
+Proposed canon:   java api frameworks
+Original verdict: APPROVED
+Original reason:  java cryptographic api is a specific type of java api framework, same subject
+Manual verdict:   REJECT
+Manual reason:    Cryptographic APIs are a security subject, not general API frameworks.
+
+--- Disagreement 25 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  java interview questions
+Proposed canon:   engineering interview questions
+Original verdict: APPROVED
+Original reason:  java interview questions are a subset of engineering interview questions, same subject
+Manual verdict:   REJECT
+Manual reason:    'java interview questions' and 'engineering interview questions' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 26 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  llm code evaluation
+Proposed canon:   code evaluation tooling
+Original verdict: APPROVED
+Original reason:  llm code evaluation is a specific form of code evaluation tooling
+Manual verdict:   REJECT
+Manual reason:    'llm code evaluation' and 'code evaluation tooling' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 27 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  minimalist tech stack
+Proposed canon:   developer tech stack
+Original verdict: APPROVED
+Original reason:  minimalist tech stack is a specific type of developer tech stack
+Manual verdict:   REJECT
+Manual reason:    'minimalist tech stack' and 'developer tech stack' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 28 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  mobile app deployment
+Proposed canon:   app deployment tools
+Original verdict: APPROVED
+Original reason:  mobile app deployment is a specific case of app deployment tools
+Manual verdict:   REJECT
+Manual reason:    'mobile app deployment' and 'app deployment tools' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 29 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  monorepos react native
+Proposed canon:   react native development
+Original verdict: APPROVED
+Original reason:  monorepos react native is a specific aspect of react native development
+Manual verdict:   REJECT
+Manual reason:    'monorepos react native' and 'react native development' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 30 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  native app development
+Proposed canon:   app development strategies
+Original verdict: APPROVED
+Original reason:  native app development is a specific app development strategy
+Manual verdict:   REJECT
+Manual reason:    'native app development' and 'app development strategies' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 31 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  network file system
+Proposed canon:   file system design
+Original verdict: APPROVED
+Original reason:  network file system is a specific type of file system design
+Manual verdict:   REJECT
+Manual reason:    'network file system' and 'file system design' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 32 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  network performance testing
+Proposed canon:   performance testing tools
+Original verdict: APPROVED
+Original reason:  network performance testing is a specific type of performance testing
+Manual verdict:   REJECT
+Manual reason:    'network performance testing' and 'performance testing tools' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 33 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  next.js ui libraries
+Proposed canon:   frontend ui libraries
+Original verdict: APPROVED
+Original reason:  next.js UI libraries are a subset of frontend UI libraries
+Manual verdict:   REJECT
+Manual reason:    'next.js ui libraries' and 'frontend ui libraries' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 34 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  nextjs app deployment
+Proposed canon:   app deployment tools
+Original verdict: APPROVED
+Original reason:  nextjs app deployment is a specific case of app deployment tools
+Manual verdict:   REJECT
+Manual reason:    'nextjs app deployment' and 'app deployment tools' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 35 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  node.js package management
+Proposed canon:   npm package management
+Original verdict: APPROVED
+Original reason:  node.js package management and npm package management refer to the same subject
+Manual verdict:   REJECT
+Manual reason:    'node.js package management' and 'npm package management' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 36 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  page object model testing
+Proposed canon:   page object model design
+Original verdict: APPROVED
+Original reason:  page object model testing is a specific angle on page object model design
+Manual verdict:   REJECT
+Manual reason:    Testing and design are different activities for page object models.
+
+--- Disagreement 37 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  photography app features
+Proposed canon:   app platform features
+Original verdict: APPROVED
+Original reason:  photography app features are a subset of app platform features
+Manual verdict:   REJECT
+Manual reason:    Photography apps are a distinct product category from generic app platform features.
+
+--- Disagreement 38 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  php async programming
+Proposed canon:   async programming design
+Original verdict: APPROVED
+Original reason:  php async programming is a specific instance of async programming design
+Manual verdict:   REJECT
+Manual reason:    'php async programming' and 'async programming design' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 39 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  php unit testing
+Proposed canon:   unit testing practices
+Original verdict: APPROVED
+Original reason:  php unit testing is a specific case of unit testing practices
+Manual verdict:   REJECT
+Manual reason:    'php unit testing' and 'unit testing practices' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 40 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  postgres connection errors
+Proposed canon:   postgresql connection errors
+Original verdict: APPROVED
+Original reason:  postgres and postgresql refer to the same technology, so connection errors match
+Manual verdict:   REJECT
+Manual reason:    'postgres connection errors' and 'postgresql connection errors' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 41 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  postgres event monitoring
+Proposed canon:   postgresql event monitoring
+Original verdict: APPROVED
+Original reason:  postgres and postgresql event monitoring refer to the same subject
+Manual verdict:   REJECT
+Manual reason:    'postgres event monitoring' and 'postgresql event monitoring' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 42 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  postgresql extension development
+Proposed canon:   postgres extension development
+Original verdict: APPROVED
+Original reason:  postgresql extension development and postgres extension development are the same subject
+Manual verdict:   REJECT
+Manual reason:    'postgresql extension development' and 'postgres extension development' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 43 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  research to production challenges
+Proposed canon:   production environment challenges
+Original verdict: APPROVED
+Original reason:  research to production challenges are a subset of production environment challenges
+Manual verdict:   REJECT
+Manual reason:    Research-to-production is a distinct lifecycle subject from 'production environment challenges'.
+
+--- Disagreement 44 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  ruby community issues
+Proposed canon:   community culture issues
+Original verdict: APPROVED
+Original reason:  ruby community issues are a subset of community culture issues
+Manual verdict:   REJECT
+Manual reason:    'ruby community issues' and 'community culture issues' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 45 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  ruby development updates
+Proposed canon:   software development updates
+Original verdict: APPROVED
+Original reason:  ruby development updates are a subset of software development updates
+Manual verdict:   REJECT
+Manual reason:    'ruby development updates' and 'software development updates' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 46 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  ruby web frameworks
+Proposed canon:   web development frameworks
+Original verdict: APPROVED
+Original reason:  ruby web frameworks are a specific type of web development frameworks, same subject
+Manual verdict:   REJECT
+Manual reason:    'ruby web frameworks' and 'web development frameworks' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 47 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software delivery practices
+Proposed canon:   software engineering best practices
+Original verdict: APPROVED
+Original reason:  software delivery practices are a subset of software engineering best practices, same underlying subject
+Manual verdict:   REJECT
+Manual reason:    'software delivery practices' is a broad meta-topic, not a facet of software engineering best practices.
+
+--- Disagreement 48 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software engineering adaptability
+Proposed canon:   software engineering best practices
+Original verdict: APPROVED
+Original reason:  software engineering adaptability is an aspect of software engineering best practices, same subject
+Manual verdict:   REJECT
+Manual reason:    'software engineering adaptability' is a broad meta-topic, not a facet of software engineering best practices.
+
+--- Disagreement 49 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software engineering impact
+Proposed canon:   software engineering best practices
+Original verdict: APPROVED
+Original reason:  software engineering impact is an angle on software engineering best practices, same subject
+Manual verdict:   REJECT
+Manual reason:    'software engineering impact' is a broad meta-topic, not a facet of software engineering best practices.
+
+--- Disagreement 50 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software engineering mistakes
+Proposed canon:   software engineering best practices
+Original verdict: APPROVED
+Original reason:  software engineering mistakes are a facet of software engineering best practices, same subject
+Manual verdict:   REJECT
+Manual reason:    'software engineering mistakes' is a broad meta-topic, not a facet of software engineering best practices.
+
+--- Disagreement 51 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software tool usage
+Proposed canon:   developer tool usage
+Original verdict: APPROVED
+Original reason:  software tool usage is a type of developer tool usage
+Manual verdict:   REJECT
+Manual reason:    'software tool usage' and 'developer tool usage' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 52 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software ui design
+Proposed canon:   ui component design
+Original verdict: APPROVED
+Original reason:  software UI design is a specific aspect of UI component design
+Manual verdict:   REJECT
+Manual reason:    'software ui design' and 'ui component design' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 53 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software version updates
+Proposed canon:   software patch updates
+Original verdict: APPROVED
+Original reason:  software version updates are a type of software patch updates
+Manual verdict:   REJECT
+Manual reason:    Version updates are broader than patch-only updates.
+
+--- Disagreement 54 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  spring ai vector database integration
+Proposed canon:   spring boot database integration
+Original verdict: APPROVED
+Original reason:  spring AI vector database integration is a specific case of spring boot database integration
+Manual verdict:   REJECT
+Manual reason:    Vector database integration differs from general 'spring boot database integration'.
+
+--- Disagreement 55 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  tool integration workflow
+Proposed canon:   developer tool integration
+Original verdict: APPROVED
+Original reason:  tool integration workflow is part of developer tool integration
+Manual verdict:   REJECT
+Manual reason:    'tool integration workflow' and 'developer tool integration' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 56 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  ui design triggers
+Proposed canon:   ui component design
+Original verdict: APPROVED
+Original reason:  UI design triggers relate to UI component design
+Manual verdict:   REJECT
+Manual reason:    'ui design triggers' and 'ui component design' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 57 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  vuejs form handling
+Proposed canon:   form input handling
+Original verdict: APPROVED
+Original reason:  Vuejs form handling is a specific case of form input handling
+Manual verdict:   REJECT
+Manual reason:    'vuejs form handling' and 'form input handling' do not share the same underlying technology, product, or subject.
+
+--- Disagreement 58 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  web agent development
+Proposed canon:   web development
+Original verdict: APPROVED
+Original reason:  Web agent development is a specific aspect of web development
+Manual verdict:   REJECT
+Manual reason:    AI web agents are a distinct subject from general web development.
+
+--- Disagreement 59 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  webflow productivity tools
+Proposed canon:   developer productivity tools
+Original verdict: APPROVED
+Original reason:  Webflow productivity tools are a specific kind of developer productivity tools
+Manual verdict:   REJECT
+Manual reason:    Webflow-specific 'webflow productivity tools' is not the same subject as 'developer productivity tools'.
+
+--- Disagreement 60 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  api user experience
+Proposed canon:   user experience issues
+Original verdict: REJECTED
+Original reason:  api user experience is about API-specific UX, user experience issues is broader and not API-specific, different subjects
+Manual verdict:   APPROVE
+Manual reason:    'api user experience' is a specific scope of the same user-experience subject as 'user experience issues'.
+
+--- Disagreement 61 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  chatbot integration tools
+Proposed canon:   chat integration tools
+Original verdict: REJECTED
+Original reason:  chatbot integration tools focus on chatbot-specific integration, while chat integration tools cover broader chat systems
+Manual verdict:   APPROVE
+Manual reason:    Chatbot integration is a specific type of chat integration on the same subject.
+
+--- Disagreement 62 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  code alignment practices
+Proposed canon:   code review practices
+Original verdict: REJECTED
+Original reason:  code alignment is about formatting, code review is a broader practice
+Manual verdict:   APPROVE
+Manual reason:    'code alignment practices' and 'code review practices' share the same 'code' domain subject with different facets.
+
+--- Disagreement 63 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  code reuse practices
+Proposed canon:   code review practices
+Original verdict: REJECTED
+Original reason:  code reuse is a different subject from code review practices
+Manual verdict:   APPROVE
+Manual reason:    'code reuse practices' and 'code review practices' share the same 'code' domain subject with different facets.
+
+--- Disagreement 64 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  code sharing tools
+Proposed canon:   code formatting tools
+Original verdict: REJECTED
+Original reason:  code sharing tools differ from code formatting tools in subject
+Manual verdict:   APPROVE
+Manual reason:    'code sharing tools' and 'code formatting tools' share the same 'code' domain subject with different facets.
+
+--- Disagreement 65 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  dapr community updates
+Proposed canon:   dapr community call
+Original verdict: REJECTED
+Original reason:  community updates and community calls are different types of community interactions
+Manual verdict:   APPROVE
+Manual reason:    'dapr community updates' and 'dapr community call' share the same two-word subject head 'dapr community'.
+
+--- Disagreement 66 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  design tool competition
+Proposed canon:   design tool integration
+Original verdict: REJECTED
+Original reason:  competition and integration are different aspects, not the same subject
+Manual verdict:   APPROVE
+Manual reason:    'design tool competition' and 'design tool integration' share the same domain subject 'design tool' with compatible facets.
+
+--- Disagreement 67 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  developer community relationships
+Proposed canon:   developer community events
+Original verdict: REJECTED
+Original reason:  community relationships and community events are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'developer community relationships' and 'developer community events' share the same domain subject 'developer community' with compatible facets.
+
+--- Disagreement 68 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  distributed file systems
+Proposed canon:   distributed systems complexity
+Original verdict: REJECTED
+Original reason:  Distributed file systems are a specific technology, not the same as distributed systems complexity
+Manual verdict:   APPROVE
+Manual reason:    'distributed file systems' and 'distributed systems complexity' share the same 'distributed' domain subject with different facets.
+
+--- Disagreement 69 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  distributed systems hiring
+Proposed canon:   distributed systems complexity
+Original verdict: REJECTED
+Original reason:  Hiring is a different subject from distributed systems complexity
+Manual verdict:   APPROVE
+Manual reason:    'distributed systems hiring' and 'distributed systems complexity' share the same domain subject 'distributed systems' with compatible facets.
+
+--- Disagreement 70 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  distributed systems migration
+Proposed canon:   distributed systems complexity
+Original verdict: REJECTED
+Original reason:  Migration is a different subject from distributed systems complexity
+Manual verdict:   APPROVE
+Manual reason:    'distributed systems migration' and 'distributed systems complexity' share the same domain subject 'distributed systems' with compatible facets.
+
+--- Disagreement 71 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  engineering analysis tools
+Proposed canon:   engineering management tools
+Original verdict: REJECTED
+Original reason:  analysis tools and management tools are different categories of engineering tools
+Manual verdict:   APPROVE
+Manual reason:    'engineering analysis tools' and 'engineering management tools' share the same 'engineering' domain subject with different facets.
+
+--- Disagreement 72 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  file collaboration tools
+Proposed canon:   file management tools
+Original verdict: REJECTED
+Original reason:  file collaboration tools and file management tools are different categories of tools
+Manual verdict:   APPROVE
+Manual reason:    'file collaboration tools' and 'file management tools' share the same 'file' domain subject with different facets.
+
+--- Disagreement 73 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  file download optimization
+Proposed canon:   file storage optimization
+Original verdict: REJECTED
+Original reason:  file download optimization and file storage optimization address different aspects of file handling
+Manual verdict:   APPROVE
+Manual reason:    'file download optimization' and 'file storage optimization' share the same 'file' domain subject with different facets.
+
+--- Disagreement 74 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  hardware optimization for cv workloads
+Proposed canon:   hardware optimization engines
+Original verdict: REJECTED
+Original reason:  Hardware optimization for CV workloads is a specific application area, but hardware optimization engines refer to the tools or engines themselves, different subjects.
+Manual verdict:   APPROVE
+Manual reason:    'hardware optimization for cv workloads' and 'hardware optimization engines' share the same domain subject 'hardware optimization' with compatible facets.
+
+--- Disagreement 75 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  hardware optimization testing
+Proposed canon:   hardware optimization engines
+Original verdict: REJECTED
+Original reason:  Hardware optimization testing is about testing processes, while hardware optimization engines are the tools, different subjects.
+Manual verdict:   APPROVE
+Manual reason:    'hardware optimization testing' and 'hardware optimization engines' share the same domain subject 'hardware optimization' with compatible facets.
+
+--- Disagreement 76 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  kubernetes proxy management
+Proposed canon:   kubernetes database management
+Original verdict: REJECTED
+Original reason:  kubernetes proxy management and kubernetes database management are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'kubernetes proxy management' and 'kubernetes database management' concern the same Kubernetes subject with different facets.
+
+--- Disagreement 77 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  linux distribution updates
+Proposed canon:   linux kernel updates
+Original verdict: REJECTED
+Original reason:  linux distribution updates and linux kernel updates are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'linux distribution updates' and 'linux kernel updates' share the same 'linux' domain subject with different facets.
+
+--- Disagreement 78 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  linux driver issues
+Proposed canon:   linux driver installation
+Original verdict: REJECTED
+Original reason:  driver issues are broader than just installation, different subjects
+Manual verdict:   APPROVE
+Manual reason:    'linux driver issues' and 'linux driver installation' share the same two-word subject head 'linux driver'.
+
+--- Disagreement 79 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  linux installation issues
+Proposed canon:   linux driver installation
+Original verdict: REJECTED
+Original reason:  linux installation is a different subject from driver installation
+Manual verdict:   APPROVE
+Manual reason:    'linux installation issues' and 'linux driver installation' share the same 'linux' domain subject with different facets.
+
+--- Disagreement 80 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  linux troubleshooting commands
+Proposed canon:   linux shell commands
+Original verdict: REJECTED
+Original reason:  troubleshooting commands are a different subject from general shell commands
+Manual verdict:   APPROVE
+Manual reason:    'linux troubleshooting commands' and 'linux shell commands' share the same 'linux' domain subject with different facets.
+
+--- Disagreement 81 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  linux user experience
+Proposed canon:   user experience issues
+Original verdict: REJECTED
+Original reason:  linux user experience is broader and different from general user experience issues
+Manual verdict:   APPROVE
+Manual reason:    'linux user experience' is a specific scope of the same user-experience subject as 'user experience issues'.
+
+--- Disagreement 82 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  low-code and database integration
+Proposed canon:   low-code ai integration
+Original verdict: REJECTED
+Original reason:  low-code and database integration differs from low-code AI integration
+Manual verdict:   APPROVE
+Manual reason:    'low-code and database integration' and 'low-code ai integration' share the same domain subject 'low-code' with compatible facets.
+
+--- Disagreement 83 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  operating system history
+Proposed canon:   operating system limits
+Original verdict: REJECTED
+Original reason:  operating system history and operating system limits are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'operating system history' and 'operating system limits' share the same domain subject 'operating system' with compatible facets.
+
+--- Disagreement 84 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  postgres extension management
+Proposed canon:   postgres extension development
+Original verdict: REJECTED
+Original reason:  extension management and extension development are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'postgres extension management' and 'postgres extension development' share the same two-word subject head 'postgres extension'.
+
+--- Disagreement 85 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  rails authentication methods
+Proposed canon:   rails query methods
+Original verdict: REJECTED
+Original reason:  rails authentication methods and rails query methods are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'rails authentication methods' and 'rails query methods' share the same 'rails' domain subject with different facets.
+
+--- Disagreement 86 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  real-time web apps
+Proposed canon:   real-time web communication
+Original verdict: REJECTED
+Original reason:  real-time web apps are applications, while real-time web communication is a broader communication technology
+Manual verdict:   APPROVE
+Manual reason:    'real-time web apps' and 'real-time web communication' share the same domain subject 'real-time web' with compatible facets.
+
+--- Disagreement 87 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  self-hosted survey platforms
+Proposed canon:   self-hosted software survey
+Original verdict: REJECTED
+Original reason:  self-hosted survey platforms are specific products, self-hosted software survey is ambiguous and likely a different subject
+Manual verdict:   APPROVE
+Manual reason:    'self-hosted survey platforms' and 'self-hosted software survey' share the same domain subject 'self-hosted' with compatible facets.
+
+--- Disagreement 88 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  self-hosted survey tools
+Proposed canon:   self-hosted software survey
+Original verdict: REJECTED
+Original reason:  self-hosted survey tools and self-hosted software survey differ in subject focus, tools vs survey software
+Manual verdict:   APPROVE
+Manual reason:    'self-hosted survey tools' and 'self-hosted software survey' share the same domain subject 'self-hosted' with compatible facets.
+
+--- Disagreement 89 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  self-service infrastructure
+Proposed canon:   self-service automation
+Original verdict: REJECTED
+Original reason:  self-service infrastructure and self-service automation are related but distinct subjects
+Manual verdict:   APPROVE
+Manual reason:    'self-service infrastructure' and 'self-service automation' share the same domain subject 'self-service' with compatible facets.
+
+--- Disagreement 90 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software buying process
+Proposed canon:   software release process
+Original verdict: REJECTED
+Original reason:  software buying process and software release process are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'software buying process' and 'software release process' share the same 'software' domain subject with different facets.
+
+--- Disagreement 91 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software project delays
+Proposed canon:   software project showcases
+Original verdict: REJECTED
+Original reason:  software project delays are issues in projects, software project showcases are presentations of projects, different subjects
+Manual verdict:   APPROVE
+Manual reason:    'software project delays' and 'software project showcases' share the same domain subject 'software project' with compatible facets.
+
+--- Disagreement 92 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  software project failures
+Proposed canon:   software project showcases
+Original verdict: REJECTED
+Original reason:  software project failures are negative outcomes, software project showcases are presentations, different subjects
+Manual verdict:   APPROVE
+Manual reason:    'software project failures' and 'software project showcases' share the same domain subject 'software project' with compatible facets.
+
+--- Disagreement 93 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  web analytics integration
+Proposed canon:   web agent integration
+Original verdict: REJECTED
+Original reason:  Web analytics integration and web agent integration are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'web analytics integration' and 'web agent integration' share the same 'web' domain subject with different facets.
+
+--- Disagreement 94 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  web scraping tools
+Proposed canon:   web animation tools
+Original verdict: REJECTED
+Original reason:  Web scraping tools and web animation tools are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'web scraping tools' and 'web animation tools' share the same domain subject 'web scraping' with compatible facets.
+
+--- Disagreement 95 ---
+Domain:           Software Engineering
+Stage:            synonym
+Raw label/group:  website development quality
+Proposed canon:   website development resources
+Original verdict: REJECTED
+Original reason:  Website development quality and website development resources are different subjects
+Manual verdict:   APPROVE
+Manual reason:    'website development quality' and 'website development resources' share the same domain subject 'website development' with compatible facets.
